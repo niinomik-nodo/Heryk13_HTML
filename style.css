@@ -262,6 +262,14 @@ footer {
     display: -ms-inline-grid;
     justify-self: right;
 }
+
+#left {
+    justify-self: left;
+}
+
+#right {
+    justify-self: right;
+}
 @media screen and (max-width: 800px) {
     .mavbar_container {
         display: flex;
@@ -377,5 +385,14 @@ footer {
 
     .member-content-box {
         font-size: 0.7rem;
+    }
+
+    .contact-img {
+    height: auto;
+    width: 100%;
+    }
+
+    .contact-colum {
+        font-size: 1rem;
     }
 }
