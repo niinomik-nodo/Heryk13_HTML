@@ -242,6 +242,26 @@ footer {
     flex-direction: column;
     justify-content: center;
 }
+
+.contact-colum {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 8%;
+    font-size: 2rem;
+}
+
+.contact-content-box {
+    background: rgba(0, 0, 0, 0.7);
+    display: inline-grid;
+    max-width: 400px;
+    justify-self: left;
+    width: 400px;
+}
+
+.contact-img {
+    display: -ms-inline-grid;
+    justify-self: right;
+}
 @media screen and (max-width: 800px) {
     .mavbar_container {
         display: flex;
