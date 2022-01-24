@@ -260,7 +260,7 @@ footer {
     display: inline-grid;
     max-width: 400px;
     justify-self: left;
-    width: 100%;
+    width: 90%;
 }
 
 .contact-img {
