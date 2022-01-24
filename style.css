@@ -16,6 +16,10 @@ main {
     background-color: #00001c;
 }
 
+#main-contact {
+    background: -webkit-linear-gradient(top, #0d1431, #5f93ba);
+}
+
 #qa-main {
     background: -webkit-linear-gradient(#141168, #3628bb, #141168);
 }
@@ -246,8 +250,9 @@ footer {
 .contact-colum {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 8%;
+    grid-column-gap: 2%;
     font-size: 2rem;
+    margin-top: 1%;
 }
 
 .contact-content-box {
@@ -255,7 +260,7 @@ footer {
     display: inline-grid;
     max-width: 400px;
     justify-self: left;
-    width: 400px;
+    width: 100%;
 }
 
 .contact-img {
@@ -265,10 +270,84 @@ footer {
 
 #left {
     justify-self: left;
+    transform: translateX(-1.9%);
 }
 
 #right {
     justify-self: right;
+    transform: translateX(1.9%);
+}
+
+#step {
+    height: max-content;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+#step-txt {
+    height: max-content;
+    padding-left: 5%;
+    margin-top: -10%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-title {
+    text-align: center;
+    color: white;
+    background: black;
+    width: 70%;
+    margin-top: 4%;
+}
+
+.contact-box {
+    display: flex;
+}
+
+.normal {
+    width: 50%;
+    background: url(images/step3.jpg) no-repeat;
+    background-size: cover;
+    max-height: 500px;
+    height: 50vw;
+}
+
+#normal-right {
+    background: url(images/laptop.jpg) no-repeat;
+    background-size: cover;
+}
+
+.normal-box {
+    width: 100%;
+    text-align: center;
+    margin-top: 30%;
+    font-size: 2rem;
+    background: rgba(0,0,0,0.7);
+    height: 40%;
+}
+
+#contact-box-title {
+    padding-top: 8%;
+    color: #fff;
+}
+
+.contact-box-btn {
+    color: black;
+    border-radius: 50px;
+    width: 35%;
+    height: 30%;
+    background: #bdfffe;
+    border: none;
+    font-size: 2rem;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+#btn-right {
+    background: #ffb7ff;
 }
 @media screen and (max-width: 800px) {
     .mavbar_container {
@@ -379,11 +458,11 @@ footer {
         width: 90%;
     }
 
-    #qa-content, .member-name {
+    #qa-content, .member-name,.page-title {
         font-size: 1.3rem;
     }
 
-    .member-content-box {
+    .member-content-box, #contact-sub-title {
         font-size: 0.7rem;
     }
 
