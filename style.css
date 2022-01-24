@@ -212,7 +212,9 @@ footer {
 
 #history {
     padding: 5%;
-    margin-top: 2%;
+    margin: 2% auto;
+    width: 90%;
+        
 }
 
 .history-right {
