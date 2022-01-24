@@ -458,7 +458,7 @@ footer {
         width: 90%;
     }
 
-    #qa-content, .member-name,.page-title {
+    #qa-content, .member-name,.page-title, .normal {
         font-size: 1.3rem;
     }
 
