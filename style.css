@@ -10,8 +10,9 @@ body {
 }
 
 main {
+    overflow-x: hidden;
     margin-top: 63px;
-    padding: 3rem 0 0 0;
+    padding: 3rem 0;
     width: 100%;
     background-color: #00001c;
 }
@@ -209,6 +210,26 @@ footer {
     font-size: 1.4rem;
 }
 
+#history {
+    padding: 5%;
+    margin-top: 2%;
+}
+
+.history-right {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.history-left {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 2.5%;
+}
+
+#history-sub {
+    margin-top: 2.5%;
+}
+
 #member-content-right-box {
     border: #51c8ff double 4px;
 }
@@ -233,6 +254,10 @@ footer {
 
 .member-desc {
     padding: 0.5rem 0.5rem;
+}
+
+.member-history {
+    display: flex;
 }
 
 #contact-sub-title {
@@ -275,6 +300,7 @@ footer {
 
 #right {
     justify-self: right;
+    transform: translateX(1.9%);
 }
 
 #step {
@@ -458,7 +484,7 @@ footer {
     }
 
     #qa-content, .member-name, .page-title, #contact-box-title {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .member-content-box, #contact-sub-title, .contact-box-btn {
