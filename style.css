@@ -22,7 +22,7 @@ main {
 }
 
 #qa-main {
-    background: -webkit-linear-gradient(#141168, #3628bb, #141168);
+    background: -webkit-linear-gradient(#00001c, #203d75, #00001c);
 }
 
 .navbar {
@@ -168,7 +168,7 @@ footer {
     width: 75%;
     margin: 1.5rem auto;
     font-size: 2rem;
-    background: #0f30d3;
+    background: #0623b1;
     display: flex;
     justify-content: space-between;
     align-items: center;
