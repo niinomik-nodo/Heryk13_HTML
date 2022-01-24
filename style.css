@@ -458,11 +458,11 @@ footer {
         width: 90%;
     }
 
-    #qa-content, .member-name,.page-title, .normal {
+    #qa-content, .member-name, .page-title, #contact-box-title {
         font-size: 1.3rem;
     }
 
-    .member-content-box, #contact-sub-title {
+    .member-content-box, #contact-sub-title, .contact-box-btn {
         font-size: 0.7rem;
     }
 
