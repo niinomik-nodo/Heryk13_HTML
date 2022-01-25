@@ -268,7 +268,6 @@ footer {
 #contact-sub-title {
     background: none;
     font-size: 1.8rem;
-    padding: 3% 0;
 }
 
 .contact-content {
@@ -469,6 +468,7 @@ footer {
 }
 
 .no-face {
+    margin: 1.5% 0;
     color: #fff;
     text-decoration: none;
 }
@@ -612,5 +612,9 @@ footer {
 
     .normal-box {
         height: 80%;
+    }
+
+    #talent-no-face {
+        width: 80%;
     }
 }
