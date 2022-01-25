@@ -12,9 +12,12 @@ body {
 main {
     overflow-x: hidden;
     margin-top: 63px;
-    padding: 3rem 0;
     width: 100%;
     background-color: #00001c;
+}
+
+#talent {
+    background: -webkit-linear-gradient(top, #00001c, #1b3766);
 }
 
 #main-contact {
@@ -126,13 +129,13 @@ footer {
     font-size: 3rem;
     text-align: center;
     width: 75%;
-    margin: auto;
+    margin: 3% auto;
     text-decoration: underline;
 }
 
 .page-sub-title {
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     width: 75%;
     margin: auto;
@@ -211,7 +214,7 @@ footer {
 }
 
 #history {
-    padding: 5%;
+    padding: 5% 2%;
     margin: 2% auto;
     width: 90%;
         
@@ -264,7 +267,8 @@ footer {
 
 #contact-sub-title {
     background: none;
-    padding-top: 3%;
+    font-size: 1.8rem;
+    padding: 3% 0;
 }
 
 .contact-content {
@@ -313,6 +317,7 @@ footer {
 
 #step-txt {
     height: max-content;
+    font-size: 1.5rem;
     padding-left: 5%;
     margin-top: -10%;
 }
@@ -325,6 +330,7 @@ footer {
 #contact-title {
     text-align: center;
     color: white;
+    font-size: 2rem;
     background: black;
     width: 70%;
     margin-top: 4%;
@@ -340,6 +346,8 @@ footer {
     background-size: cover;
     max-height: 500px;
     height: 50vw;
+    display: flex;
+    align-items: center;
 }
 
 #normal-right {
@@ -350,25 +358,28 @@ footer {
 .normal-box {
     width: 100%;
     text-align: center;
-    margin-top: 30%;
     font-size: 2rem;
     background: rgba(0,0,0,0.7);
     height: 40%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact-box-title {
-    padding-top: 8%;
     color: #fff;
+    font-size: 2.4rem;
 }
 
 .contact-box-btn {
     color: black;
     border-radius: 50px;
-    width: 35%;
+    width: 10rem;
     height: 30%;
     background: #bdfffe;
     border: none;
-    font-size: 2rem;
+    font-size: 1.4rem;
     margin-top: 2%;
     cursor: pointer;
 }
@@ -384,27 +395,42 @@ footer {
 
 .liver-background {
     background: #172450;
-    width: 250px;
-    height: 350px;
+    margin: 4% 4%;
+    width: 40%;
+    max-width: 250px;
+    min-height: 350px;
+    height: auto;
 }
 
 .liver-card {
     background: rgba(83, 83, 83, 0.5);
-    width: 250px;
-    height: 350px;
+    width: 100%;
+    max-width: 250px;
+    max-height: 350px;
+    height: 100%;
     transform: translate(-20px, -20px);
     padding-top: 90%;
 }
 
 #talent-sec {
-    width: 80%;
+    width: 70%;
     margin: 3% auto;
     color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;    
+}
+
+#talent-sub {
+    background: linear-gradient(270deg, rgba(2,80,162,1) 10%, rgba(23,47,93,0.1) 100%);
 }
 
 .liver-img {
     position: absolute;
     display: inline-block;
+    max-width: 200px;
+    max-height: 200px;
     width: 80%;
     left: 50%;
     top: 3%;
@@ -416,7 +442,7 @@ footer {
 .liver-name {
     background: black;
     width: 60%;
-    height: 35%;
+    height: 2.8rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -524,7 +550,7 @@ footer {
         width: 100%;
     }
 
-    #info-contents {
+    #info-contents, #step-txt {
         font-size: 1rem;
     }
 
@@ -532,12 +558,12 @@ footer {
         width: 90%;
     }
 
-    #qa-content, .member-name, .page-title, #contact-box-title {
-        font-size: 1.3rem;
+    #qa-content, .member-name {
+        font-size: 1.2rem;
     }
 
-    .member-content-box, #contact-sub-title, .contact-box-btn {
-        font-size: 0.7rem;
+    .member-content-box {
+        font-size: 1rem;
     }
 
     .contact-img {
@@ -547,5 +573,17 @@ footer {
 
     .contact-colum {
         font-size: 1rem;
+    }
+
+    #talent-sec {
+        width: 95%;  
+    }
+
+    .liver-background {
+        min-height: 300px;
+    }
+
+    #contact-box-title {
+        font-size: 1.4rem;
     }
 }
