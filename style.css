@@ -216,7 +216,7 @@ footer {
 #history {
     padding: 5% 2%;
     margin: 2% auto;
-    width: 90%;
+    width: 94%;
         
 }
 
@@ -457,6 +457,20 @@ footer {
     justify-content: center;
     font-size: 1.5rem;
     transform: translateY(-50%);
+}
+
+#talent-no-face {
+    background: rgba(40, 70, 140, 0.9);
+    margin: 2% auto;
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.no-face {
+    color: #fff;
+    text-decoration: none;
 }
 @media screen and (max-width: 800px) {
     .mavbar_container {
