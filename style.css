@@ -363,7 +363,7 @@ footer {
     height: 40%;
     display: inline-flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -375,8 +375,8 @@ footer {
 .contact-box-btn {
     color: black;
     border-radius: 50px;
-    width: 10rem;
-    height: 30%;
+    width: 8rem;
+    height: 3.3rem;
     background: #bdfffe;
     border: none;
     font-size: 1.4rem;
@@ -391,6 +391,15 @@ footer {
 .youtube {
     color: #fff;
     text-decoration: none;
+    background: firebrick;
+}
+
+#live-haishin {
+    background: blueviolet;
+}
+
+#live-media {
+    background: midnightblue;
 }
 
 .liver-background {
@@ -584,6 +593,10 @@ footer {
     }
 
     #contact-box-title {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
+    }
+
+    .normal-box {
+        height: 80%;
     }
 }
