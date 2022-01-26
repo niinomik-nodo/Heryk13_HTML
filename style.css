@@ -113,7 +113,8 @@ footer {
 }
 
 .footer-ul {
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
     width: 60%;
     justify-content: space-around;
 }
