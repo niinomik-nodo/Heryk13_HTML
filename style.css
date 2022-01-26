@@ -10,7 +10,6 @@ body {
 }
 
 main {
-    overflow-x: hidden;
     margin-top: 63px;
     width: 100%;
     background-color: #00001c;
@@ -171,7 +170,7 @@ footer {
 #qa-content {
     color: #fff;
     width: 75%;
-    margin: 1.5rem auto;
+    margin: 2% auto 0 auto;
     font-size: 2rem;
     background: #0623b1;
     display: flex;
@@ -217,7 +216,7 @@ footer {
 
 #history {
     padding: 5% 2%;
-    margin: 2% auto;
+    margin: 2% auto 0 auto;
     width: 94%;
         
 }
@@ -381,7 +380,6 @@ footer {
     background: #bdfffe;
     border: none;
     font-size: 1.4rem;
-    margin-top: 2%;
     cursor: pointer;
 }
 
@@ -462,7 +460,7 @@ footer {
 
 #talent-no-face {
     background: rgba(40, 70, 140, 0.9);
-    margin: 2% auto;
+    margin: auto;
     display: grid;
     width: 60%;
     grid-template-columns: repeat(2, 1fr);
@@ -474,6 +472,299 @@ footer {
     color: #fff;
     text-decoration: none;
 }
+
+
+/*old style code*/
+
+.title {
+    transform: translateY(-50%);
+    font-size: 7rem;
+    color: #fff;
+    text-shadow: 1px 1px 8px white;
+}
+
+.top {
+    width: 100%;
+    height: auto;
+    visibility: hidden;
+}
+
+.logo-image {
+    width: 100%;
+    height: auto;
+}
+
+#first-content {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    background: url(images/top-back-monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#top-content {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: auto;
+}
+
+.intern {
+    height: auto;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-8deg);
+}
+
+#top-title {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    transform: translate(-50%);
+}
+
+span.rose {
+    color: #ff00fe;
+    font-size: 7vw;
+    text-shadow: 1px 1px 8px white;
+}
+
+#second-content {
+    padding-bottom: 5%;
+    width: 90%;
+    position: relative;
+    background: -webkit-linear-gradient(bottom, #00001c, #1f3f70);
+    margin: auto;
+    height: auto;
+
+}
+
+#news-content {
+    border: #d64fd0 solid 0.2vw;
+    height: auto;
+    background: rgba(34, 91, 141, 0.7);
+    opacity: 1;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+#news {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    color: #fff;
+    transform: translateX(15%);
+    font-size: 3rem;
+}
+
+.news-image {
+    width: 10%;
+}
+
+.news-column {
+    color: #fff;
+    font-size: 2.2rem;
+    margin: 3% 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.third-title-up {
+    position: absolute;
+    top: 5%;
+    width: 90%;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3.5vw;
+}
+
+.third-title-bottom {
+    position: absolute;
+    top: 14%;
+    font-size: 3.4vw;
+    background-color: rgba(0, 0, 0, 1);
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%);
+    text-align: center;
+    z-index: 900;
+}
+
+.line {
+    border: #53c8fe solid 0.2vw;
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#first-line {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#second-line {
+    top: 18.5%;
+    transform: translateX(-48%);
+}
+
+#dare {
+    color: #ff00fe;
+}
+
+#haishoku {
+    color: #51c8ff;
+}
+
+#third-content {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    height: 50%;
+}
+
+.third-img {
+    width: 40%;
+    max-height: 454px;
+}
+
+#third-pic {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+#third-txt {
+    color: #fff;
+    width: auto;
+    font-size: 2rem;
+    min-width: 66%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 25%;
+}
+
+#pic2 {
+    margin-top: 30rem;
+}
+
+.top-button {
+    font-size: 2.5vw;
+    background: -webkit-linear-gradient(left, #d14ece, #51c8ff);
+    color: white;
+    width: auto;
+    height: auto;
+    border: 0.2vw solid #b6b2b1;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    right: 18%;
+    bottom: 3%;
+}
+
+#fourth-content {
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 40%;
+    margin: auto;
+}
+
+#blue-right {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background: -webkit-linear-gradient(top, #00001c, #4a82df);
+}
+
+#rose-left {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+    background: -webkit-linear-gradient(top, #01063d, #39164e);
+}
+
+#fourth-img {
+    z-index: 900;
+    width: 100%;
+    height: 45%;
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient(#153c99, #2a7ffc, #091a60);
+}
+
+#shozo {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%);
+    width: auto;
+    font-size: 3.5vw;
+    border: 0.3vw solid #51c9fe;
+    background-color: rgba(64, 62, 65, 0.9);
+}
+
+.fourth-livers-img {
+    margin-top: 4%;
+    width: 18%;
+    height: auto;
+    box-shadow: 1vw 1vw 0px rgb(100, 100, 100, 0.7);
+}
+
+#livers2 {
+    transform: translateY(12%);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.livers-name {
+    background-color: rgba(64, 62, 65, 0.9);
+    position: absolute;
+    width: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 900;
+}
+
+#liver-left {
+    left: 22%;
+    top: 63.5%;
+}
+
+#liver-middle {
+    top: 67%;
+    left: 50%;
+}
+
+#liver-right {
+    right: 13%;
+    top: 63.5%;
+}
+
 @media screen and (max-width: 800px) {
     .mavbar_container {
         display: flex;
@@ -618,5 +909,53 @@ footer {
 
     #talent-no-face {
         width: 90%;
+    }
+
+    /* mobile old code*/
+
+    #first-content {
+        height: auto;
+        width: 100%;
+        background: url(images/top-back-monitor.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #second-content {
+        width: 100%;
+    }
+
+    .news-txt, .date {
+        margin-left: 15%;
+    }
+    
+    span.rose {
+        color: #ff00fe;
+        font-size: 8vw;
+        text-shadow: 1px 1px 8px white;
+    }
+
+    .intern {
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-8deg);
+    }
+
+    #third-content {
+        width: 100%;
+    }
+
+    .fourth-livers-img {
+        width: 23%;
+        height: auto;
+        box-shadow: 1vw 1vw 0px rgb(100, 100, 100, 0.7);
+    }
+
+    #livers2 {
+        transform: translateY(12%);
+        margin-left: 3%;
+        margin-right: 3%;
     }
 }
