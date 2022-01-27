@@ -708,7 +708,7 @@ span.rose {
     display: flex;
     position: relative;
     width: 90%;
-    height: 60rem;
+    height: 50rem;
     margin: auto;
 }
 
@@ -749,6 +749,7 @@ span.rose {
     left: 50%;
     transform: translate(-50%);
     width: auto;
+    color: #fff;
     font-size: 3.5vw;
     border: 0.3vw solid #51c9fe;
     background-color: rgba(64, 62, 65, 0.9);
@@ -968,7 +969,7 @@ span.rose {
         font-size: 1rem;
     }
 
-    .third-title-up {
+    .third-title-up, .livers-name {
         font-size: 1.5rem;
     }
 
@@ -987,4 +988,9 @@ span.rose {
     #blue-right {
         height: 30%;
     }
+
+    #fourth-content {
+        height: 20rem;
+    }
+    
 }
