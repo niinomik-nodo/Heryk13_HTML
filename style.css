@@ -562,7 +562,7 @@ span.rose {
 #news-content {
     border: #d64fd0 solid 0.2vw;
     height: auto;
-    max-height: 500px;
+    max-height: 600px;
     background: rgba(34, 91, 141, 0.7);
     text-align: center;
     width: 80%;
@@ -583,7 +583,7 @@ span.rose {
 }
 
 .news-image {
-    width: 10%;
+    width: 18%;
     height: auto;
 }
 
@@ -709,7 +709,7 @@ span.rose {
     display: flex;
     position: relative;
     width: 90%;
-    height: 40%;
+    height: 60rem;
     margin: auto;
 }
 
@@ -732,10 +732,16 @@ span.rose {
 #fourth-img {
     z-index: 900;
     width: 100%;
-    height: 45%;
+    height: 20rem;
     text-align: center;
     margin: auto;
     background-image: linear-gradient(#153c99, #2a7ffc, #091a60);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #shozo {
@@ -750,42 +756,12 @@ span.rose {
 }
 
 .fourth-livers-img {
-    margin-top: 4%;
-    width: 18%;
+    max-height: 280px;
+    max-width: 340px;
+    width: 25%;
     height: auto;
     box-shadow: 1vw 1vw 0px rgb(100, 100, 100, 0.7);
 }
-
-#livers2 {
-    transform: translateY(12%);
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.livers-name {
-    background-color: rgba(64, 62, 65, 0.9);
-    position: absolute;
-    width: auto;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 900;
-}
-
-#liver-left {
-    left: 22%;
-    top: 63.5%;
-}
-
-#liver-middle {
-    top: 67%;
-    left: 50%;
-}
-
-#liver-right {
-    right: 13%;
-    top: 63.5%;
-}
-
 @media screen and (min-width:1200px){
     #third-txt {
         font-size: 2rem;
@@ -972,12 +948,6 @@ span.rose {
         width: 100%;
     }
 
-    .fourth-livers-img {
-        width: 23%;
-        height: auto;
-        box-shadow: 1vw 1vw 0px rgb(100, 100, 100, 0.7);
-    }
-
     #livers2 {
         transform: translateY(12%);
         margin-left: 3%;
@@ -994,5 +964,9 @@ span.rose {
 
     .third-title-bottom {
         font-size: 1.2rem;
+    }
+
+    #fourth-img {
+        height: 13rem;
     }
 }
