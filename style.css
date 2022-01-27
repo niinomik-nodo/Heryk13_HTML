@@ -773,6 +773,54 @@ span.rose {
     bottom: 0;
     transform: translateY(100%);
 }
+
+.about-background {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.about-left, .about-right {
+    width: 50%;
+    height: auto;
+    margin: 2% 0;
+    max-width: 500px;
+    max-height: 400px;
+    box-shadow: 10px 10px 0px #000062;
+}
+
+.about-left {
+    margin-left: -10%;
+}
+
+.about-right {
+    margin-right: -10%;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.about-box {
+    color: #fff;
+    background: rgba(83, 83, 83, 0.5);
+    width: fit-content;
+    margin: 0 0.3rem;
+    border: #d14ece double 4px;
+    font-size: 1.4rem;
+    position: absolute;
+    display: inline;
+}
+
+.content-background {
+    background-image: linear-gradient(#010220, #1e3e6f, #00001c);
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
 @media screen and (min-width:1200px){
     #third-txt {
         font-size: 2rem;
