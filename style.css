@@ -792,11 +792,21 @@ span.rose {
 }
 
 .about-left {
-    margin-left: -10%;
+    margin-left: -40%;
+}
+
+#box-left {
+    margin-left: -20%;
+    margin-top: -5%;
+}
+
+#box-right {
+    margin-right: -20%;
+    margin-top: -5%;
 }
 
 .about-right {
-    margin-right: -10%;
+    margin-right: -40%;
 }
 
 .about-title {
@@ -810,7 +820,6 @@ span.rose {
     margin: 0 0.3rem;
     border: #d14ece double 4px;
     font-size: 1.4rem;
-    position: absolute;
     display: inline;
 }
 
@@ -1040,5 +1049,14 @@ span.rose {
     #fourth-content {
         height: 20rem;
     }
-    
+
+    .about-title {
+        font-size: 2rem;
+    }
+
+    .about-content {
+        font-size: 1rem;
+    }
+
+
 }
