@@ -562,7 +562,6 @@ span.rose {
 #news-content {
     border: #d64fd0 solid 0.2vw;
     height: auto;
-    max-height: 600px;
     background: rgba(34, 91, 141, 0.7);
     text-align: center;
     width: 80%;
@@ -761,6 +760,17 @@ span.rose {
     width: 25%;
     height: auto;
     box-shadow: 1vw 1vw 0px rgb(100, 100, 100, 0.7);
+}
+
+.livers-name {
+    color: #fff;
+    font-size: 2rem;
+    background: rgba(64, 62, 65, 0.9);
+    height: fit-content;
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    transform: translateY(100%);
 }
 @media screen and (min-width:1200px){
     #third-txt {
@@ -967,6 +977,14 @@ span.rose {
     }
 
     #fourth-img {
-        height: 13rem;
+        height: 10rem;
+    }
+
+    #rose-left {
+        height: 30%;
+    }
+
+    #blue-right {
+        height: 30%;
     }
 }
