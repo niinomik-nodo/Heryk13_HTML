@@ -783,34 +783,36 @@ span.rose {
 }
 
 .about-left, .about-right {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin: 2% 0;
-    max-width: 500px;
-    max-height: 400px;
+    max-width: 600px;
+    max-height: 500px;
     box-shadow: 10px 10px 0px #000062;
 }
 
 .about-left {
-    margin-left: -40%;
+    margin-left: -35%;
 }
 
 #box-left {
-    margin-left: -20%;
+    border: #51c9fe double 4px;
+    margin-left: -10%;
     margin-top: -5%;
 }
 
 #box-right {
-    margin-right: -20%;
+    margin-right: -10%;
     margin-top: -5%;
 }
 
 .about-right {
-    margin-right: -40%;
+    margin-right: -35%;
 }
 
 .about-title {
     text-align: center;
+    font-size: 1.8rem;
 }
 
 .about-box {
@@ -821,6 +823,7 @@ span.rose {
     border: #d14ece double 4px;
     font-size: 1.4rem;
     display: inline;
+    padding: 1%;
 }
 
 .content-background {
