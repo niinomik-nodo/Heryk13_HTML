@@ -44,7 +44,3 @@ question[7].addEventListener('click', function() {
 question[8].addEventListener('click', function() {
     answear[8].classList.toggle('active');
 });
-
-question[9].addEventListener('click', function() {
-    answear[9].classList.toggle('active');
-});
