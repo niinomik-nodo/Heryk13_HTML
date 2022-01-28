@@ -847,12 +847,12 @@ span.rose {
 #shozo {
     position: absolute;
     width: max-content;
-    top: 12%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%);
     width: max-content;
     color: #fff;
-    font-size: 2.3rem;
+    font-size: 3rem;
     border: 5px solid #51c9fe;
     background-color: rgba(120, 120, 120, 0.7);
     padding: 1%;
@@ -860,12 +860,11 @@ span.rose {
 }
 
 .fourth-livers-img {
-    max-height: 700px;
-    max-width: 300px;
     width: 100%;
-    height: 100%;
+    height: auto;
     box-shadow: 1vw 1vw 0px rgb(100, 100, 100, 0.7);
     margin: 0 3%;
+    min-width: 300px;
 }
 
 .livers-name {
@@ -1270,12 +1269,16 @@ label {
         font-size: 1.8rem;
     }
 
-    .top-button, #third-txt, .third-title-bottom {
+    .top-button, #third-txt, .third-title-bottom, .news-content-txt {
         font-size: 1.1rem;
     }
 
     .third-title-up {
         font-size: 1.5rem;
+    }
+
+    .fourth-livers-img {
+        min-width: 100px;
     }
     
 }
