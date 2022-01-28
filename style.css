@@ -43,7 +43,7 @@ main {
 }
 
 .navbar_container {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.85);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -586,7 +586,7 @@ footer {
 
 #first-content {
     height: auto;
-    width: 90%;
+    width: 100%;
     margin: auto;
     position: relative;
     background: url(images/top-back-monitor.jpg);
@@ -638,7 +638,7 @@ span.rose {
 
 #second-content {
     padding-bottom: 5%;
-    width: 90%;
+    width: 100%;
     position: relative;
     background: -webkit-linear-gradient(bottom, #00001c, #1f3f70);
     margin: auto;
@@ -668,8 +668,8 @@ span.rose {
     padding-bottom: 1%;
     color: #fff;
     width: 30%;
-    transform: translateX(15%);
-    font-size: 3rem;
+    transform: translateX(33%);
+    font-size: 2rem;
 }
 
 .news-image {
@@ -744,7 +744,7 @@ span.rose {
 
 #third-content {
     position: relative;
-    width: 90%;
+    width: 100%;
     margin: auto;
     height: 50%;
     padding-bottom: 10%;
@@ -798,7 +798,7 @@ span.rose {
 #fourth-content {
     display: flex;
     position: relative;
-    width: 90%;
+    width: 100%;
     height: 50rem;
     margin: auto;
 }
@@ -1094,10 +1094,6 @@ label {
 
 /*end test*/
 @media screen and (min-width:1200px){
-    #third-txt {
-        font-size: 2rem;
-    }
-
     .third-title-up {
         font-size: 3rem;
     }
@@ -1257,14 +1253,9 @@ label {
 
     #first-content {
         height: auto;
-        width: 100%;
         background: url(images/top-back-monitor.jpg);
         background-repeat: no-repeat;
         background-size: contain;
-    }
-
-    #second-content {
-        width: 100%;
     }
 
     .intern {
@@ -1273,10 +1264,6 @@ label {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) rotate(-8deg);
-    }
-
-    #third-content {
-        width: 100%;
     }
 
     #livers2 {
