@@ -129,10 +129,10 @@ footer {
 
 .page-title {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
-    width: 75%;
-    margin: 3% auto;
+    width: 40%;
+    margin: 1% auto;
     text-decoration: underline;
 }
 
@@ -152,13 +152,13 @@ footer {
 
 #info-contents {
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1rem;
     width: 90%;
 }
 
 #info-section {
-    width: 90%;
-    margin: auto;
+    width: 70%;
+    margin: 2% auto;
     padding: 2rem 0;
     display: flex;
     justify-content: center;
@@ -461,23 +461,54 @@ footer {
     transition: ease 0.6s;
 }
 
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa.fa-youtube {
+    background: #bb0000;
+    color: white;
+    }
+
+.fa.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    }
+
 .liver-background {
     background: #172450;
-    margin: 4% 4%;
+    margin: 3% 3%;
     width: 40%;
-    max-width: 250px;
-    min-height: 350px;
+    max-width: 300px;
+    min-height: 500px;
     height: auto;
 }
 
 .liver-card {
     background: rgba(83, 83, 83, 0.5);
     width: 100%;
-    max-width: 250px;
-    max-height: 350px;
+    max-width: 300px;
+    max-height: 500px;
     height: 100%;
     transform: translate(-20px, -20px);
     padding-top: 90%;
+}
+
+.liver-txt {
+    font-size: 0.9rem;
 }
 
 #talent-sec {
@@ -520,7 +551,7 @@ footer {
 
 #talent-no-face {
     background: rgba(40, 70, 140, 0.9);
-    margin: auto;
+    margin: 1% auto;
     display: grid;
     width: 60%;
     grid-template-columns: repeat(2, 1fr);
@@ -1076,7 +1107,7 @@ label {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .mavbar_container {
         display: flex;
         justify-content: space-between;
@@ -1177,7 +1208,7 @@ label {
         width: 100%;
     }
 
-    #info-contents, #step-txt {
+    #step-txt {
         font-size: 1rem;
     }
 
@@ -1296,5 +1327,9 @@ label {
 
     #member-content-up {
         width: 95%;
+    }
+
+    #info-section {
+        width: 90%;
     }
 }
