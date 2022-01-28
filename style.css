@@ -172,7 +172,7 @@ footer {
     width: 75%;
     margin: 2% auto 0 auto;
     font-size: 2rem;
-    background: #0623b1;
+    background: #0641cd;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -185,7 +185,7 @@ footer {
     font-size: 2rem;
     margin: 2% auto 0 auto;
     font-size: 2rem;
-    background: #0623b1;
+    background: #0641cd;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -814,8 +814,19 @@ span.rose {
 }
 
 .fourth-livers-img {
+    animation: up-down 4s infinite;
     max-height: 280px;
     max-width: 340px;
+    width: 25%;
+    height: auto;
+    box-shadow: 1vw 1vw 0px rgb(100, 100, 100, 0.7);
+}
+
+.fourth-livers-img-middle {
+    animation: down-up 4s infinite;
+    max-height: 280px;
+    max-width: 340px;
+    margin: 0 10%;
     width: 25%;
     height: auto;
     box-shadow: 1vw 1vw 0px rgb(100, 100, 100, 0.7);
@@ -940,33 +951,88 @@ input {
     height: 2rem;
 }
 
-#label-left {
-  }
-
-#label-right {
-    
-}
-
 /*test*/
 
-.animation {
-    overflow: ;
-    width: 70%;
-    height: 100px;
-    background-color: rgba(83, 83, 83, 0.5);
+#cross {
+    width: 50px;
+    height: 50px;
     position: absolute;
+    display: inline-block;
+   transform:rotate(45deg);
+    -ms-transform:rotate(45deg); /* IE 9 */
+    -webkit-transform:rotate(45deg); /* Safari and Chrome */
+    right: 2%;
+    top: 2%;
+    cursor: pointer;
+ }
+ 
+ #cross:before, #cross:after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   background: black;
+ }
+ 
+ #cross:before {
+   left: 50%;
+   width: 20%;
+   margin-left: -15%;
+   height: 100%;
+ }
+ 
+ #cross:after {
+   top: 50%;
+   height: 20%;
+   margin-top: -15%;
+   width: 100%;
+ }
+
+.animation {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    max-height: 280px;
     animation: example 15s infinite linear;
     top: 20%;
     z-index: 10000;
   }
+
+@keyframes up-down {
+    100% {
+        transform: translateY(40%);
+    }
+
+    50%{
+      transform: translateY(-40%);
+    }
+
+    0% {
+        transform: translateY(40%);
+    }
+  }
+
+  @keyframes down-up {
+      0% {
+          transform: translateY(-40%);
+      }
+
+    50% {
+        transform: translateY(40%);
+    }
+
+    100%{
+      transform: translateY(-40%);
+    }
+  }
   
   @keyframes example {
     100% {
-      left: 0;
+      left: -100%;
     }
   
     0% {
-      left: 95%;
+      left: 110%;
     }
   }
 

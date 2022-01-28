@@ -120,7 +120,7 @@
                     <label for="naiyou" id="label-left">お問い合わせ内容</label>
                     <input type="text" name="naiyou" id="label-right" placeholder="お問い合わせ内容を入力してください">
                     <input type="submit" name="submit" value="送信">
-                    <span></span>
+                    <span id="cross"></span>
                 </form>
                 <form action="mail_handler_liver.php" class="liver-form" method="post">
                     <label for="liv-name">氏名（本名）</label>
@@ -142,7 +142,7 @@
                     <label for="mensetsu">ご都合の良い面接候補日3日（約30分、LINE通話での予定）</label>
                     <span>平日10:00〜17:00 の間でご記入ください。時間帯がどうしても合わない場合は、簡単な理由を記載の上、<br>
                         （時間問わず）ご希望予定日をご記入ください。（例）4/5月 10:00 4/15木 17:00 4/16水 12:00 <br>
-                        （例2）仕事の為　4/10土 12:00 4/21水 21:00 等</span>
+                        （例2）仕事の為 4/10土 12:00 4/21水 21:00 等</span>
                     <input type="text" name="mensetsu" id="mensetsu">
                     <label for="dm">DMからのお誘いの場合、【SNS名、ユーザー名、紹介者ID】の順にご記入ください。<br>
                         ※ホームページ、その他からの応募の方は主に使っているSNS名とユーザー名を記入</label>
@@ -153,6 +153,7 @@
                     <label for="situmon">その他、ご質問等</label>
                     <input type="text" name="situmon" id="situmon">
                     <input type="submit" name="submit" value="送信">
+                    <span id="cross"></span>
                 </form>
             </div>
         </section>
