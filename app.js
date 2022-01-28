@@ -1,6 +1,4 @@
-/*
-hamburguer menu appear
- */
+/**hamburguer menu appear */
 
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar_menu');
@@ -10,9 +8,7 @@ menu.addEventListener('click', function() {
     menu.classList.toggle('is-active');
     menuLinks.classList.toggle('active');
 });
-/*
-  q&a answear appear
- */
+/**q&a answear appear */
 const question = document.querySelectorAll('.qa-content');
 const answear = document.querySelectorAll('.qa-answear');
 
@@ -55,9 +51,7 @@ if (document.body.className == 'qa-body') {
     });
 };
 
-/*
-    contact-appear
-*/
+/**contact-appear */
 const buttonL = document.querySelector('.normal-box');
 const buttonR = document.querySelector('#btn-right');
 const contact = document.querySelector('#contact-box-move');
@@ -75,3 +69,6 @@ if (document.body.className == 'contact-body') {
         liverform.classList.toggle('active')
     });
 };
+
+/**Test */
+

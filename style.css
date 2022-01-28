@@ -946,6 +946,31 @@ input {
 #label-right {
     
 }
+
+/*test*/
+
+.animation {
+    overflow: ;
+    width: 70%;
+    height: 100px;
+    background-color: rgba(83, 83, 83, 0.5);
+    position: absolute;
+    animation: example 15s infinite linear;
+    top: 20%;
+    z-index: 10000;
+  }
+  
+  @keyframes example {
+    100% {
+      left: 0;
+    }
+  
+    0% {
+      left: 95%;
+    }
+  }
+
+/*end test*/
 @media screen and (min-width:1200px){
     #third-txt {
         font-size: 2rem;
