@@ -31,7 +31,7 @@ main {
 
 .navbar {
     background: -webkit-linear-gradient(left, #d14ece, #51c8ff);
-    height: 63px;
+    height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 63px;
     z-index: 1;
     width: 100%;
     margin: 1.5% auto;
@@ -59,6 +59,10 @@ main {
     align-items: center;
     height: 100%;
     width: auto;
+}
+
+#navbar_logo {
+    width: 28%;
 }
 
 #navbar_title {
