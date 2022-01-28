@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/Agile_ne01a.webp" type="image/x-icon">
 </head>
-<body>
+<body class="contact-body">
     <nav class="navbar">
         <div class="navbar_container">
             <div class="navbar_logo_container">
@@ -84,19 +84,69 @@
         </section>
         <section class="contact">
             <h2 id="contact-title">お問い合わせ</h2>
-            <div class="contact-box">
-                <div class="normal">
-                    <div class="normal-box">
-                        <h3 id="contact-box-title">法人様向け</h3>
-                        <button class="contact-box-btn">CONTACT</button>
+            <div class="contact-box-wrap">
+                <div class="contact-box" id="contact-box-move">
+                    <div class="normal">
+                        <div class="normal-box">
+                            <h3 id="contact-box-title">法人様向け</h3>
+                            <button class="contact-box-btn" id="btn-left">CONTACT</button>
+                        </div>
+                    </div>
+                    <div class="normal" id="normal-right">
+                        <div class="normal-box">
+                            <h3 id="contact-box-title">ライバー募集について</h3>
+                            <button class="contact-box-btn" id="btn-right">CONTACT</button>
+                        </div>
                     </div>
                 </div>
-                <div class="normal" id="normal-right">
-                    <div class="normal-box">
-                        <h3 id="contact-box-title">ライバー募集について</h3>
-                        <button class="contact-box-btn" id="btn-right">CONTACT</button>
-                    </div>
-                </div>
+                <form action="mail_handler_corp.php" class="corporation-form" method="post">
+                    <label for="fcor-name" id="label-left">会社名</label>
+                    <input type="text" name="fcor-name" id="label-right" placeholder="会社名を入力してください">
+                    <label for="email" id="label-left">メールアドレス</label>
+                    <input type="email" name="cor-email" id="label-right" placeholder="メールアドレスを入力してください">
+                    <label for="cor-phone" id="label-left">電話番号</label>
+                    <input type="tel" name="cor-tel" id="label-right" placeholder="電話番号を入力してください">
+                    <label for="cor-tantou" id="label-left">担当部署</label>
+                    <input type="text" name="cor-tantou" id="label-right" placeholder="担当部署名を入力してください">
+                    <label for="cor-name" id="label-left">氏名</label>
+                    <input type="text" name="tantou-name" id="label-right" placeholder="担当者名を入力してください">
+                    <label for="naiyou" id="label-left">お問い合わせ内容</label>
+                    <input type="text" name="naiyou" id="label-right" placeholder="お問い合わせ内容を入力してください">
+                    <input type="submit" name="submit" value="送信">
+                    <span></span>
+                </form>
+                <form action="mail_handler_liver.php" class="liver-form" method="post">
+                    <label for="liv-name">氏名（本名）</label>
+                    <input type="text" name="liv-name" id="liv-name">
+                    <label for="gender">性別</label>
+                    <input type="radio" name="gender" id="man" value="男性">
+                    <input type="radio" name="gender" id="woman" value="女性">
+                    <input type="radio" name="gender" id="lgbt" value="LGBTQIA＋">
+                    <label for="age">ご年齢</label>
+                    <input type="number" name="age" id="age">
+                    <label for="liv-email">メールアドレス</label>
+                    <input type="email" name="liv-email" id="liv-email">
+                    <label for="local">お住まいの都道府県</label>
+                    <input type="text" name="local" id="local">
+                    <label for="haishin-naiyou">配信する予定の内容 </label>
+                    <input type="text" name="haishin-naiyou" id="haishin-naiyou">
+                    <label for="douki">ライバーを始めようと思った動機をお聞かせください。</label>
+                    <input type="text" name="douki" id="douki">
+                    <label for="mensetsu">ご都合の良い面接候補日3日（約30分、LINE通話での予定）</label>
+                    <span>平日10:00〜17:00 の間でご記入ください。時間帯がどうしても合わない場合は、簡単な理由を記載の上、<br>
+                        （時間問わず）ご希望予定日をご記入ください。（例）4/5月 10:00 4/15木 17:00 4/16水 12:00 <br>
+                        （例2）仕事の為　4/10土 12:00 4/21水 21:00 等</span>
+                    <input type="text" name="mensetsu" id="mensetsu">
+                    <label for="dm">DMからのお誘いの場合、【SNS名、ユーザー名、紹介者ID】の順にご記入ください。<br>
+                        ※ホームページ、その他からの応募の方は主に使っているSNS名とユーザー名を記入</label>
+                    <input type="text" name="dm" id="dm">
+                    <label for="dm-friend">DM、友達からのお誘いの場合は紹介者の名前をご記入ください。<br>
+                        ※いない場合は無しとご記入ください。</label>
+                    <input type="text" name="dm-friend" id="dm-friend">
+                    <label for="situmon">その他、ご質問等</label>
+                    <input type="text" name="situmon" id="situmon">
+                    <input type="submit" name="submit" value="送信">
+                </form>
             </div>
         </section>
     </main>

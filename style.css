@@ -352,6 +352,7 @@ footer {
 }
 
 .contact {
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -367,6 +368,19 @@ footer {
 
 .contact-box {
     display: flex;
+    transition: transform 2s ease;
+    transform: translateX(0);
+    width: 100%;
+}
+
+.contact-box.active-left {
+    transform: translateX(-100%);
+    transition: transform 2s ease;
+}
+
+.contact-box.active-right {
+    transform: translateX(100%);
+    transition: transform 2s ease;
 }
 
 .normal {
@@ -876,6 +890,61 @@ span.rose {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
+}
+
+.liver-form{
+    display: inline-grid;
+    background: #dbeeff;
+    grid-template-columns: 30% 30%;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: right 2s ease;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 100%;
+}
+
+.corporation-form {
+    display: inline-grid;
+    background: #dbeeff;
+    grid-template-columns: 30% 30%;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: left 2s ease;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+}
+
+.corporation-form.active {
+    left: 0;
+    transition: left 2s ease;
+}
+
+.liver-form.active {
+    right: 0;
+    transition: right 2s ease;
+}
+
+.contact-box-wrap {
+    display: flex;
+    height: 100%;
+    position: relative;
+}
+
+input {
+    border-radius: 0;
+    border: 1px solid rgba(83, 83, 83, 0.5);
+    height: 2rem;
+}
+
+#label-left {
+  }
+
+#label-right {
+    
 }
 @media screen and (min-width:1200px){
     #third-txt {
