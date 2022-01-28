@@ -711,7 +711,7 @@ span.rose {
 }
 
 @keyframes scroll {
-    from { top: -1350px; transform: translateZ(-1200px) rotateX(21deg) }
+    from { top: -1850px; transform: translateZ(-1200px) rotateX(21deg) }
     to { top: 390px; transform: translateZ(100px) rotateX(20deg)}
 }
 
@@ -1095,6 +1095,11 @@ label {
 /*end test*/
 
 @media screen and (max-width: 900px) {
+
+    .news-wrapper {
+        margin-top: 200%;
+    }
+
     .mavbar_container {
         display: flex;
         justify-content: space-between;
