@@ -123,8 +123,6 @@ footer {
 
 #footer-logo {
     margin: 1rem 0;
-    width: 5rem;
-    height: auto;
 }
 
 .page-title {
@@ -589,7 +587,7 @@ footer {
     width: 100%;
     margin: auto;
     position: relative;
-    background: url(images/top-back-monitor.jpg);
+    background: url(images/top-logo.webp);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -696,14 +694,21 @@ span.rose {
     transform: translate(-50%);
     text-align: center;
     text-decoration: underline;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
+}
+
+#livers-img-up {
+    transform: translateY(-10%);
+}
+
+#livers-img-down {
+    transform: translateY(10%);
 }
 
 .third-title-bottom {
     position: absolute;
-    top: 14%;
-    font-size: 1.8rem;
-    background-color: rgba(0, 0, 0, 1);
+    top: 10%;
+    font-size: 2rem;
     left: 50%;
     color: #fff;
     transform: translate(-50%);
@@ -769,9 +774,10 @@ span.rose {
 #third-txt {
     color: #fff;
     width: 90%;
-    font-size: 1.4rem;
+    font-size: 2rem;
     position: absolute;
     display: inline;
+    text-align: center;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -782,7 +788,7 @@ span.rose {
 }
 
 .top-button {
-    font-size: 2.5vw;
+    font-size: 2.3rem;
     background: -webkit-linear-gradient(left, #d14ece, #51c8ff);
     color: white;
     width: auto;
@@ -799,7 +805,7 @@ span.rose {
     display: flex;
     position: relative;
     width: 100%;
-    height: 50rem;
+    height: 60rem;
     margin: auto;
 }
 
@@ -808,7 +814,7 @@ span.rose {
     right: 0;
     width: 50%;
     height: 50%;
-    background: -webkit-linear-gradient(top, #00001c, #4a82df);
+    background: -webkit-linear-gradient(top, #00001c, #101E45);
 }
 
 #rose-left {
@@ -816,16 +822,16 @@ span.rose {
     bottom: 0;
     width: 50%;
     height: 50%;
-    background: -webkit-linear-gradient(top, #01063d, #39164e);
+    background: -webkit-linear-gradient(top, #00001c, #36154B);
 }
 
 #fourth-img {
     z-index: 900;
     width: 100%;
-    height: 20rem;
+    height: 35rem;
     text-align: center;
     margin: auto;
-    background-image: linear-gradient(#153c99, #2a7ffc, #091a60);
+    background-image: linear-gradient(#133A93, #236ADE, #01013C);
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -836,33 +842,26 @@ span.rose {
 
 #shozo {
     position: absolute;
-    top: 8%;
+    width: max-content;
+    top: 12%;
     left: 50%;
     transform: translate(-50%);
-    width: auto;
+    width: max-content;
     color: #fff;
-    font-size: 3.5vw;
-    border: 0.3vw solid #51c9fe;
-    background-color: rgba(64, 62, 65, 0.9);
+    font-size: 2.3rem;
+    border: 5px solid #51c9fe;
+    background-color: rgba(120, 120, 120, 0.7);
+    padding: 1%;
+    z-index: 999;
 }
 
 .fourth-livers-img {
-    animation: up-down 4s infinite;
-    max-height: 280px;
-    max-width: 340px;
-    width: 25%;
-    height: auto;
+    max-height: 700px;
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
     box-shadow: 1vw 1vw 0px rgb(100, 100, 100, 0.7);
-}
-
-.fourth-livers-img-middle {
-    animation: down-up 4s infinite;
-    max-height: 280px;
-    max-width: 340px;
-    margin: 0 10%;
-    width: 25%;
-    height: auto;
-    box-shadow: 1vw 1vw 0px rgb(100, 100, 100, 0.7);
+    margin: 0 3%;
 }
 
 .livers-name {
@@ -1053,34 +1052,6 @@ label {
     top: 20%;
     z-index: 10000;
   }
-
-@keyframes up-down {
-    100% {
-        transform: translateY(30%);
-    }
-
-    50%{
-      transform: translateY(-30%);
-    }
-
-    0% {
-        transform: translateY(30%);
-    }
-  }
-
-  @keyframes down-up {
-      0% {
-          transform: translateY(-30%);
-      }
-
-    50% {
-        transform: translateY(30%);
-    }
-
-    100%{
-      transform: translateY(-30%);
-    }
-  }
   
   @keyframes example {
     100% {
@@ -1093,15 +1064,6 @@ label {
   }
 
 /*end test*/
-@media screen and (min-width:1200px){
-    .third-title-up {
-        font-size: 3rem;
-    }
-
-    .third-title-bottom {
-        font-size: 2.5rem;
-    }
-}
 
 @media screen and (max-width: 900px) {
     .mavbar_container {
@@ -1253,7 +1215,7 @@ label {
 
     #first-content {
         height: auto;
-        background: url(images/top-back-monitor.jpg);
+        background: url(images/top-logo.webp);
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -1272,28 +1234,8 @@ label {
         margin-right: 3%;
     }
 
-    #third-txt, .news-content-txt {
-        font-size: 1rem;
-    }
-
-    .third-title-up, .livers-name {
-        font-size: 1.5rem;
-    }
-
-    .third-title-bottom {
-        font-size: 1.2rem;
-    }
-
     #fourth-img {
         height: 10rem;
-    }
-
-    #rose-left {
-        height: 30%;
-    }
-
-    #blue-right {
-        height: 30%;
     }
 
     #fourth-content {
@@ -1319,4 +1261,17 @@ label {
     #info-section {
         width: 90%;
     }
+
+    #shozo {
+        font-size: 1.8rem;
+    }
+
+    .top-button, #third-txt, .third-title-bottom {
+        font-size: 1.1rem;
+    }
+
+    .third-title-up {
+        font-size: 1.5rem;
+    }
+    
 }
