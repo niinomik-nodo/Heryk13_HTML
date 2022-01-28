@@ -82,7 +82,7 @@ const buttonR = document.querySelector('#btn-right');
 const contact = document.querySelector('#contact-box-move');
 const corpform = document.querySelector('.corporation-form');
 const liverform = document.querySelector('.liver-form');
-const closeContact = document.querySelector('#cross');
+const closeContact = document.querySelectorAll('#cross');
 
 if (document.body.className == 'contact-body') {
     buttonL.addEventListener("click", function() {
@@ -95,13 +95,17 @@ if (document.body.className == 'contact-body') {
         liverform.classList.toggle('active');
     }); 
 
-    closeContact.addEventListener('click', function() {
+    closeContact[0].addEventListener('click', function() {
         contact.classList.remove('active-left');
         corpform.classList.remove('active');
         /**not working for liver why? */
+        
+    })
+
+    closeContact[1].addEventListener('click', function () {
         contact.classList.remove('active-right');
         liverform.classList.remove('active');
-    })
+    });
 
 };
 

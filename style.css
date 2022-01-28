@@ -22,6 +22,7 @@ main {
 
 #main-contact {
     background: -webkit-linear-gradient(top, #0d1431, #5f93ba);
+    overflow: hidden;
 }
 
 #qa-main {
@@ -364,23 +365,23 @@ footer {
     font-size: 2rem;
     background: black;
     width: 70%;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 .contact-box {
     display: flex;
     transition: transform 2s ease;
-    transform: translateX(0);
+    transform: translateY(0);
     width: 100%;
 }
 
 .contact-box.active-left {
-    transform: translateX(-100%);
+    transform: translateY(100%);
     transition: transform 2s ease;
 }
 
 .contact-box.active-right {
-    transform: translateX(100%);
+    transform: translateY(100%);
     transition: transform 2s ease;
 }
 
@@ -904,17 +905,17 @@ span.rose {
     align-items: center;
 }
 
-.liver-form{
-    display: inline-grid;
-    background: #dbeeff;
-    grid-template-columns: 30% 30%;
+
+
+
+#gender-radio {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
-    transition: right 2s ease;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    right: 100%;
+}
+
+.gender-span {
+    width: 25%;
 }
 
 .corporation-form {
@@ -923,21 +924,36 @@ span.rose {
     grid-template-columns: 30% 30%;
     align-items: center;
     justify-content: space-evenly;
-    transition: left 2s ease;
+    transition: bottom 2s ease;
     position: absolute;
     width: 100%;
     height: 100%;
-    left: 100%;
+    bottom: -100%;
 }
 
 .corporation-form.active {
-    left: 0;
-    transition: left 2s ease;
+    bottom: 0;
+    transition: bottom 2s ease;
+}
+
+.liver-form{
+    display: inline-grid;
+    background: #dbeeff;
+    grid-template-columns: 35% 30%;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: bottom 2s ease;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -220%;
+    justify-items: start;
+    align-content: center;
 }
 
 .liver-form.active {
-    right: 0;
-    transition: right 2s ease;
+    bottom: 0;
+    transition: bottom 2s ease;
 }
 
 .contact-box-wrap {
@@ -950,6 +966,14 @@ input {
     border-radius: 0;
     border: 1px solid rgba(83, 83, 83, 0.5);
     height: 2rem;
+}
+
+.form-span {
+    font-size: 0.8rem;
+}
+
+label {
+    font-size: 0.9rem;
 }
 
 /*test*/
@@ -1001,29 +1025,29 @@ input {
 
 @keyframes up-down {
     100% {
-        transform: translateY(40%);
+        transform: translateY(30%);
     }
 
     50%{
-      transform: translateY(-40%);
+      transform: translateY(-30%);
     }
 
     0% {
-        transform: translateY(40%);
+        transform: translateY(30%);
     }
   }
 
   @keyframes down-up {
       0% {
-          transform: translateY(-40%);
+          transform: translateY(-30%);
       }
 
     50% {
-        transform: translateY(40%);
+        transform: translateY(30%);
     }
 
     100%{
-      transform: translateY(-40%);
+      transform: translateY(-30%);
     }
   }
   
