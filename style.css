@@ -1073,20 +1073,31 @@ label {
     position: absolute;
     display: flex;
     max-height: 280px;
-    animation: example 20s infinite linear;
+    animation: example 25s infinite linear;
     top: 20%;
     z-index: 10000;
   }
   
   @keyframes example {
     100% {
-      left: -300%;
+      left: -230%;
     }
   
     0% {
       left: 100%;
     }
   }
+
+  @keyframes example-mobile {
+    100% {
+      left: -330%;
+    }
+  
+    0% {
+      left: 100%;
+    }
+  }
+
 
 /*end test*/
 
@@ -1312,5 +1323,9 @@ label {
         width: 90%;
         max-height: 250px;
     }
+
+    .animation {
+        animation: example-mobile 25s infinite linear;
+      }
     
 }
