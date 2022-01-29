@@ -1080,7 +1080,7 @@ label {
   
   @keyframes example {
     100% {
-      left: -280%;
+      left: -300%;
     }
   
     0% {
@@ -1310,7 +1310,7 @@ label {
 
     #news-content {
         width: 90%;
-        max-height: 280px;
+        max-height: 250px;
     }
     
 }
