@@ -127,6 +127,8 @@ footer {
 
 #footer-logo {
     margin: 1rem 0;
+    width: 12%;
+
 }
 
 .page-title {
@@ -724,11 +726,11 @@ span.rose {
 }
 
 #livers-img-up {
-    transform: translateY(-10%);
+    transform: translateY(-20%);
 }
 
 #livers-img-down {
-    transform: translateY(10%);
+    transform: translateY(20%);
 }
 
 .third-title-bottom {
@@ -884,20 +886,43 @@ span.rose {
 .fourth-livers-img {
     width: 100%;
     height: auto;
+    position: relative;
+    z-index: 10;
     box-shadow: 1vw 1vw 0px rgb(100, 100, 100, 0.7);
-    margin: 0 3%;
-    min-width: 300px;
 }
 
-.livers-name {
+.liver-img-anchor {
+    margin: 0 2%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth-liver-span {
+    font-size: 2.5rem;
     color: #fff;
-    font-size: 2rem;
-    background: rgba(64, 62, 65, 0.9);
-    height: fit-content;
+    z-index: 1000;
     position: absolute;
-    display: inline-block;
+    display: inherit;
     bottom: 0;
+    width: max-content;
+    padding: 0 1%;
     transform: translateY(100%);
+    background: rgba(120, 120, 120, 0.7);
+}
+
+.fourth-liver-span-down {
+    font-size: 2.5rem;
+    color: #fff;
+    z-index: 1000;
+    position: absolute;
+    display: inherit;
+    bottom: 0;
+    width: max-content;
+    padding: 0 1%;
+    transform: translateY(100%);
+    background: rgba(120, 120, 120, 0.7);
 }
 
 .about-background {
@@ -1073,28 +1098,50 @@ label {
     position: absolute;
     display: flex;
     max-height: 280px;
-    animation: example 25s infinite linear;
     top: 20%;
     z-index: 10000;
-  }
+    align-items: center;
+    justify-content: space-around;
+}
+
+.animation-2 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    max-height: 280px;
+    top: 20%;
+    z-index: 10000;
+    left: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#fourth-img div:first-child {
+    animation: right-left-animation 40s -20s linear infinite;
+}
+
+#fourth-img div:last-child {
+    animation: right-left-animation-2 40s linear infinite ;
+}
   
-  @keyframes example {
-    100% {
-      left: -230%;
+  @keyframes right-left-animation {
+    0% {
+        transform: translateX(100%);
     }
   
-    0% {
-      left: 100%;
+    to {
+        transform: translateX(-100%);
     }
   }
 
-  @keyframes example-mobile {
-    100% {
-      left: -330%;
+  @keyframes right-left-animation-2 {
+    0% {
+        transform: translateX(0);
     }
   
-    0% {
-      left: 100%;
+    to {
+        transform: translateX(-200%);
     }
   }
 
@@ -1307,25 +1354,17 @@ label {
         font-size: 1.8rem;
     }
 
-    .top-button, #third-txt, .third-title-bottom {
+    .top-button, #third-txt, .third-title-bottom, .livers-name {
         font-size: 1rem;
     }
 
-    .third-title-up, .news-content-txt {
+    .third-title-up, .news-content-txt, .fourth-liver-span-down, .fourth-liver-span {
         font-size: 1.5rem;
-    }
-
-    .fourth-livers-img {
-        min-width: 100px;
     }
 
     #news-content {
         width: 90%;
         max-height: 250px;
     }
-
-    .animation {
-        animation: example-mobile 25s infinite linear;
-      }
     
 }
