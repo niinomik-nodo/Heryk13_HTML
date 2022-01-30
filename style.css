@@ -726,11 +726,11 @@ span.rose {
 }
 
 #livers-img-up {
-    transform: translateY(-20%);
+    margin-top: 20%;
 }
 
 #livers-img-down {
-    transform: translateY(20%);
+    margin-top: -20%;
 }
 
 .third-title-bottom {
@@ -905,7 +905,7 @@ span.rose {
     z-index: 1000;
     position: absolute;
     display: inherit;
-    bottom: 0;
+    bottom: -35%;
     width: max-content;
     padding: 0 1%;
     transform: translateY(100%);
@@ -918,8 +918,8 @@ span.rose {
     z-index: 1000;
     position: absolute;
     display: inherit;
-    bottom: 0;
     width: max-content;
+    bottom: -10%;
     padding: 0 1%;
     transform: translateY(100%);
     background: rgba(120, 120, 120, 0.7);
@@ -1365,6 +1365,15 @@ label {
     #news-content {
         width: 90%;
         max-height: 250px;
+    }
+
+    .fourth-liver-span {
+        bottom: -10%;
+    }
+    
+    .fourth-liver-span-down {
+        bottom: 0;
+        transform: translateY(80%);
     }
     
 }
