@@ -694,7 +694,6 @@ span.rose {
     max-height: 330px;
     min-height: 150px;
     perspective: 450px;
-    animation: flicker 2.5s infinite alternate;
 }
 
 @keyframes flicker {
@@ -723,10 +722,12 @@ span.rose {
 #news {
     padding-top: 2%;
     padding-bottom: 1%;
-    margin: 0 20%;
+    margin: 0 auto;
+    text-align: center;
     color: #fff;
     width: 30%;
     font-size: 2rem;
+    animation: flicker-rose 2.5s infinite alternate;
 }
 
 .news-column {
@@ -782,7 +783,50 @@ span.rose {
     background-color: rgba(0, 0, 0, 0.7);
     width: 70%;
     height: 60%;
-    animation: pulsate 2.5s infinite alternate;
+}
+
+@keyframes flicker-rose {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+        0 0 1px #fff,
+        0 0 5px #fff,
+        0 0 9px #fff,
+        0 0 20px #d64fd0,
+        0 0 30px #d64fd0,
+        0 0 40px #d64fd0,
+        0 0 50px #d64fd0,
+        0 0 100px #d64fd0;
+    }
+    20%, 24%, 55% {       
+      text-shadow: none;
+    }
+  }
+
+@keyframes pulsate {
+  100% {
+    /* Larger blur radius */
+    text-shadow:
+      0 0 1px #fff,
+      0 0 3px #fff,
+      0 0 7px #fff,
+      0 0 20px #d64fd0,
+      0 0 30px #d64fd0,
+      0 0 40px #d64fd0,
+      0 0 50px #d64fd0,
+      0 0 100px #d64fd0;
+  }
+  0% {
+    /* Smaller blur radius */
+    text-shadow:
+      0 0 1px #fff,
+      0 0 2px #fff,
+      0 0 3px #fff,
+      0 0 7px #d64fd0,
+      0 0 25px #d64fd0,
+      0 0 35px #d64fd0,
+      0 0 40px #d64fd0,
+      0 0 50px #d64fd0;
+  }
 }
 
 #second-line {
@@ -790,35 +834,16 @@ span.rose {
     transform: translateX(-48%);
     width: 100%;
     height: 100%;
-    animation: pulsate 2.5s infinite alternate;
-}
-
-@keyframes pulsate {
-    100% {
-      /* Larger blur radius */
-      text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px #51c8ff,
-        0 0 80px #51c8ff,
-        0 0 90px #51c8ff,
-        0 0 100px #51c8ff,
-        0 0 150px #51c8ff;
-    }
-    0% {
-      /* Smaller blur radius */
-      text-shadow:
+    text-shadow:
+        0 0 1px #fff,
         0 0 2px #fff,
-        0 0 4px #fff,
-        0 0 6px #fff,
-        0 0 10px #51c8ff,
-        0 0 45px #51c8ff,
-        0 0 55px #51c8ff,
-        0 0 70px #51c8ff,
-        0 0 80px #51c8ff;
-    }
-  }
+        0 0 5px #fff,
+        0 0 20px #51c8ff,
+        0 0 30px #51c8ff,
+        0 0 40px #51c8ff,
+        0 0 50px #51c8ff,
+        0 0 100px #51c8ff;
+}
 
 #dare {
     color: #ff00fe;
