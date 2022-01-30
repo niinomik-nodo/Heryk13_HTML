@@ -1397,13 +1397,6 @@ label {
 
     /* mobile old code*/
 
-    #first-content {
-        height: auto;
-        background: url(images/top-logo.webp);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-
     .intern {
         height: auto;
         position: absolute;
@@ -1456,7 +1449,7 @@ label {
 
     #news-content {
         width: 90%;
-        max-height: 250px;
+        max-height: 190px;
     }
 
     .fourth-liver-span {
