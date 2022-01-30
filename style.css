@@ -760,6 +760,11 @@ span.rose {
     font-size: 2.5rem;
 }
 
+.news-image {
+    width: 25%;
+    height: auto;
+}
+
 .third-title-bottom {
     position: absolute;
     top: 10%;
