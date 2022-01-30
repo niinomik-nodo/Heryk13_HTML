@@ -792,6 +792,60 @@ span.rose {
     height: 60%;
 }
 
+#purple1 {
+    position: absolute;
+    left: -10%;
+    top: 40%;
+    z-index: 0;
+    transform: rotate(-15deg);
+    width: 70%;
+    animation: line-rose 2.5s infinite alternate;
+}
+
+#purple2 {
+    position: absolute;
+    left: -10%;
+    top: 40%;
+    z-index: 0;
+    transform: rotate(-15deg);
+    width: 70%;
+    animation: line-blue 2.5s infinite alternate;
+}
+
+@keyframes line-blue {
+    0%, 15%, 23%, 29%, 57%, 75%, 100% {
+      box-shadow:
+        0 0 1px #fff,
+        0 0 5px #fff,
+        0 0 9px #fff,
+        0 0 20px #51c8ff,
+        0 0 30px #51c8ff,
+        0 0 40px #51c8ff,
+        0 0 50px #51c8ff,
+        0 0 100px #51c8ff;
+    }
+    22%, 24%, 54% {       
+      box-shadow: none;
+    }
+  }
+
+@keyframes line-rose {
+    0%, 15%, 23%, 29%, 57%, 75%, 100% {
+      box-shadow:
+        0 0 1px #fff,
+        0 0 5px #fff,
+        0 0 9px #fff,
+        0 0 20px #d64fd0,
+        0 0 30px #d64fd0,
+        0 0 40px #d64fd0,
+        0 0 50px #d64fd0,
+        0 0 100px #d64fd0;
+    }
+    22%, 24%, 54% {       
+      box-shadow: none;
+    }
+  }
+
 @keyframes flicker-rose {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
       text-shadow:
