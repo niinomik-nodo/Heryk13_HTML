@@ -725,14 +725,6 @@ span.rose {
     font-size: 2.5rem;
 }
 
-#livers-img-up {
-    margin-top: 20%;
-}
-
-#livers-img-down {
-    margin-top: -20%;
-}
-
 .third-title-bottom {
     position: absolute;
     top: 10%;
@@ -905,10 +897,10 @@ span.rose {
     z-index: 1000;
     position: absolute;
     display: inherit;
-    bottom: -35%;
+    bottom: -30%;
     width: max-content;
     padding: 0 1%;
-    transform: translateY(100%);
+    transform: translateY(25%);
     background: rgba(120, 120, 120, 0.7);
 }
 
@@ -921,7 +913,7 @@ span.rose {
     width: max-content;
     bottom: -10%;
     padding: 0 1%;
-    transform: translateY(100%);
+    transform: translateY(25%);
     background: rgba(120, 120, 120, 0.7);
 }
 
@@ -1112,9 +1104,24 @@ label {
     max-height: 280px;
     top: 20%;
     z-index: 10000;
-    left: 100%;
     align-items: center;
     justify-content: space-around;
+}
+
+.animation a:nth-child(odd) {
+    transform: translateY(20%);
+}
+
+.animation a:nth-child(even) {
+    transform: translateY(-20%);
+}
+
+.animation-2 a:nth-child(even) {
+    transform: translateY(20%);
+}
+
+.animation-2 a:nth-child(odd) {
+    transform: translateY(-20%);
 }
 
 #fourth-img div:first-child {
@@ -1123,6 +1130,7 @@ label {
 
 #fourth-img div:last-child {
     animation: right-left-animation-2 40s linear infinite ;
+    left: 100%;
 }
   
   @keyframes right-left-animation {
@@ -1266,17 +1274,9 @@ label {
         font-size: 1.2rem;
     }
 
-    .member-content-box {
-        font-size: 1rem;
-    }
-
     .contact-img {
     height: auto;
     width: 100%;
-    }
-
-    .contact-colum {
-        font-size: 1rem;
     }
 
     #talent-sec {
@@ -1285,10 +1285,6 @@ label {
 
     .liver-background {
         min-height: 300px;
-    }
-
-    #contact-box-title {
-        font-size: 1.8rem;
     }
 
     .normal-box {
@@ -1334,10 +1330,6 @@ label {
         font-size: 2rem;
     }
 
-    .about-content {
-        font-size: 1rem;
-    }
-
     #history {
         width: 95%;
     }
@@ -1350,15 +1342,15 @@ label {
         width: 90%;
     }
 
-    #shozo {
+    #shozo, #contact-box-title {
         font-size: 1.8rem;
     }
 
-    .top-button, #third-txt, .third-title-bottom, .livers-name {
+    .top-button, #third-txt, .third-title-bottom, .about-content, .contact-colum, .member-content-box {
         font-size: 1rem;
     }
 
-    .third-title-up, .news-content-txt, .fourth-liver-span-down, .fourth-liver-span {
+    .third-title-up, .news-content-txt {
         font-size: 1.5rem;
     }
 
@@ -1368,12 +1360,6 @@ label {
     }
 
     .fourth-liver-span {
-        bottom: -10%;
+        font-size: 0.6rem;
     }
-    
-    .fourth-liver-span-down {
-        bottom: 0;
-        transform: translateY(80%);
-    }
-    
 }
