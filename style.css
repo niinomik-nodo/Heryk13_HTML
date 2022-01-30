@@ -166,6 +166,8 @@ footer {
 #info-title {
     transform: translateY(1.8rem);
     background-color: #00001c;
+    animation: flicker-rose 2.5s infinite alternate;
+    font-size: 3rem;
 }
 
 #info-contents {
@@ -1317,15 +1319,6 @@ label {
         background: rgba(83, 83, 83, 0.5);
         width: 90%;
         margin: auto;
-        text-shadow:
-      0 0 2px #fff,
-      0 0 5px #fff,
-      0 0 10px #fff,
-      0 0 2px #51c8ff,
-      0 0 30px #51c8ff,
-      0 0 40px #51c8ff,
-      0 0 50px #51c8ff,
-      0 0 60px #51c8ff;
     }
 
     .navbar_links_icon {
