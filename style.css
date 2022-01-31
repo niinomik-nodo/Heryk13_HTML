@@ -1161,23 +1161,9 @@ span.rose {
     box-shadow: 10px 10px 0px #000062;
 }
 
-.about-left {
-    margin-left: -35%;
-}
-
 #box-left {
     border: #51c9fe double 4px;
-    margin-left: -5%;
-    margin-top: -5%;
-}
 
-#box-right {
-    margin-right: -5%;
-    margin-top: -5%;
-}
-
-.about-right {
-    margin-right: -35%;
 }
 
 .about-title {
@@ -1200,8 +1186,9 @@ span.rose {
     background-image: linear-gradient(#010220, #1e3e6f, #00001c);
     width: 100%;
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 
@@ -1543,7 +1530,7 @@ label {
     }
 
     .about-title {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     #history {
@@ -1562,7 +1549,7 @@ label {
         font-size: 1.8rem;
     }
 
-    .top-button, #third-txt, .news-content-txt, .third-title-bottom, .about-content, .contact-colum, .member-content-box {
+    .top-button, #third-txt, .news-content-txt, .third-title-bottom, .contact-colum, .member-content-box {
         font-size: 1rem;
     }
 
@@ -1573,6 +1560,10 @@ label {
     #news-content {
         width: 90%;
         max-height: 190px;
+    }
+
+    .about-content {
+        font-size: 0.8rem;
     }
 
     .fourth-liver-span {
