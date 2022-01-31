@@ -1171,6 +1171,22 @@ span.rose {
     font-size: 1.8rem;
 }
 
+.about-title:nth-child(odd) {
+    text-shadow:
+        0 0 1px #fff,
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 7px #d64fd0,
+        0 0 10px #d64fd0,
+        0 0 20px #d64fd0,
+        0 0 30px #d64fd0,
+        0 0 60px #d64fd0;
+    }
+}
+
+.about-title:nth-child(even) {
+}
+
 .about-box {
     color: #fff;
     background: rgba(83, 83, 83, 0.5);
@@ -1324,18 +1340,54 @@ label {
 
 .animation a:nth-child(odd) {
     transform: translateY(20%);
+    box-shadow:
+      0 0 1px #fff,
+      0 0 2px #fff,
+      0 0 3px #fff,
+      0 0 7px #d64fd0,
+      0 0 25px #d64fd0,
+      0 0 35px #d64fd0,
+      0 0 40px #d64fd0,
+      0 0 50px #d64fd0;
 }
 
 .animation a:nth-child(even) {
     transform: translateY(-20%);
+    box-shadow:
+        0 0 1px #fff,
+        0 0 2px #fff,
+        0 0 5px #fff,
+        0 0 20px #51c8ff,
+        0 0 30px #51c8ff,
+        0 0 40px #51c8ff,
+        0 0 50px #51c8ff,
+        0 0 100px #51c8ff;
 }
 
 .animation-2 a:nth-child(even) {
     transform: translateY(20%);
+    box-shadow:
+      0 0 1px #fff,
+      0 0 2px #fff,
+      0 0 3px #fff,
+      0 0 7px #d64fd0,
+      0 0 25px #d64fd0,
+      0 0 35px #d64fd0,
+      0 0 40px #d64fd0,
+      0 0 50px #d64fd0; 
 }
 
 .animation-2 a:nth-child(odd) {
     transform: translateY(-20%);
+    box-shadow:
+        0 0 1px #fff,
+        0 0 2px #fff,
+        0 0 5px #fff,
+        0 0 20px #51c8ff,
+        0 0 30px #51c8ff,
+        0 0 40px #51c8ff,
+        0 0 50px #51c8ff,
+        0 0 100px #51c8ff;
 }
 
 #fourth-img div:first-child {
