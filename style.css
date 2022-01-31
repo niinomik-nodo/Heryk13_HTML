@@ -53,7 +53,7 @@ main {
     position: fixed;
     width: 100vw;
     top: 0;
-    z-index: 999;
+    z-index: 1000;
 }
 
 .navbar_container {
@@ -118,6 +118,8 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 3rem;
+    position: relative;
+    z-index: 999;
 }
 
 .footer_links {
@@ -696,6 +698,7 @@ span.rose {
     max-height: 330px;
     min-height: 150px;
     perspective: 450px;
+    z-index: 999;
 }
 
 @keyframes flicker {
@@ -732,6 +735,69 @@ span.rose {
     animation: flicker-rose 2.5s infinite alternate;
 }
 
+#line1 {
+    position: absolute;
+    transform: translateY(10vw) rotate(-20deg); 
+    width: 75%;
+    animation: line-rose 2.5s -10s infinite alternate;
+}
+
+#line2 {
+    position: absolute;
+    transform: translate(10vw, -10vw) rotate(-20deg); 
+    width: 75%;
+    z-index: 500;
+    animation: line-blue 3s -100s infinite alternate;
+}
+
+#line3 {
+    position: absolute;
+    transform: rotate(20deg); 
+    width: 75%;
+    z-index: 500;
+    animation: line-blue 4s -100s infinite alternate;
+}
+
+#line4 {
+    position: absolute;
+    transform: translateY(30vw) rotate(-40deg); 
+    width: 100%;
+    z-index: 500;
+    animation: line-rose 6s -100s infinite alternate;
+}
+
+#line5 {
+    position: absolute;
+    transform: translate(-10vw, 10vw) rotate(40deg); 
+    width: 100%;
+    z-index: 500;
+    animation: line-rose 5s -100s infinite alternate;
+}
+
+#line6 {
+    position: absolute;
+    transform: translate(50vw, -20vw) rotate(-30deg); 
+    width: 100%;
+    z-index: 500;
+    animation: line-blue 8s -100s infinite alternate;
+}
+
+#line7 {
+    position: absolute;
+    transform: translate(-40vw, -35vw) rotate(50deg); 
+    width: 100%;
+    z-index: 500;
+    animation: line-rose 4.4s -100s infinite alternate;
+}
+
+#line8 {
+    position: absolute;
+    transform: translate(0vw, 0vw) rotate(-30deg); 
+    width: 100%;
+    z-index: 500;
+    animation: line-blue 11s -100s infinite alternate;
+}
+
 .news-column {
     color: #fff;
     margin-top: 5%;
@@ -744,8 +810,8 @@ span.rose {
 }
 
 @keyframes scroll {
-    0% { top: -1850px; transform: translateZ(-700px) rotateX(21deg) }
-    100% { top: 390px; transform: translateZ(10px) rotateX(20deg)}
+    from { transform: translateY(-1850px) translateZ(-700px) rotateX(26deg) }
+    to { transform: translateY(0px) translateZ(0px) rotateX(25deg)}
 }
 
 .third-title-up {
@@ -758,11 +824,6 @@ span.rose {
     text-align: center;
     text-decoration: underline;
     font-size: 2.5rem;
-}
-
-.news-image {
-    width: 25%;
-    height: auto;
 }
 
 .third-title-bottom {
@@ -790,6 +851,7 @@ span.rose {
     background-color: rgba(0, 0, 0, 0.7);
     width: 70%;
     height: 60%;
+    z-index: 999;
 }
 
 #purple1 {
@@ -866,7 +928,7 @@ span.rose {
 @keyframes pulsate {
   100% {
     /* Larger blur radius */
-    text-shadow:
+    box-shadow:
       0 0 1px #fff,
       0 0 3px #fff,
       0 0 7px #fff,
@@ -878,7 +940,7 @@ span.rose {
   }
   0% {
     /* Smaller blur radius */
-    text-shadow:
+    box-shadow:
       0 0 1px #fff,
       0 0 2px #fff,
       0 0 3px #fff,
