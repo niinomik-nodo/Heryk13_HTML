@@ -776,8 +776,8 @@ span.rose {
 
 #line6 {
     position: absolute;
-    transform: translate(50vw, -20vw) rotate(-30deg); 
-    width: 100%;
+    transform: translate(30vw, 0vw) rotate(-30deg); 
+    width: 60%;
     z-index: 500;
     animation: line-blue 8s -100s infinite alternate;
 }
