@@ -1028,7 +1028,6 @@ footer {
     height: auto;
     position: relative;
     z-index: 10;
-    box-shadow: 1vw 1vw 0px rgb(100, 100, 100, 0.7);
 }
 
 .liver-img-anchor {
@@ -1046,12 +1045,11 @@ footer {
     position: absolute;
     display: inherit;
     bottom: 0;
-    width: max-content;
     padding: 0 1%;
     color: #fff;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 1rem;
-    width: 100%;
+    width: 90%;
     justify-content: center;
     align-items: center;
 }
