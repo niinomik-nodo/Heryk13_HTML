@@ -825,13 +825,13 @@ footer {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
       text-shadow:
         0 0 1px #fff,
-        0 0 5px #fff,
-        0 0 9px #fff,
+        0 0 2px #fff,
+        0 0 3px #fff,
+        0 0 50px #d64fd0,
+        0 0 10px #d64fd0,
         0 0 20px #d64fd0,
         0 0 30px #d64fd0,
-        0 0 40px #d64fd0,
-        0 0 50px #d64fd0,
-        0 0 100px #d64fd0;
+        0 0 40px #d64fd0;
     }
     20%, 24%, 55% {       
       text-shadow: none;
@@ -984,10 +984,10 @@ footer {
 
 #shozo {
     border-radius: 1rem;
-    width: max-content;
+    width: fit-content;
     color: #fff;
     font-size: 3rem;
-    border: 5px solid #51c9fe;
+    border: 0.2rem solid #51c9fe;
     background-color: rgba(0, 0, 0, 1);
     padding: 1%;
     z-index: 950;
@@ -1013,7 +1013,7 @@ footer {
 }
 
 .liver-img-anchor {
-    margin: 0 2%;
+    margin: 0 1%;
     border-radius: 1rem;
     text-decoration: none;
     display: flex;
