@@ -988,7 +988,7 @@ footer {
     color: #fff;
     font-size: 3rem;
     border: 5px solid #51c9fe;
-    background-color: rgba(120, 120, 120, 0.7);
+    background-color: rgba(0, 0, 0, 1);
     padding: 1%;
     z-index: 950;
     box-shadow:
@@ -1001,7 +1001,7 @@ footer {
         0 0 40px #51c9fe,
         0 0 80px #51c9fe;
     transform: translateY(-260%);
-    animation: flicker-rose 2.5s infinite alternate;
+    animation: flicker-rose 4.5s infinite alternate;
 }
 
 .fourth-livers-img {
