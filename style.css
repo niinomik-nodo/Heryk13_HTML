@@ -1017,7 +1017,7 @@ footer {
 
 .fourth-livers-img {
     width: 100%;
-    border-radius: 30px;
+    border-radius: 1rem;
     height: auto;
     position: relative;
     z-index: 10;
@@ -1026,7 +1026,7 @@ footer {
 
 .liver-img-anchor {
     margin: 0 2%;
-    border-radius: 30px;
+    border-radius: 1rem;
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -1265,12 +1265,12 @@ label {
     box-shadow:
       0 0 1px #fff,
       0 0 2px #fff,
-      0 0 3px #fff,
-      0 0 7px #d64fd0,
+      0 0 4px #fff,
+      0 0 8px #d64fd0,
+      0 0 10px #d64fd0,
+      0 0 15px #d64fd0,
       0 0 25px #d64fd0,
-      0 0 35px #d64fd0,
-      0 0 40px #d64fd0,
-      0 0 50px #d64fd0; 
+      0 0 35px #d64fd0; 
 }
 
 .animation-2 a:nth-child(odd) {
@@ -1278,12 +1278,12 @@ label {
     box-shadow:
         0 0 1px #fff,
         0 0 2px #fff,
-        0 0 5px #fff,
-        0 0 20px #51c8ff,
-        0 0 30px #51c8ff,
-        0 0 40px #51c8ff,
-        0 0 50px #51c8ff,
-        0 0 100px #51c8ff;
+        0 0 4px #fff,
+        0 0 8px #51c8ff,
+        0 0 10px #51c8ff,
+        0 0 15px #51c8ff,
+        0 0 25px #51c8ff,
+        0 0 35px #51c8ff;
 }
 
 #fourth-img div:first-child {
