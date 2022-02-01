@@ -1017,7 +1017,7 @@ footer {
 
 .fourth-livers-img {
     width: 100%;
-    border-radius: 10%;
+    border-radius: 30px;
     height: auto;
     position: relative;
     z-index: 10;
@@ -1026,7 +1026,7 @@ footer {
 
 .liver-img-anchor {
     margin: 0 2%;
-    border-radius: 10%;
+    border-radius: 30px;
     text-decoration: none;
     display: flex;
     flex-direction: column;
