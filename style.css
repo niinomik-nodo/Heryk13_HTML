@@ -1035,6 +1035,8 @@ footer {
     border-radius: 1rem;
     text-decoration: none;
     display: flex;
+    width: 100%;
+    height: auto;
     flex-direction: column;
     align-items: center;
 }
@@ -1220,11 +1222,10 @@ label {
 
 .animation {
     width: 100%;
-    height: auto;
+    height: 100%;
     position: absolute;
     display: flex;
     max-height: 280px;
-    top: 28%;
     z-index: 10000;
     align-items: center;
     justify-content: space-around;
@@ -1232,106 +1233,65 @@ label {
 
 .animation-2 {
     width: 100%;
-    height: auto;
+    height: 100%;
     position: absolute;
     display: flex;
     max-height: 280px;
-    top: 28%;
     z-index: 10000;
     align-items: center;
     justify-content: space-around;
 }
 
-@keyframes gradient-box {
-	0% {
-		box-shadow:
-        0 0 0.3rem #fff,
-        0 0 0.5rem #fff,
-        0 0 0.8rem #fff,
-        0 0 1rem #51c9fe,
-        0 0 2rem #51c9fe,
-        0 0 3rem #51c9fe,
-        0 0 4rem #51c9fe,
-        0 0 5rem #51c9fe;
-	}
-	50% {
-		box-shadow:
-      0 0 0.3rem #fff,
-      0 0 0.5rem #fff,
-      0 0 0.8rem #fff,
-      0 0 1rem #d64fd0,
-      0 0 2rem #d64fd0,
-      0 0 3rem #d64fd0,
-      0 0 4rem #d64fd0,
-      0 0 5rem #d64fd0;
-	}
-	100% {
-		box-shadow:
-        0 0 0.3rem #fff,
-        0 0 0.5rem #fff,
-        0 0 0.8rem #fff,
-        0 0 1rem #51c9fe,
-        0 0 2rem #51c9fe,
-        0 0 3rem #51c9fe,
-        0 0 4rem #51c9fe,
-        0 0 5rem #51c9fe;
-	}
-}
-
-@keyframes gradient-box2 {
-	0% {
-		box-shadow:
-      0 0 0.3rem #fff,
-      0 0 0.5rem #fff,
-      0 0 0.8rem #fff,
-      0 0 1rem #d64fd0,
-      0 0 2rem #d64fd0,
-      0 0 3rem #d64fd0,
-      0 0 4rem #d64fd0,
-      0 0 5rem #d64fd0;
-	}
-	50% {
-		box-shadow:
-        0 0 0.3rem #fff,
-        0 0 0.5rem #fff,
-        0 0 0.8rem #fff,
-        0 0 1rem #51c9fe,
-        0 0 2rem #51c9fe,
-        0 0 3rem #51c9fe,
-        0 0 4rem #51c9fe,
-        0 0 5rem #51c9fe;
-	}
-	100% {
-		box-shadow:
-      0 0 0.3rem #fff,
-      0 0 0.5rem #fff,
-      0 0 0.8rem #fff,
-      0 0 1rem #d64fd0,
-      0 0 2rem #d64fd0,
-      0 0 3rem #d64fd0,
-      0 0 4rem #d64fd0,
-      0 0 5rem #d64fd0;
-	}
-}
-
 .animation a:nth-child(odd) {
     transform: translateY(20%);
-    animation: gradient-box 10s ease infinite;
+    box-shadow:
+      0 0 0.3rem #fff,
+      0 0 0.5rem #fff,
+      0 0 0.8rem #fff,
+      0 0 1rem #d64fd0,
+      0 0 2rem #d64fd0,
+      0 0 3rem #d64fd0,
+      0 0 4rem #d64fd0,
+      0 0 5rem #d64fd0;
 }
 
 .animation a:nth-child(even) {
     transform: translateY(-20%);
-    animation: gradient-box2 10s ease infinite;
+    box-shadow:
+        0 0 0.3rem #fff,
+        0 0 0.5rem #fff,
+        0 0 0.8rem #fff,
+        0 0 1rem #51c9fe,
+        0 0 2rem #51c9fe,
+        0 0 3rem #51c9fe,
+        0 0 4rem #51c9fe,
+        0 0 5rem #51c9fe;
 }
 
 .animation-2 a:nth-child(even) {
     transform: translateY(20%);
-    animation: gradient-box 10s ease infinite;
+    box-shadow:
+      0 0 0.3rem #fff,
+      0 0 0.5rem #fff,
+      0 0 0.8rem #fff,
+      0 0 1rem #d64fd0,
+      0 0 2rem #d64fd0,
+      0 0 3rem #d64fd0,
+      0 0 4rem #d64fd0,
+      0 0 5rem #d64fd0;
 }
 
 .animation-2 a:nth-child(odd) {
     transform: translateY(-20%);
-    animation: gradient-box2 10s ease infinite;
+    box-shadow:
+        0 0 0.3rem #fff,
+        0 0 0.5rem #fff,
+        0 0 0.8rem #fff,
+        0 0 1rem #51c9fe,
+        0 0 2rem #51c9fe,
+        0 0 3rem #51c9fe,
+        0 0 4rem #51c9fe,
+        0 0 5rem #51c9fe;
 }
 
 #fourth-img div:first-child {
