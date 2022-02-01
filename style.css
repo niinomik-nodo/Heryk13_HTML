@@ -9,20 +9,6 @@ body {
     overflow-x: hidden;
 }
 
-#gif {
-    position: absolute;
-    z-index: 999;
-    box-shadow:
-      0 0 4px #fff,
-      0 0 10px #fff,
-      0 0 18px #fff,
-      0 0 38px #51c8ff,
-      0 0 73px #51c8ff,
-      0 0 80px #51c8ff,
-      0 0 94px #51c8ff,
-      0 0 140px #51c8ff;
-}
-
 main {
     margin-top: 63px;
     width: 100%;
@@ -589,21 +575,10 @@ footer {
 
 /*old style code*/
 
-.title {
-    transform: translateY(-50%);
-    color: #fff;
-    text-shadow: 1px 1px 8px white;
-}
-
 .top {
     width: 100%;
     height: auto;
     visibility: hidden;
-}
-
-.logo-image {
-    width: 100%;
-    height: auto;
 }
 
 #first-content {
@@ -614,48 +589,6 @@ footer {
     background: url(images/top-logo.webp);
     background-repeat: no-repeat;
     background-size: contain;
-}
-
-#top-content {
-    display: block;
-    position: relative;
-    width: 90%;
-    height: auto;
-}
-
-.intern {
-    height: auto;
-    position: absolute;
-    display: inline-block;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-8deg);
-}
-
-#top-title {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    transform: translate(-50%);
-}
-
-span.white {
-    color: #fff;
-    font-size: 7vw;
-    text-shadow: 1px 1px 8px white;
-}
-
-span.rose {
-    color: #ff00fe;
-    font-size: 7vw;
-    text-shadow: 1px 1px 8px white;
 }
 
 #second-content {
@@ -810,7 +743,7 @@ span.rose {
 }
 
 @keyframes scroll {
-    from { transform: translateY(-1850px) translateZ(-700px) rotateX(26deg) }
+    from { transform: translateY(-1850px) translateZ(-700px) rotateX(20deg) }
     to { transform: translateY(0px) translateZ(0px) rotateX(25deg)}
 }
 
@@ -852,26 +785,6 @@ span.rose {
     width: 70%;
     height: 60%;
     z-index: 999;
-}
-
-#purple1 {
-    position: absolute;
-    left: -10%;
-    top: 40%;
-    z-index: 0;
-    transform: rotate(-15deg);
-    width: 70%;
-    animation: line-rose 2.5s infinite alternate;
-}
-
-#purple2 {
-    position: absolute;
-    left: -10%;
-    top: 40%;
-    z-index: 0;
-    transform: rotate(-15deg);
-    width: 70%;
-    animation: line-blue 2.5s infinite alternate;
 }
 
 @keyframes line-blue {
@@ -1104,6 +1017,7 @@ span.rose {
 
 .fourth-livers-img {
     width: 100%;
+    border-radius: 10%;
     height: auto;
     position: relative;
     z-index: 10;
@@ -1112,6 +1026,7 @@ span.rose {
 
 .liver-img-anchor {
     margin: 0 2%;
+    border-radius: 10%;
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -1171,22 +1086,6 @@ span.rose {
     font-size: 1.8rem;
 }
 
-.about-title:nth-child(odd) {
-    text-shadow:
-        0 0 1px #fff,
-        0 0 2px #fff,
-        0 0 4px #fff,
-        0 0 7px #d64fd0,
-        0 0 10px #d64fd0,
-        0 0 20px #d64fd0,
-        0 0 30px #d64fd0,
-        0 0 60px #d64fd0;
-    }
-}
-
-.about-title:nth-child(even) {
-}
-
 .about-box {
     color: #fff;
     background: rgba(83, 83, 83, 0.5);
@@ -1206,9 +1105,6 @@ span.rose {
     align-items: center;
     justify-content: space-evenly;
 }
-
-
-
 
 #gender-radio {
     display: flex;
@@ -1424,15 +1320,6 @@ label {
 
 @media screen and (max-width: 900px) {
 
-    .mavbar_container {
-        display: flex;
-        justify-content: space-between;
-        height: 60px;
-        z-index: 1;
-        width: 100%;
-        padding: 0;
-    }
-
     .navbar_menu {
         display: grid;
         grid-template-columns: auto;
@@ -1559,13 +1446,6 @@ label {
 
     /* mobile old code*/
 
-    .intern {
-        height: auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) rotate(-8deg);
-    }
 
     #livers2 {
         transform: translateY(12%);
