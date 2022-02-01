@@ -1001,6 +1001,7 @@ footer {
         0 0 40px #51c9fe,
         0 0 80px #51c9fe;
     transform: translateY(-260%);
+    animation: flicker-rose 2.5s infinite alternate;
 }
 
 .fourth-livers-img {
