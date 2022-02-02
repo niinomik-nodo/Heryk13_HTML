@@ -512,11 +512,11 @@ footer {
     max-height: 500px;
     height: 100%;
     transform: translate(-20px, -20px);
-    padding-top: 90%;
 }
 
 .liver-txt {
-    font-size: 0.9rem;
+    font-size: 0.78rem;
+    text-align: center;
 }
 
 #talent-sec {
@@ -534,7 +534,7 @@ footer {
 }
 
 .liver-img {
-    position: absolute;
+    position: relative;
     display: inline-block;
     max-width: 200px;
     max-height: 200px;
@@ -553,7 +553,7 @@ footer {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     transform: translateY(-50%);
 }
 
@@ -570,6 +570,7 @@ footer {
     margin: 1.5% 0;
     color: #fff;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 
@@ -1082,7 +1083,7 @@ footer {
     color: #fff;
     background: rgba(83, 83, 83, 0.5);
     width: fit-content;
-    margin: 0 0.3rem;
+    margin: 1rem 0.5rem;
     border: #d14ece double 4px;
     font-size: 1.4rem;
     display: inline;
