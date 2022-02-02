@@ -498,8 +498,8 @@ footer {
 
 .liver-background {
     background: #172450;
-    margin: 3% 3%;
-    width: 40%;
+    margin: 2% 2%;
+    width: 43%;
     max-width: 300px;
     min-height: 500px;
     height: auto;
@@ -515,7 +515,7 @@ footer {
 }
 
 .liver-txt {
-    font-size: 0.78rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -1490,11 +1490,15 @@ label {
         max-height: 190px;
     }
 
-    .about-content, #third-txt {
+    #third-txt, .liver-txt {
         font-size: 0.7rem;
     }
 
-    .third-title-bottom {
+    .about-content {
+        font-size: 0.6rem;
+    }
+
+    .third-title-bottom, .liver-name {
         font-size: 0.9rem;
     }
 
@@ -1504,5 +1508,11 @@ label {
 
     #first-line {
         width: 90%;
+    }
+
+    .footer_links {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
     }
 }
