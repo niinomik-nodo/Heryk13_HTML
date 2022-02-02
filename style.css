@@ -783,7 +783,7 @@ footer {
 #first-line {
     background-color: rgba(0, 0, 0, 0.7);
     width: 80%;
-    height: 60%;
+    height: 45%;
     z-index: 999;
 }
 
@@ -1060,7 +1060,7 @@ footer {
 }
 
 .about-left, .about-right {
-    width: 60%;
+    width: 40%;
     height: auto;
     margin: 2% 0;
     max-width: 600px;
@@ -1475,7 +1475,7 @@ label {
         transform: translateY(-230%);
     }
 
-    .top-button, #third-txt, .news-content-txt, .third-title-bottom, .contact-colum, .member-content-box {
+    .top-button, .news-content-txt, .third-title-bottom, .contact-colum, .member-content-box {
         font-size: 1rem;
     }
 
@@ -1488,11 +1488,15 @@ label {
         max-height: 190px;
     }
 
-    .about-content {
-        font-size: 0.8rem;
+    .about-content, #third-txt {
+        font-size: 0.7rem;
     }
 
     .fourth-liver-span {
         font-size: 1rem;
+    }
+
+    #first-line {
+        width: 90%;
     }
 }
