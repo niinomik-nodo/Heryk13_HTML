@@ -782,7 +782,7 @@ footer {
 
 #first-line {
     background-color: rgba(0, 0, 0, 0.7);
-    width: 70%;
+    width: 80%;
     height: 60%;
     z-index: 999;
 }
@@ -824,14 +824,14 @@ footer {
 @keyframes flicker-rose {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
       text-shadow:
+        0 0 0.01rem #fff,
+        0 0 0.03rem #fff,
         0 0 0.05rem #fff,
-        0 0 0.1rem #fff,
-        0 0 0.15rem #fff,
+        0 0 0.15rem #d64fd0,
         0 0 0.2rem #d64fd0,
-        0 0 0.25rem #d64fd0,
-        0 0 0.3rem #d64fd0,
-        0 0 0.35rem #d64fd0,
-        0 0 0.4rem #d64fd0;
+        0 0 0.23rem #d64fd0,
+        0 0 0.28rem #d64fd0,
+        0 0 0.3rem #d64fd0;
     }
     20%, 24%, 55% {       
       text-shadow: none;
@@ -871,14 +871,14 @@ footer {
     width: 100%;
     height: 100%;
     text-shadow:
-        0 0 1px #fff,
-        0 0 2px #fff,
-        0 0 5px #fff,
-        0 0 20px #51c8ff,
-        0 0 30px #51c8ff,
-        0 0 40px #51c8ff,
-        0 0 50px #51c8ff,
-        0 0 100px #51c8ff;
+        0 0 0.03rem #fff,
+        0 0 0.05rem #fff,
+        0 0 0.08rem #fff,
+        0 0 0.1rem #51c8ff,
+        0 0 0.35rem #51c8ff,
+        0 0 0.5rem #51c8ff,
+        0 0 0.85rem #51c8ff,
+        0 0 1rem #51c8ff;
 }
 
 #dare {
@@ -995,11 +995,11 @@ footer {
         0 0 0.1rem #fff,
         0 0 0.2rem #fff,
         0 0 0.3rem #fff,
+        0 0 0.35rem #51c9fe,
         0 0 0.5rem #51c9fe,
         0 0 0.8rem #51c9fe,
         0 0 1rem #51c9fe,
-        0 0 1.3rem #51c9fe,
-        0 0 1.5rem #51c9fe;
+        0 0 1.3rem #51c9fe;
     transform: translateY(-300%);
     animation: flicker-rose 4.5s infinite alternate;
 }
