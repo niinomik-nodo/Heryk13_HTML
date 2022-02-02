@@ -824,14 +824,14 @@ footer {
 @keyframes flicker-rose {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
       text-shadow:
-        0 0 1px #fff,
-        0 0 2px #fff,
-        0 0 3px #fff,
-        0 0 50px #d64fd0,
-        0 0 10px #d64fd0,
-        0 0 20px #d64fd0,
-        0 0 30px #d64fd0,
-        0 0 40px #d64fd0;
+        0 0 0.05rem #fff,
+        0 0 0.1rem #fff,
+        0 0 0.15rem #fff,
+        0 0 0.2rem #d64fd0,
+        0 0 0.25rem #d64fd0,
+        0 0 0.3rem #d64fd0,
+        0 0 0.35rem #d64fd0,
+        0 0 0.4rem #d64fd0;
     }
     20%, 24%, 55% {       
       text-shadow: none;
@@ -992,15 +992,15 @@ footer {
     padding: 1%;
     z-index: 950;
     box-shadow:
-        0 0 1px #fff,
-        0 0 3px #fff,
-        0 0 5px #fff,
-        0 0 10px #51c9fe,
-        0 0 20px #51c9fe,
-        0 0 30px #51c9fe,
-        0 0 40px #51c9fe,
-        0 0 80px #51c9fe;
-    transform: translateY(-260%);
+        0 0 0.1rem #fff,
+        0 0 0.2rem #fff,
+        0 0 0.3rem #fff,
+        0 0 0.5rem #51c9fe,
+        0 0 0.8rem #51c9fe,
+        0 0 1rem #51c9fe,
+        0 0 1.3rem #51c9fe,
+        0 0 1.5rem #51c9fe;
+    transform: translateY(-300%);
     animation: flicker-rose 4.5s infinite alternate;
 }
 
@@ -1032,8 +1032,8 @@ footer {
     padding: 0 1%;
     color: #fff;
     background: rgba(0, 0, 0, 0.7);
-    border-radius: 1rem;
-    width: 90%;
+    border-radius: 0.8rem;
+    width: 99%;
     justify-content: center;
     align-items: center;
 }
@@ -1227,53 +1227,53 @@ label {
 .animation a:nth-child(odd) {
     transform: translateY(20%);
     box-shadow:
+        0 0 0.1rem #fff,
         0 0 0.3rem #fff,
         0 0 0.5rem #fff,
-        0 0 0.8rem #fff,
+        0 0 0.8rem #51c9fe,
         0 0 1rem #51c9fe,
-        0 0 2rem #51c9fe,
-        0 0 3rem #51c9fe,
-        0 0 4rem #51c9fe,
-        0 0 5rem #51c9fe;
+        0 0 1.3rem #51c9fe,
+        0 0 1.8rem #51c9fe,
+        0 0 2rem #51c9fe;
 }
 
 .animation a:nth-child(even) {
     transform: translateY(-20%);
     box-shadow:
+      0 0 0.1rem #fff,
       0 0 0.3rem #fff,
       0 0 0.5rem #fff,
-      0 0 0.8rem #fff,
+      0 0 0.8rem #d64fd0,
       0 0 1rem #d64fd0,
-      0 0 2rem #d64fd0,
-      0 0 3rem #d64fd0,
-      0 0 4rem #d64fd0,
-      0 0 5rem #d64fd0;
+      0 0 1.3rem #d64fd0,
+      0 0 1.8rem #d64fd0,
+      0 0 2rem #d64fd0;
 }
 
 .animation-2 a:nth-child(even) {
     transform: translateY(20%);
     box-shadow:
+        0 0 0.1rem #fff,
         0 0 0.3rem #fff,
         0 0 0.5rem #fff,
-        0 0 0.8rem #fff,
+        0 0 0.8rem #51c9fe,
         0 0 1rem #51c9fe,
-        0 0 2rem #51c9fe,
-        0 0 3rem #51c9fe,
-        0 0 4rem #51c9fe,
-        0 0 5rem #51c9fe;
+        0 0 1.3rem #51c9fe,
+        0 0 1.8rem #51c9fe,
+        0 0 2rem #51c9fe;
 }
 
 .animation-2 a:nth-child(odd) {
     transform: translateY(-20%);
     box-shadow:
+      0 0 0.1rem #fff,
       0 0 0.3rem #fff,
       0 0 0.5rem #fff,
-      0 0 0.8rem #fff,
+      0 0 0.8rem #d64fd0,
       0 0 1rem #d64fd0,
-      0 0 2rem #d64fd0,
-      0 0 3rem #d64fd0,
-      0 0 4rem #d64fd0,
-      0 0 5rem #d64fd0;
+      0 0 1.3rem #d64fd0,
+      0 0 1.8rem #d64fd0,
+      0 0 2rem #d64fd0;
 }
 
 #fourth-img div:first-child {
@@ -1284,7 +1284,7 @@ label {
     animation: right-left-animation-2 40s linear infinite ;
     left: 100%;
 }
-  
+
   @keyframes right-left-animation {
     0% {
         transform: translateX(100%);
@@ -1304,7 +1304,6 @@ label {
         transform: translateX(-200%);
     }
   }
-
 
 /*end test*/
 
@@ -1444,11 +1443,11 @@ label {
     }
 
     #fourth-img {
-        height: 10rem;
+        height: 13rem;
     }
 
     #fourth-content {
-        height: 20rem;
+        height: 25rem;
     }
 
     .about-title {
@@ -1473,7 +1472,7 @@ label {
 
     #shozo {
         font-size: 1.5rem;
-        transform: translateY(-180%);
+        transform: translateY(-230%);
     }
 
     .top-button, #third-txt, .news-content-txt, .third-title-bottom, .contact-colum, .member-content-box {
@@ -1494,6 +1493,6 @@ label {
     }
 
     .fourth-liver-span {
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
 }
