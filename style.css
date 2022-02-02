@@ -763,7 +763,7 @@ footer {
 .third-title-bottom {
     position: absolute;
     top: 10%;
-    font-size: 1.9rem;
+    font-size: 2rem;
     left: 50%;
     color: #fff;
     transform: translate(-50%);
@@ -1477,7 +1477,7 @@ label {
         transform: translateY(-230%);
     }
 
-    .top-button, .news-content-txt, .third-title-bottom, .contact-colum, .member-content-box {
+    .top-button, .news-content-txt, .contact-colum, .member-content-box {
         font-size: 1rem;
     }
 
@@ -1492,6 +1492,10 @@ label {
 
     .about-content, #third-txt {
         font-size: 0.7rem;
+    }
+
+    .third-title-bottom {
+        font-size: 0.9rem;
     }
 
     .fourth-liver-span {
