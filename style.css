@@ -5,7 +5,7 @@
     font-family: 'Source Sans 3', sans-serif;
 }
 
-body, nav {
+body {
     overflow-x: hidden;
 }
 
@@ -738,7 +738,7 @@ main div:nth-child(10){
 #line4 {
     position: absolute;
     transform: translate(-15vw, 30vw) rotate(-35deg); 
-    width: 150%;
+    width: 130%;
     z-index: 500;
     animation: line-rose 6s -100s infinite alternate;
 }
@@ -841,7 +841,7 @@ main div:nth-child(10){
     transform: translate(-20vw, 80vw) rotate(40deg); 
     width: 100%;
     z-index: 500;
-    animation: line-rose 11s -100s infinite alternate;
+    animation: line-rose 11s -40s infinite alternate;
     height: 3px;
 }
 
@@ -859,7 +859,7 @@ main div:nth-child(10){
     transform: translate(-10vw, 70vw) rotate(-30deg); 
     width: 100%;
     z-index: 500;
-    animation: line-blue 11s -100s infinite alternate;
+    animation: line-blue 11s -90s infinite alternate;
     height: 3px;
 }
 
@@ -876,7 +876,7 @@ main div:nth-child(10){
     transform: translate(-5vw, 30vw) rotate(-20deg); 
     width: 140%;
     z-index: 500;
-    animation: line-blue 2.5s -10s infinite alternate;
+    animation: line-blue 2.5s -12s infinite alternate;
 }
 
 #line21 {
