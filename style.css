@@ -717,9 +717,11 @@ main div:nth-child(10){
     transform: translate(-3vw, 10vw) rotate(-20deg); 
     width: 75%;
     animation: line-rose 2.5s -10s infinite alternate;
+    overflow: hidden;
 }
 
 #line2 {
+    overflow: hidden;
     position: absolute;
     transform: translate(-10vw, -10vw) rotate(-20deg); 
     width: 115%;
@@ -728,6 +730,7 @@ main div:nth-child(10){
 }
 
 #line3 {
+    overflow: hidden;
     position: absolute;
     transform: translate(-12vw) rotate(20deg); 
     width: 118%;
@@ -736,6 +739,7 @@ main div:nth-child(10){
 }
 
 #line4 {
+    overflow: hidden;
     position: absolute;
     transform: translate(-15vw, 30vw) rotate(-35deg); 
     width: 130%;
@@ -744,6 +748,7 @@ main div:nth-child(10){
 }
 
 #line5 {
+    overflow: hidden;
     position: absolute;
     transform: translate(-18vw, 10vw) rotate(40deg); 
     width: 130%;
@@ -752,6 +757,7 @@ main div:nth-child(10){
 }
 
 #line6 {
+    overflow: hidden;
     position: absolute;
     transform: translate(30vw, 0vw) rotate(-30deg); 
     width: 70%;
@@ -760,6 +766,7 @@ main div:nth-child(10){
 }
 
 #line7 {
+    overflow: hidden;
     position: absolute;
     transform: translate(-40vw, -35vw) rotate(50deg); 
     width: 100%;
@@ -768,6 +775,7 @@ main div:nth-child(10){
 }
 
 #line8 {
+    overflow: hidden;
     position: absolute;
     transform: translate(0vw, 0vw) rotate(-30deg); 
     width: 100%;
@@ -776,6 +784,7 @@ main div:nth-child(10){
 }
 
 #line9 {
+    overflow: hidden;
     position: absolute;
     transform: translate(-2vw, 0vw) rotate(-10deg); 
     width: 100%;
@@ -784,6 +793,7 @@ main div:nth-child(10){
 }
 
 #line10 {
+    overflow: hidden;
     position: absolute;
     transform: translate(-7vw, 40vw) rotate(30deg); 
     width: 120%;
@@ -792,6 +802,7 @@ main div:nth-child(10){
 }
 
 #line11 {
+    overflow: hidden;
     position: absolute;
     transform: translate(0vw, -30vw) rotate(-20deg); 
     width: 160%;
@@ -801,6 +812,7 @@ main div:nth-child(10){
 }
 
 #line12 {
+    overflow: hidden;
     position: absolute;
     transform: translate(0vw, -28vw) rotate(18deg); 
     width: 150%;
@@ -810,6 +822,7 @@ main div:nth-child(10){
 }
 
 #line13 {
+    overflow: hidden;
     position: absolute;
     transform: translate(0vw, 0vw) rotate(-20deg); 
     width: 150%;
@@ -819,6 +832,7 @@ main div:nth-child(10){
 }
 
 #line14 {
+    overflow: hidden;
     position: absolute;
     transform: translate(0vw, 40vw) rotate(20deg); 
     width: 150%;
@@ -828,6 +842,7 @@ main div:nth-child(10){
 }
 
 #line15 {
+    overflow: hidden;
     position: absolute;
     transform: translate(-5vw, 30vw) rotate(20deg); 
     width: 150%;
@@ -837,6 +852,7 @@ main div:nth-child(10){
 }
 
 #line16 {
+    overflow: hidden;
     position: absolute;
     transform: translate(-20vw, 80vw) rotate(40deg); 
     width: 100%;
@@ -846,6 +862,7 @@ main div:nth-child(10){
 }
 
 #line17 {
+    overflow: hidden;
     position: absolute;
     transform: translate(-5vw, 30vw) rotate(20deg); 
     width: 100%;
@@ -855,6 +872,7 @@ main div:nth-child(10){
 }
 
 #line18 {
+    overflow: hidden;
     position: absolute;
     transform: translate(-10vw, 70vw) rotate(-30deg); 
     width: 100%;
@@ -864,6 +882,7 @@ main div:nth-child(10){
 }
 
 #line19 {
+    overflow: hidden;
     position: absolute;
     transform: translate(-8vw, 30vw) rotate(-20deg); 
     width: 130%;
@@ -880,6 +899,7 @@ main div:nth-child(10){
 }
 
 #line21 {
+    overflow: hidden;
     position: absolute;
     transform: translate(-15vw, 70vw) rotate(30deg); 
     width: 200%;
@@ -1493,7 +1513,7 @@ label {
         right: 0;
         transform: translateX(100%);
         transition: transform 0.7s ease-out;
-        height: 75vh;
+        height: auto;
         z-index: -1;
         right: 0;
         top: 63px;
