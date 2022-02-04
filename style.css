@@ -1116,9 +1116,8 @@ main div:nth-child(10){
     border: 0.2vw solid #b6b2b1;
     cursor: pointer;
     padding: 10px;
-    position: absolute;
-    right: 18%;
-    bottom: 13%;
+    position: relative;
+    transform: translate(50vw, -10vw);
     background-size: 400% 400%;
 	animation: gradient 7s ease infinite;
     z-index: 999;
