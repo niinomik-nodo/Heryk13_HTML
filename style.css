@@ -16,10 +16,6 @@ main {
     overflow-x: hidden;
 }
 
-main div:nth-child(6){
-    display: none;
-}
-
 #talent {
     background: -webkit-linear-gradient(top, #00001c, #1b3766);
 }
@@ -144,6 +140,8 @@ footer {
     width: 40%;
     margin: 1% auto;
     text-decoration: underline;
+    position: relative;
+    z-index: 999;
 }
 
 .page-sub-title {
@@ -153,6 +151,8 @@ footer {
     width: 75%;
     margin: auto;
     background: -webkit-linear-gradient(left, #141168, #022c7e);
+    position: relative;
+    z-index: 999;
 }
 
 #info-title {
@@ -347,6 +347,8 @@ main div:nth-child(10){
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 999;
+    position: relative;
 }
 
 .contact-colum {
@@ -355,6 +357,8 @@ main div:nth-child(10){
     grid-column-gap: 2%;
     font-size: 2rem;
     margin-top: 1%;
+    z-index: 999;
+    position: relative;
 }
 
 .contact-content-box {
@@ -397,6 +401,8 @@ main div:nth-child(10){
     height: 100%;
     display: flex;
     flex-direction: column;
+    z-index: 999;
+    position: relative;
 }
 
 #contact-title {
@@ -535,6 +541,7 @@ main div:nth-child(10){
     max-width: 300px;
     min-height: 500px;
     height: auto;
+    z-index: 999;
 }
 
 .liver-card {
@@ -558,7 +565,9 @@ main div:nth-child(10){
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-content: center;    
+    align-content: center;
+    position: relative;
+    z-index: 999;
 }
 
 #talent-sub {
@@ -596,6 +605,8 @@ main div:nth-child(10){
     width: 60%;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+    position: relative;
+    z-index: 999;
 }
 
 .no-face {
@@ -710,8 +721,8 @@ main div:nth-child(10){
 
 #line2 {
     position: absolute;
-    transform: translate(10vw, -10vw) rotate(-20deg); 
-    width: 75%;
+    transform: translate(-10vw, -10vw) rotate(-20deg); 
+    width: 150%;
     z-index: 500;
     animation: line-blue 3s -100s infinite alternate;
 }
@@ -762,6 +773,119 @@ main div:nth-child(10){
     width: 100%;
     z-index: 500;
     animation: line-blue 11s -100s infinite alternate;
+}
+
+#line9 {
+    position: absolute;
+    transform: translate(-2vw, 0vw) rotate(-10deg); 
+    width: 100%;
+    z-index: 500;
+    animation: line-rose 11s -100s infinite alternate;
+}
+
+#line10 {
+    position: absolute;
+    transform: translate(-7vw, 40vw) rotate(30deg); 
+    width: 100%;
+    z-index: 500;
+    animation: line-rose 11s -100s infinite alternate;
+}
+
+#line11 {
+    position: absolute;
+    transform: translate(-7vw, -30vw) rotate(-20deg); 
+    width: 150%;
+    height: 3px;
+    z-index: 500;
+    animation: line-blue 11s -100s infinite alternate;
+}
+
+#line12 {
+    position: absolute;
+    transform: translate(0vw, -28vw) rotate(18deg); 
+    width: 150%;
+    z-index: 500;
+    animation: line-rose 11s -100s infinite alternate;
+    height: 3px;
+}
+
+#line13 {
+    position: absolute;
+    transform: translate(0vw, 0vw) rotate(-20deg); 
+    width: 150%;
+    z-index: 500;
+    animation: line-blue 11s -100s infinite alternate;
+    height: 3px;
+}
+
+#line14 {
+    position: absolute;
+    transform: translate(0vw, 40vw) rotate(20deg); 
+    width: 150%;
+    z-index: 500;
+    animation: line-rose 11s -100s infinite alternate;
+    height: 3px;
+}
+
+#line15 {
+    position: absolute;
+    transform: translate(-5vw, 30vw) rotate(20deg); 
+    width: 150%;
+    z-index: 500;
+    animation: line-rose 11s -100s infinite alternate;
+    height: 3px;
+}
+
+#line16 {
+    position: absolute;
+    transform: translate(-20vw, 80vw) rotate(40deg); 
+    width: 100%;
+    z-index: 500;
+    animation: line-rose 11s -100s infinite alternate;
+    height: 3px;
+}
+
+#line17 {
+    position: absolute;
+    transform: translate(-5vw, 30vw) rotate(20deg); 
+    width: 100%;
+    z-index: 500;
+    animation: line-rose 11s -100s infinite alternate;
+    height: 3px;
+}
+
+#line18 {
+    position: absolute;
+    transform: translate(-10vw, 70vw) rotate(-30deg); 
+    width: 100%;
+    z-index: 500;
+    animation: line-blue 11s -100s infinite alternate;
+    height: 3px;
+}
+
+#line19 {
+    position: absolute;
+    transform: translate(-8vw, 30vw) rotate(-20deg); 
+    width: 130%;
+    z-index: 500;
+    animation: line-blue 2.5s -10s infinite alternate;
+}
+
+#line20 {
+    position: absolute;
+    transform: translate(-5vw, 30vw) rotate(-20deg); 
+    width: 140%;
+    z-index: 500;
+    animation: line-blue 2.5s -10s infinite alternate;
+}
+
+#line21 {
+    position: absolute;
+    transform: translate(-15vw, 70vw) rotate(30deg); 
+    width: 200%;
+    height: 2px;
+    z-index: 500;
+    animation: line-rose 2.5s -10s infinite alternate;
 }
 
 .news-column {
@@ -1112,11 +1236,11 @@ main div:nth-child(10){
     max-width: 600px;
     max-height: 500px;
     box-shadow: 10px 10px 0px #000062;
+    z-index: 999;
 }
 
 #box-left {
     border: #51c9fe double 4px;
-
 }
 
 .about-title {
@@ -1133,6 +1257,7 @@ main div:nth-child(10){
     font-size: 1.4rem;
     display: inline;
     padding: 1%;
+    z-index: 999;
 }
 
 .content-background {
