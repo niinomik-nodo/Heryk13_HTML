@@ -5,7 +5,7 @@
     font-family: 'Source Sans 3', sans-serif;
 }
 
-body {
+body, html {
     overflow-x: hidden;
 }
 
@@ -1117,7 +1117,7 @@ main div:nth-child(10){
     cursor: pointer;
     padding: 10px;
     position: relative;
-    transform: translate(50vw, -10vw);
+    transform: translate(50vw, -9.5vw);
     background-size: 400% 400%;
 	animation: gradient 7s ease infinite;
     z-index: 999;
@@ -1444,7 +1444,7 @@ label {
       0 0 2rem #d64fd0;
 }
 
-.animation-2 a:nth-child(even) {
+.animation-2 a:nth-child(odd) {
     transform: translateY(20%);
     box-shadow:
         0 0 0.1rem #fff,
@@ -1457,7 +1457,7 @@ label {
         0 0 2rem #51c9fe;
 }
 
-.animation-2 a:nth-child(odd) {
+.animation-2 a:nth-child(even) {
     transform: translateY(-20%);
     box-shadow:
       0 0 0.1rem #fff,
