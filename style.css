@@ -722,31 +722,31 @@ main div:nth-child(10){
 #line2 {
     position: absolute;
     transform: translate(-10vw, -10vw) rotate(-20deg); 
-    width: 150%;
+    width: 115%;
     z-index: 500;
     animation: line-blue 3s -100s infinite alternate;
 }
 
 #line3 {
     position: absolute;
-    transform: rotate(20deg); 
-    width: 75%;
+    transform: translate(-12vw) rotate(20deg); 
+    width: 118%;
     z-index: 500;
     animation: line-blue 4s -100s infinite alternate;
 }
 
 #line4 {
     position: absolute;
-    transform: translateY(30vw) rotate(-40deg); 
-    width: 100%;
+    transform: translate(-15vw, 30vw) rotate(-35deg); 
+    width: 150%;
     z-index: 500;
     animation: line-rose 6s -100s infinite alternate;
 }
 
 #line5 {
     position: absolute;
-    transform: translate(-10vw, 10vw) rotate(40deg); 
-    width: 100%;
+    transform: translate(-18vw, 10vw) rotate(40deg); 
+    width: 130%;
     z-index: 500;
     animation: line-rose 5s -100s infinite alternate;
 }
@@ -754,7 +754,7 @@ main div:nth-child(10){
 #line6 {
     position: absolute;
     transform: translate(30vw, 0vw) rotate(-30deg); 
-    width: 60%;
+    width: 70%;
     z-index: 500;
     animation: line-blue 8s -100s infinite alternate;
 }
@@ -914,6 +914,7 @@ main div:nth-child(10){
     text-align: center;
     text-decoration: underline;
     font-size: 2.5rem;
+    z-index: 600;
 }
 
 .third-title-bottom {
@@ -1057,6 +1058,7 @@ main div:nth-child(10){
     width: 41%;
     height: 100%;
     max-height: 454px;
+    z-index: 510;
 }
 
 #third-pic {
@@ -1099,6 +1101,7 @@ main div:nth-child(10){
     bottom: 15%;
     background-size: 400% 400%;
 	animation: gradient 7s ease infinite;
+    z-index: 999;
 }
 
 @keyframes gradient {
