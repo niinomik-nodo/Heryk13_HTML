@@ -316,6 +316,7 @@ main div:nth-child(10){
 #member-content-down {
     display: flex;
     width: 85%;
+    margin: auto;
     justify-content: center;
 }
 
