@@ -10,6 +10,7 @@ body {
 }
 
 main {
+    padding: 3% 0px;
     margin-top: 63px;
     width: 100%;
     background-color: #00001c;
@@ -718,6 +719,7 @@ main div:nth-child(10){
     width: 75%;
     animation: line-rose 2.5s -10s infinite alternate;
     overflow: visible;
+    height: 2px;
 }
 
 #line2 {
@@ -855,30 +857,30 @@ main div:nth-child(10){
     overflow: visible;
     position: absolute;
     transform: translate(-20vw, 80vw) rotate(40deg); 
-    width: 100%;
+    width: 127%;
     z-index: 500;
     animation: line-rose 11s -40s infinite alternate;
-    height: 3px;
+    height: 2px;
 }
 
 #line17 {
     overflow: visible;
     position: absolute;
-    transform: translate(-5vw, 30vw) rotate(20deg); 
+    transform: translate(-5vw, 35vw) rotate(20deg); 
     width: 100%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
-    height: 3px;
+    height: 2px;
 }
 
 #line18 {
     overflow: visible;
     position: absolute;
-    transform: translate(-10vw, 70vw) rotate(-30deg); 
-    width: 100%;
+    transform: translate(-2vw, 70vw) rotate(-30deg); 
+    width: 109%;
     z-index: 500;
     animation: line-blue 11s -90s infinite alternate;
-    height: 3px;
+    height: 2px;
 }
 
 #line19 {
