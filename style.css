@@ -724,7 +724,7 @@ main div:nth-child(10){
     overflow: visible;
     position: absolute;
     transform: translate(-10vw, -10vw) rotate(-20deg); 
-    width: 115%;
+    width: 113%;
     z-index: 500;
     animation: line-blue 3s -100s infinite alternate;
 }
@@ -733,7 +733,7 @@ main div:nth-child(10){
     overflow: visible;
     position: absolute;
     transform: translate(-12vw) rotate(20deg); 
-    width: 118%;
+    width: 115%;
     z-index: 500;
     animation: line-blue 4s -100s infinite alternate;
 }
@@ -742,7 +742,7 @@ main div:nth-child(10){
     overflow: visible;
     position: absolute;
     transform: translate(-15vw, 30vw) rotate(-35deg); 
-    width: 130%;
+    width: 126%;
     z-index: 500;
     animation: line-rose 6s -100s infinite alternate;
 }
