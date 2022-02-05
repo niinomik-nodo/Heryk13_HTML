@@ -681,13 +681,13 @@ main div:nth-child(10){
 @keyframes flicker {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
       box-shadow:
-        0 0 0.5rem #fff,
-        0 0 0.8rem #fff,
-        0 0 1rem #fff,
-        0 0 2rem #d64fd0,
-        0 0 2.5rem #d64fd0,
-        0 0 3rem #d64fd0,
-        0 0 4rem #d64fd0,
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 50px #d64fd0,
+        0 0 60px #d64fd0,
+        0 0 70px #d64fd0,
+        0 0 80px #d64fd0,
         0 0 100px #d64fd0;
     }
     20%, 24%, 55% {       
@@ -968,14 +968,14 @@ main div:nth-child(10){
 @keyframes line-blue {
     0%, 15%, 23%, 29%, 57%, 75%, 100% {
       box-shadow:
-        0 0 0.5rem #fff,
-        0 0 0.8rem #fff,
-        0 0 1rem #fff,
-        0 0 2rem #51c8ff,
-        0 0 2.5rem #51c8ff,
-        0 0 3rem #51c8ff,
-        0 0 4rem #51c8ff,
-        0 0 5rem #51c8ff;
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #51c8ff,
+        0 0 50px #51c8ff,
+        0 0 60px #51c8ff,
+        0 0 70px #51c8ff,
+        0 0 80px #51c8ff;
     }
     22%, 24%, 54% {       
       box-shadow: none;
@@ -985,14 +985,14 @@ main div:nth-child(10){
 @keyframes line-rose {
     0%, 15%, 23%, 29%, 57%, 75%, 100% {
       box-shadow:
-        0 0 0.5rem #fff,
-        0 0 0.8rem #fff,
-        0 0 1rem #fff,
-        0 0 2rem #d64fd0,
-        0 0 2.5rem #d64fd0,
-        0 0 3rem #d64fd0,
-        0 0 4rem #d64fd0,
-        0 0 5rem #d64fd0;
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #d64fd0,
+        0 0 50px  #d64fd0,
+        0 0 60px #d64fd0,
+        0 0 70px #d64fd0,
+        0 0 80px #d64fd0;
     }
     22%, 24%, 54% {       
       box-shadow: none;
@@ -1020,14 +1020,14 @@ main div:nth-child(10){
   100% {
     /* Larger blur radius */
     box-shadow:
-      0 0 1px #fff,
       0 0 3px #fff,
-      0 0 7px #fff,
-      0 0 20px #d64fd0,
-      0 0 30px #d64fd0,
+      0 0 10px #fff,
+      0 0 20px #fff,
       0 0 40px #d64fd0,
       0 0 50px #d64fd0,
-      0 0 100px #d64fd0;
+      0 0 60px #d64fd0,
+      0 0 80px #d64fd0,
+      0 0 130px #d64fd0;
   }
   0% {
     /* Smaller blur radius */
