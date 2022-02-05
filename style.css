@@ -10,7 +10,6 @@ body {
 }
 
 main {
-    padding: 3% 0px;
     margin-top: 63px;
     width: 100%;
     background-color: #00001c;
@@ -18,6 +17,7 @@ main {
 }
 
 #talent {
+    overflow: hidden;
     background: -webkit-linear-gradient(top, #00001c, #1b3766);
 }
 
@@ -812,7 +812,7 @@ main div:nth-child(10){
     overflow: visible;
     position: absolute;
     transform: translate(0vw, 77vw) rotate(-20deg); 
-    width: 115%;
+    width: 152%;
     height: 2px;
     z-index: 500;
     animation: line-blue 11s -100s infinite alternate;
@@ -831,8 +831,8 @@ main div:nth-child(10){
 #line13 {
     overflow: visible;
     position: absolute;
-    transform: translate(0vw, 160vw) rotate(-20deg); 
-    width: 112%;
+    transform: translate(6vw, 158vw) rotate(-20deg); 
+    width: 134%;
     z-index: 500;
     animation: line-blue 11s -100s infinite alternate;
     height: 2px;
@@ -861,8 +861,8 @@ main div:nth-child(10){
 #line16 {
     overflow: visible;
     position: absolute;
-    transform: translate(-20vw, 80vw) rotate(40deg); 
-    width: 127%;
+    transform: translate(-15vw, 80vw) rotate(40deg); 
+    width: 130%;
     z-index: 500;
     animation: line-rose 11s -40s infinite alternate;
     height: 2px;
@@ -881,8 +881,8 @@ main div:nth-child(10){
 #line18 {
     overflow: visible;
     position: absolute;
-    transform: translate(-2vw, 70vw) rotate(-30deg); 
-    width: 109%;
+    transform: translate(-9vw, 70vw) rotate(-30deg); 
+    width: 117%;
     z-index: 500;
     animation: line-blue 11s -90s infinite alternate;
     height: 2px;
