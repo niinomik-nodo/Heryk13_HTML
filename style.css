@@ -751,7 +751,7 @@ main div:nth-child(10){
     overflow: visible;
     position: absolute;
     transform: translate(-18vw, 10vw) rotate(40deg); 
-    width: 130%;
+    width: 125%;
     z-index: 500;
     animation: line-rose 5s -100s infinite alternate;
 }
