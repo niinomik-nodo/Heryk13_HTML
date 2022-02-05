@@ -103,7 +103,7 @@ footer {
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding-top: 3rem;
+    padding-top: 4%;
     position: relative;
     z-index: 999;
 }
@@ -1290,6 +1290,7 @@ main div:nth-child(10){
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin: 3% 0px;
 }
 
 #gender-radio {
