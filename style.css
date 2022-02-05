@@ -750,7 +750,7 @@ main div:nth-child(10){
 #line5 {
     overflow: visible;
     position: absolute;
-    transform: translate(-15vw, -40vw) rotate(40deg); 
+    transform: translate(-13vw, -30vw) rotate(40deg); 
     width: 100%;
     z-index: 500;
     animation: line-rose 5s -100s infinite alternate;
@@ -759,7 +759,7 @@ main div:nth-child(10){
 #line6 {
     overflow: visible;
     position: absolute;
-    transform: translate(30vw, 0vw) rotate(-30deg); 
+    transform: translate(36vw, -10vw) rotate(-30deg); 
     width: 60%;
     z-index: 500;
     animation: line-blue 8s -100s infinite alternate;
