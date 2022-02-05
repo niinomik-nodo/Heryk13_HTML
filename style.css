@@ -688,7 +688,7 @@ main div:nth-child(10){
         0 0 2.5rem #d64fd0,
         0 0 3rem #d64fd0,
         0 0 4rem #d64fd0,
-        0 0 5rem #d64fd0;
+        0 0  #d64fd0;
     }
     20%, 24%, 55% {       
       box-shadow: none;
@@ -1002,14 +1002,14 @@ main div:nth-child(10){
 @keyframes flicker-rose {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
       text-shadow:
-        0 0 0.1rem #fff,
-        0 0 0.5rem #fff,
-        0 0 0.8rem #fff,
-        0 0 1rem #d64fd0,
-        0 0 1.3rem #d64fd0,
-        0 0 1.5rem #d64fd0,
-        0 0 1.8rem #d64fd0,
-        0 0 2rem #d64fd0;
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 50px #d64fd0,
+        0 0 60px #d64fd0,
+        0 0 70px #d64fd0,
+        0 0 80px #d64fd0,
+        0 0 100px #d64fd0;
     }
     20%, 24%, 55% {       
       text-shadow: none;
