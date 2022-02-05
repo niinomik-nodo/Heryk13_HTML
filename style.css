@@ -302,6 +302,8 @@ main div:nth-child(10){
 
 #member-content-right-box {
     border: #51c8ff double 4px;
+    width: 85%;
+    margin: auto;
 }
 
 #member-content-up {
@@ -313,6 +315,7 @@ main div:nth-child(10){
 
 #member-content-down {
     display: flex;
+    width: 85%;
     justify-content: center;
 }
 
@@ -790,6 +793,7 @@ main div:nth-child(10){
     position: absolute;
     transform: translate(-2vw, 0vw) rotate(-10deg); 
     width: 100%;
+    height: 2px;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
 }
@@ -797,18 +801,19 @@ main div:nth-child(10){
 #line10 {
     overflow: visible;
     position: absolute;
-    transform: translate(-7vw, 40vw) rotate(30deg); 
-    width: 120%;
+    transform: translate(-29vw, 78vw) rotate(50deg); 
+    width: 157%;
     z-index: 500;
+    height: 2px;
     animation: line-rose 11s -100s infinite alternate;
 }
 
 #line11 {
     overflow: visible;
     position: absolute;
-    transform: translate(0vw, -30vw) rotate(-20deg); 
-    width: 160%;
-    height: 3px;
+    transform: translate(0vw, 77vw) rotate(-20deg); 
+    width: 115%;
+    height: 2px;
     z-index: 500;
     animation: line-blue 11s -100s infinite alternate;
 }
@@ -816,41 +821,41 @@ main div:nth-child(10){
 #line12 {
     overflow: visible;
     position: absolute;
-    transform: translate(0vw, -28vw) rotate(18deg); 
+    transform: translate(0vw, 100vw) rotate(20deg); 
     width: 150%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
-    height: 3px;
+    height: 2px;
 }
 
 #line13 {
     overflow: visible;
     position: absolute;
-    transform: translate(0vw, 0vw) rotate(-20deg); 
-    width: 150%;
+    transform: translate(0vw, 160vw) rotate(-20deg); 
+    width: 112%;
     z-index: 500;
     animation: line-blue 11s -100s infinite alternate;
-    height: 3px;
+    height: 2px;
 }
 
 #line14 {
     overflow: visible;
     position: absolute;
-    transform: translate(0vw, 40vw) rotate(20deg); 
-    width: 150%;
+    transform: translate(0vw, 280vw) rotate(-20deg); 
+    width: 165%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
-    height: 3px;
+    height: 2px;
 }
 
 #line15 {
     overflow: visible;
     position: absolute;
-    transform: translate(-5vw, 30vw) rotate(20deg); 
-    width: 150%;
+    transform: translate(-9vw, -100vw) rotate(35deg); 
+    width: 120%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
-    height: 3px;
+    height: 2px;
 }
 
 #line16 {
@@ -886,16 +891,18 @@ main div:nth-child(10){
 #line19 {
     overflow: visible;
     position: absolute;
-    transform: translate(-8vw, 30vw) rotate(-20deg); 
-    width: 130%;
+    transform: translate(-8vw, 59vw) rotate(-30deg); 
+    width: 116%;
     z-index: 500;
+    height: 2px;
     animation: line-blue 2.5s -10s infinite alternate;
 }
 
 #line20 {
     position: absolute;
-    transform: translate(-5vw, 30vw) rotate(-20deg); 
+    transform: translate(-23vw, 25vw) rotate(63deg); 
     width: 140%;
+    height: 2px;
     z-index: 500;
     animation: line-blue 2.5s -12s infinite alternate;
 }
@@ -903,8 +910,28 @@ main div:nth-child(10){
 #line21 {
     overflow: hidden;
     position: absolute;
-    transform: translate(-15vw, 70vw) rotate(30deg); 
-    width: 200%;
+    transform: translate(-13vw, 70vw) rotate(34deg); 
+    width: 123%;
+    height: 2px;
+    z-index: 500;
+    animation: line-rose 2.5s -10s infinite alternate;
+}
+
+#line22 {
+    overflow: hidden;
+    position: absolute;
+    transform: translate(9vw, 50vw) rotate(-34deg); 
+    width: 100%;
+    height: 2px;
+    z-index: 500;
+    animation: line-rose 2.5s -10s infinite alternate;
+}
+
+#line23 {
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-4vw, 62vw) rotate(51deg); 
+    width: 20%;
     height: 2px;
     z-index: 500;
     animation: line-rose 2.5s -10s infinite alternate;
@@ -1653,7 +1680,7 @@ label {
     }
 
     #history {
-        width: 95%;
+        width: 85%;
     }
 
     #member-content-up {
@@ -1730,6 +1757,7 @@ label {
 
     #member-pic2 {
         display: inline-block;
+        width: 65%;
     }
 
     main div:nth-child(7){
@@ -1742,10 +1770,15 @@ label {
 
     #member-pic3 {
         display: inline-flex;
+        width: 65%;
     }
 
     .liver-img-anchor {
         width: 100%;
         max-width: 120px;
+    }
+
+    #member-pic {
+        width: 65%;
     }
 }
