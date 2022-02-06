@@ -231,6 +231,7 @@ footer {
     transform: translate(-50%);
     padding: 0.3rem;
     margin: 1rem auto;
+    z-index: 999;
 }
 
 #member-pic2 {
@@ -318,6 +319,8 @@ main div:nth-child(10){
     width: 85%;
     margin: auto;
     justify-content: center;
+    z-index: 999;
+    position: relative;
 }
 
 .member-name {
@@ -990,6 +993,46 @@ main div:nth-child(10){
     position: absolute;
     transform: translate(24vw, 94vw) rotate(-13deg); 
     width: 77%;
+    z-index: 500;
+    animation: line-rose 11s -100s infinite alternate;
+    height: 3px;
+}
+
+#line29 {
+    overflow: visible;
+    position: absolute;
+    transform: translate(-8vw, 55vw) rotate(30deg); 
+    width: 116%;
+    z-index: 500;
+    animation: line-rose 11s -100s infinite alternate;
+    height: 3px;
+}
+
+#line30 {
+    overflow: visible;
+    position: absolute;
+    transform: translate(-8vw, 75vw) rotate(-16deg); 
+    width: 111%;
+    z-index: 500;
+    animation: line-rose 11s -100s infinite alternate;
+    height: 3px;
+}
+
+#line31 {
+    overflow: visible;
+    position: absolute;
+    transform: translate(-8vw, 104vw) rotate(8deg); 
+    width: 111%;
+    z-index: 500;
+    animation: line-rose 11s -100s infinite alternate;
+    height: 3px;
+}
+
+#line32 {
+    overflow: visible;
+    position: absolute;
+    transform: translate(-8vw, 104vw) rotate(-14deg); 
+    width: 111%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
     height: 3px;
