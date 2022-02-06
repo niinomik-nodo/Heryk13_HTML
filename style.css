@@ -759,7 +759,7 @@ main div:nth-child(10){
 #line5 {
     overflow: visible;
     position: absolute;
-    transform: translate(-13vw, -30vw) rotate(40deg); 
+    transform: translate(-13vw, -79vw) rotate(40deg); 
     width: 100%;
     z-index: 500;
     height: 3px;
@@ -779,7 +779,7 @@ main div:nth-child(10){
 #line7 {
     overflow: visible;
     position: absolute;
-    transform: translate(-40vw, -35vw) rotate(50deg); 
+    transform: translate(-18vw, -26vw) rotate(50deg); 
     width: 100%;
     z-index: 500;
     height: 3px;
