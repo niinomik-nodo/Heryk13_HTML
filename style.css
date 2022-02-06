@@ -1815,7 +1815,7 @@ label {
 
     #member-pic2 {
         display: inline-block;
-        width: 65%;
+        width: 40%;
     }
 
     main div:nth-child(7){
@@ -1828,7 +1828,7 @@ label {
 
     #member-pic3 {
         display: inline-flex;
-        width: 65%;
+        width: 40%;
     }
 
     .liver-img-anchor {
@@ -1837,6 +1837,6 @@ label {
     }
 
     #member-pic {
-        width: 65%;
+        width: 40%;
     }
 }
