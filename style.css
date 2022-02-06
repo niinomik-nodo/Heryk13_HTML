@@ -723,7 +723,7 @@ main div:nth-child(10){
     width: 75%;
     animation: line-rose 2.5s -10s infinite alternate;
     overflow: visible;
-    height: 2px;
+    height: 3px;
 }
 
 #line2 {
@@ -732,6 +732,7 @@ main div:nth-child(10){
     transform: translate(-10vw, -10vw) rotate(-20deg); 
     width: 113%;
     z-index: 500;
+    height: 3px;
     animation: line-blue 3s -100s infinite alternate;
 }
 
@@ -741,6 +742,7 @@ main div:nth-child(10){
     transform: translate(-12vw) rotate(20deg); 
     width: 115%;
     z-index: 500;
+    height: 3px;
     animation: line-blue 4s -100s infinite alternate;
 }
 
@@ -750,6 +752,7 @@ main div:nth-child(10){
     transform: translate(-15vw, 30vw) rotate(-35deg); 
     width: 126%;
     z-index: 500;
+    height: 3px;
     animation: line-rose 6s -100s infinite alternate;
 }
 
@@ -759,6 +762,7 @@ main div:nth-child(10){
     transform: translate(-13vw, -30vw) rotate(40deg); 
     width: 100%;
     z-index: 500;
+    height: 3px;
     animation: line-rose 5s -100s infinite alternate;
 }
 
@@ -768,6 +772,7 @@ main div:nth-child(10){
     transform: translate(36vw, -10vw) rotate(-30deg); 
     width: 60%;
     z-index: 500;
+    height: 3px;
     animation: line-blue 8s -100s infinite alternate;
 }
 
@@ -777,6 +782,7 @@ main div:nth-child(10){
     transform: translate(-40vw, -35vw) rotate(50deg); 
     width: 100%;
     z-index: 500;
+    height: 3px;
     animation: line-rose 4.4s -100s infinite alternate;
 }
 
@@ -786,6 +792,7 @@ main div:nth-child(10){
     transform: translate(0vw, 0vw) rotate(-30deg); 
     width: 100%;
     z-index: 500;
+    height: 3px;
     animation: line-blue 11s -100s infinite alternate;
 }
 
@@ -794,7 +801,7 @@ main div:nth-child(10){
     position: absolute;
     transform: translate(-2vw, 0vw) rotate(-10deg); 
     width: 100%;
-    height: 2px;
+    height: 3px;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
 }
@@ -805,7 +812,7 @@ main div:nth-child(10){
     transform: translate(-29vw, 78vw) rotate(50deg); 
     width: 157%;
     z-index: 500;
-    height: 2px;
+    height: 3px;
     animation: line-rose 11s -100s infinite alternate;
 }
 
@@ -814,7 +821,7 @@ main div:nth-child(10){
     position: absolute;
     transform: translate(0vw, 77vw) rotate(-20deg); 
     width: 152%;
-    height: 2px;
+    height: 3px;
     z-index: 500;
     animation: line-blue 11s -100s infinite alternate;
 }
@@ -826,7 +833,7 @@ main div:nth-child(10){
     width: 150%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
-    height: 2px;
+    height: 3px;
 }
 
 #line13 {
@@ -836,7 +843,7 @@ main div:nth-child(10){
     width: 134%;
     z-index: 500;
     animation: line-blue 11s -100s infinite alternate;
-    height: 2px;
+    height: 3px;
 }
 
 #line14 {
@@ -846,7 +853,7 @@ main div:nth-child(10){
     width: 165%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
-    height: 2px;
+    height: 3px;
 }
 
 #line15 {
@@ -856,7 +863,7 @@ main div:nth-child(10){
     width: 120%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
-    height: 2px;
+    height: 3px;
 }
 
 #line16 {
@@ -866,7 +873,7 @@ main div:nth-child(10){
     width: 130%;
     z-index: 500;
     animation: line-rose 11s -40s infinite alternate;
-    height: 2px;
+    height: 3px;
 }
 
 #line17 {
@@ -876,7 +883,7 @@ main div:nth-child(10){
     width: 100%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
-    height: 2px;
+    height: 3px;
 }
 
 #line18 {
@@ -886,7 +893,7 @@ main div:nth-child(10){
     width: 117%;
     z-index: 500;
     animation: line-blue 11s -90s infinite alternate;
-    height: 2px;
+    height: 3px;
 }
 
 #line19 {
@@ -895,7 +902,7 @@ main div:nth-child(10){
     transform: translate(-8vw, 59vw) rotate(-30deg); 
     width: 116%;
     z-index: 500;
-    height: 2px;
+    height: 3px;
     animation: line-blue 2.5s -10s infinite alternate;
 }
 
@@ -903,7 +910,7 @@ main div:nth-child(10){
     position: absolute;
     transform: translate(-23vw, 25vw) rotate(63deg); 
     width: 140%;
-    height: 2px;
+    height: 3px;
     z-index: 500;
     animation: line-blue 2.5s -12s infinite alternate;
 }
@@ -913,7 +920,7 @@ main div:nth-child(10){
     position: absolute;
     transform: translate(-13vw, 70vw) rotate(34deg); 
     width: 123%;
-    height: 2px;
+    height: 3px;
     z-index: 500;
     animation: line-rose 2.5s -10s infinite alternate;
 }
@@ -923,7 +930,7 @@ main div:nth-child(10){
     position: absolute;
     transform: translate(9vw, 50vw) rotate(-34deg); 
     width: 100%;
-    height: 2px;
+    height: 3px;
     z-index: 500;
     animation: line-rose 2.5s -10s infinite alternate;
 }
@@ -933,7 +940,7 @@ main div:nth-child(10){
     position: absolute;
     transform: translate(-4vw, 62vw) rotate(51deg); 
     width: 20%;
-    height: 2px;
+    height: 3px;
     z-index: 500;
     animation: line-rose 2.5s -10s infinite alternate;
 }
