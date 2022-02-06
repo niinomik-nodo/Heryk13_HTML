@@ -905,8 +905,8 @@ main div:nth-child(10){
 
 #line20 {
     position: absolute;
-    transform: translate(-24vw, 16vw) rotate(63deg); 
-    width: 125%;
+    transform: translate(-24vw, 4vw) rotate(63deg); 
+    width: 120%;
     height: 3px;
     z-index: 500;
     animation: line-blue 2.5s -12s infinite alternate;
