@@ -833,16 +833,6 @@ main div:nth-child(10){
     animation: line-blue 11s -100s infinite alternate;
 }
 
-#line12 {
-    overflow: visible;
-    position: absolute;
-    transform: translate(0vw, 100vw) rotate(20deg); 
-    width: 150%;
-    z-index: 500;
-    animation: line-rose 11s -100s infinite alternate;
-    height: 3px;
-}
-
 #line13 {
     overflow: visible;
     position: absolute;
@@ -886,8 +876,8 @@ main div:nth-child(10){
 #line17 {
     overflow: visible;
     position: absolute;
-    transform: translate(-5vw, 35vw) rotate(20deg); 
-    width: 100%;
+    transform: translate(-4vw, 35vw) rotate(20deg); 
+    width: 107%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
     height: 3px;
@@ -986,17 +976,7 @@ main div:nth-child(10){
     overflow: visible;
     position: absolute;
     transform: translate(-7vw, 25vw) rotate(10deg); 
-    width: 114%;
-    z-index: 500;
-    animation: line-rose 11s -100s infinite alternate;
-    height: 3px;
-}
-
-#line28 {
-    overflow: visible;
-    position: absolute;
-    transform: translate(24vw, 94vw) rotate(-13deg); 
-    width: 77%;
+    width: 108%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
     height: 3px;
