@@ -1025,8 +1025,8 @@ main div:nth-child(10){
 #line33 {
     overflow: visible;
     position: absolute;
-    transform: translate(-15vw, 104vw) rotate(44deg); 
-    width: 135%;
+    transform: translate(-10vw, 70vw) rotate(44deg); 
+    width: 80%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
     height: 3px;
@@ -1035,8 +1035,8 @@ main div:nth-child(10){
 #line34 {
     overflow: visible;
     position: absolute;
-    transform: translate(-7vw, 95vw) rotate(-34deg); 
-    width: 118%;
+    transform: translate(48vw, 69vw) rotate(-34deg); 
+    width: 57%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
     height: 3px;
