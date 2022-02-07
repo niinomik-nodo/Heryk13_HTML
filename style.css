@@ -136,13 +136,14 @@ footer {
 
 .page-title {
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.8rem;
     text-align: center;
     width: 40%;
     margin: 1% auto;
     text-decoration: underline;
     position: relative;
     z-index: 999;
+    animation: flicker-blue 2.5s infinite alternate;
 }
 
 .page-sub-title {
@@ -160,8 +161,18 @@ footer {
     transform: translateY(1.8rem);
     background-color: #00001c;
     animation: flicker-rose 2.5s infinite alternate;
+    font-size: 2.8rem;
+}
+
+#qa-title {
+    animation: flicker-blue 2.5s infinite alternate;
     font-size: 3rem;
 }
+
+#member-title {
+    animation: flicker-rose 2.5s infinite alternate;
+}
+
 
 #info-contents {
     color: #fff;
@@ -281,6 +292,15 @@ main div:nth-child(10){
     font-size: 1.4rem;
     position: relative;
     z-index: 999;
+    box-shadow:
+        0 0 0.1rem #fff,
+        0 0 0.3rem #fff,
+        0 0 0.5rem #fff,
+        0 0 0.8rem #51c9fe,
+        0 0 1rem #51c9fe,
+        0 0 1.3rem #51c9fe,
+        0 0 1.8rem #51c9fe,
+        0 0 2rem #51c9fe;
 }
 
 #history {
@@ -418,12 +438,7 @@ main div:nth-child(10){
 }
 
 #contact-title {
-    text-align: center;
-    color: white;
-    font-size: 2rem;
-    background: black;
-    width: 70%;
-    margin-top: 2%;
+    font-size: 3rem;
 }
 
 .contact-box {
@@ -520,12 +535,13 @@ main div:nth-child(10){
 }
 
 .fa {
-    padding: 20px;
+    padding: 8px;
     font-size: 50px;
-    width: 50px;
+    width: fit-content;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
+    align-items: center;
+    border-radius: 19%;
 }
 
 .fa:hover {
@@ -536,14 +552,15 @@ main div:nth-child(10){
 .fa.fa-youtube {
     background: #bb0000;
     color: white;
+    font-size: 30px;
     }
 
 .fa.fa-instagram {
     color: transparent;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background-clip: text;
     -webkit-background-clip: text;
+    font-size: 40px;
     }
 
 .liver-background {
@@ -584,6 +601,7 @@ main div:nth-child(10){
 
 #talent-sub {
     background: linear-gradient(270deg, rgba(2,80,162,1) 10%, rgba(23,47,93,0.1) 100%);
+    border-radius: 20px;
 }
 
 .liver-img {
@@ -597,6 +615,15 @@ main div:nth-child(10){
     transform: translate(-50%);
     height: auto;
     border: solid #d14ece 2px;
+    box-shadow:
+        0 0 5px #fff,
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 20px #d64fd0,
+        0 0 25px  #d64fd0,
+        0 0 30px #d64fd0,
+        0 0 40px #d64fd0,
+        0 0 50px #d64fd0;
 }
 
 .liver-name {
@@ -608,6 +635,15 @@ main div:nth-child(10){
     justify-content: center;
     font-size: 1rem;
     transform: translateY(-50%);
+    text-shadow:
+        0 0 1px #fff,
+        0 0 2px #fff,
+        0 0 3px #fff,
+        0 0 10px #51c9fe,
+        0 0 20px #51c9fe,
+        0 0 25px #51c9fe,
+        0 0 30px #51c9fe,
+        0 0 50px #51c9fe;
 }
 
 #talent-no-face {
@@ -687,7 +723,16 @@ main div:nth-child(10){
     max-height: 330px;
     min-height: 150px;
     perspective: 450px;
-    z-index: 999;
+    z-index: 990;
+    box-shadow:
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #d64fd0,
+        0 0 50px  #d64fd0,
+        0 0 60px #d64fd0,
+        0 0 70px #d64fd0,
+        0 0 80px #d64fd0;
 }
 
 @keyframes flicker {
@@ -714,6 +759,8 @@ main div:nth-child(10){
 }
 
 #news {
+    position: relative;
+    z-index: 999;
     padding-top: 2%;
     padding-bottom: 1%;
     margin: 0 auto;
@@ -1097,6 +1144,15 @@ main div:nth-child(10){
     width: 80%;
     height: 45%;
     z-index: 999;
+    box-shadow:
+        0 0 0.1rem #fff,
+        0 0 0.3rem #fff,
+        0 0 0.5rem #fff,
+        0 0 0.8rem #51c9fe,
+        0 0 1rem #51c9fe,
+        0 0 1.3rem #51c9fe,
+        0 0 1.8rem #51c9fe,
+        0 0 2rem #51c9fe;
 }
 
 @keyframes line-blue {
@@ -1150,10 +1206,27 @@ main div:nth-child(10){
     }
   }
 
+  @keyframes flicker-blue {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+        0 0 1px #fff,
+        0 0 3px #fff,
+        0 0 5px #fff,
+        0 0 20px #51c8ff,
+        0 0 25px #51c8ff,
+        0 0 30px #51c8ff,
+        0 0 40px #51c8ff,
+        0 0 50px #51c8ff;
+    }
+    20%, 24%, 55% {       
+      text-shadow: none;
+    }
+  }
+
 @keyframes pulsate {
   100% {
     /* Larger blur radius */
-    box-shadow:
+    text-shadow:
       0 0 3px #fff,
       0 0 10px #fff,
       0 0 20px #fff,
@@ -1165,7 +1238,7 @@ main div:nth-child(10){
   }
   0% {
     /* Smaller blur radius */
-    box-shadow:
+    text-shadow:
       0 0 1px #fff,
       0 0 2px #fff,
       0 0 3px #fff,
@@ -1176,6 +1249,34 @@ main div:nth-child(10){
       0 0 50px #d64fd0;
   }
 }
+
+
+@keyframes pulsate-blue {
+    100% {
+      /* Larger blur radius */
+      text-shadow:
+        0 0 3px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #51c8ff,
+        0 0 50px #51c8ff,
+        0 0 60px #51c8ff,
+        0 0 80px #51c8ff,
+        0 0 130px #51c8ff;
+    }
+    0% {
+      /* Smaller blur radius */
+      text-shadow:
+        0 0 1px #fff,
+        0 0 2px #fff,
+        0 0 3px #fff,
+        0 0 7px #51c8ff,
+        0 0 25px #51c8ff,
+        0 0 35px #51c8ff,
+        0 0 40px #51c8ff,
+        0 0 50px #51c8ff;
+    }
+  }
 
 #second-line {
     top: 5%;
@@ -1191,14 +1292,25 @@ main div:nth-child(10){
         0 0 30px #51c8ff,
         0 0 40px #51c8ff,
         0 0 50px #51c8ff;
+        box-shadow:
+        0 0 0.1rem #fff,
+        0 0 0.3rem #fff,
+        0 0 0.5rem #fff,
+        0 0 0.8rem #51c9fe,
+        0 0 1rem #51c9fe,
+        0 0 1.3rem #51c9fe,
+        0 0 1.8rem #51c9fe,
+        0 0 2rem #51c9fe;
 }
 
 #dare {
     color: #ff00fe;
+    animation: pulsate 2.5s infinite alternate;
 }
 
 #haishoku {
     color: #51c8ff;
+    animation: pulsate-blue 2.5s infinite alternate;
 }
 
 #third-content {
@@ -1412,9 +1524,30 @@ main div:nth-child(10){
     margin: 1rem 0.5rem;
     border: #d14ece double 4px;
     font-size: 1.4rem;
+    box-shadow:
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #51c9fe,
+        0 0 45px #51c9fe,
+        0 0 50px #51c9fe,
+        0 0 60px #51c9fe,
+        0 0 70px #51c9fe;
     display: inline;
     padding: 1%;
     z-index: 999;
+}
+
+#box-right {
+    box-shadow:
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 30px #fff,
+      0 0 40px #d64fd0,
+      0 0 45px #d64fd0,
+      0 0 50px #d64fd0,
+      0 0 60px #d64fd0,
+      0 0 70px #d64fd0;
 }
 
 .content-background {
