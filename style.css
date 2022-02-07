@@ -592,7 +592,7 @@ main div:nth-child(10){
     margin: 3% auto;
     color: #fff;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     flex-wrap: wrap;
     align-content: center;
     position: relative;
@@ -635,15 +635,6 @@ main div:nth-child(10){
     justify-content: center;
     font-size: 1rem;
     transform: translateY(-50%);
-    text-shadow:
-        0 0 1px #fff,
-        0 0 2px #fff,
-        0 0 3px #fff,
-        0 0 10px #51c9fe,
-        0 0 20px #51c9fe,
-        0 0 25px #51c9fe,
-        0 0 30px #51c9fe,
-        0 0 50px #51c9fe;
 }
 
 #talent-no-face {
