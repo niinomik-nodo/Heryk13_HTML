@@ -1995,7 +1995,7 @@ label {
 
     #member-pic2 {
         display: inline-block;
-        width: 40%;
+        width: 60%;
     }
 
     main div:nth-child(7){
@@ -2008,7 +2008,7 @@ label {
 
     #member-pic3 {
         display: inline-flex;
-        width: 40%;
+        width: 60%;
     }
 
     .liver-img-anchor {
@@ -2017,6 +2017,6 @@ label {
     }
 
     #member-pic {
-        width: 40%;
+        width: 60%;
     }
 }
