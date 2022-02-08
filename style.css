@@ -243,6 +243,7 @@ footer {
     position: relative;
     display: inline-flex;
     left: 50%;
+    width: fit-content;
     transform: translate(-50%);
     padding: 0.1rem;
     margin: 2rem auto;
@@ -263,6 +264,7 @@ footer {
     position: relative;
     display: none;
     left: 50%;
+    width: fit-content;
     transform: translate(-50%);
     padding: 0.1rem;
     z-index: 999;
@@ -283,6 +285,7 @@ footer {
     position: relative;
     display: none;
     left: 50%;
+    width: fit-content;
     transform: translate(-50%);
     padding: 0.1rem;
     margin: 3.5rem auto;
@@ -379,7 +382,7 @@ footer {
 
 #member-content-down {
     display: flex;
-    width: 85%;
+    width: 100%;
     margin: auto;
     justify-content: center;
     z-index: 999;
@@ -774,14 +777,14 @@ footer {
     perspective: 450px;
     z-index: 990;
     box-shadow:
-        0 0 10px #fff,
-        0 0 20px #fff,
-        0 0 30px #fff,
-        0 0 40px #d64fd0,
-        0 0 50px  #d64fd0,
-        0 0 60px #d64fd0,
-        0 0 70px #d64fd0,
-        0 0 80px #d64fd0;
+        0 0 1px #fff,
+        0 0 3px #fff,
+        0 0 5px #fff,
+        0 0 8px #d64fd0,
+        0 0 10px  #d64fd0,
+        0 0 15px #d64fd0,
+        0 0 20px #d64fd0,
+        0 0 30px #d64fd0;
 }
 
 @keyframes flicker {
@@ -1534,6 +1537,7 @@ footer {
 
 #box-left {
     border: #51c9fe double 4px;
+    
 }
 
 .about-title {
@@ -1546,32 +1550,47 @@ footer {
     background: rgba(83, 83, 83, 0.5);
     width: fit-content;
     margin: 1rem 0.5rem;
-    border: #d14ece double 4px;
     font-size: 1.4rem;
-    box-shadow:
-        0 0 3px #fff,
-        0 0 5px #fff,
-        0 0 10px #fff,
-        0 0 20px #51c9fe,
-        0 0 25px #51c9fe,
-        0 0 30px #51c9fe,
-        0 0 35px #51c9fe,
-        0 0 40px #51c9fe;
     display: inline;
     padding: 1%;
     z-index: 999;
 }
 
-#box-right {
-    box-shadow:
+#about-title-right {
+    text-shadow:
+        0 0 1px #fff,
+        0 0 3px #fff,
+        0 0 5px #fff,
+        0 0 8px #51c9fe,
+        0 0 10px #51c9fe,
+        0 0 13px #51c9fe,
+        0 0 15px #51c9fe,
+        0 0 18px #51c9fe;
+}
+
+#about-title-left {
+    text-shadow:
+      0 0 1px #fff,
       0 0 3px #fff,
       0 0 5px #fff,
-      0 0 10px #fff,
-      0 0 20px #d64fd0,
-      0 0 25px #d64fd0,
-      0 0 30px #d64fd0,
-      0 0 35px #d64fd0,
-      0 0 40px #d64fd0;
+      0 0 8px #d64fd0,
+      0 0 10px #d64fd0,
+      0 0 13px #d64fd0,
+      0 0 15px #d64fd0,
+      0 0 18px #d64fd0;
+}
+
+#box-right {
+    border: #d14ece double 4px;
+}
+
+#liver-attention {
+    color: #fff;
+    font-size: 0.7rem;
+    position: relative;
+    display: block;
+    left: 55%;
+    margin: 0.5rem 0 2rem 0;
 }
 
 .content-background {
@@ -2011,12 +2030,12 @@ label {
 
     #member-pic2 {
         display: inline-block;
-        width: 70%;
+        width: fit-content;
     }
 
     #member-pic3 {
         display: inline-flex;
-        width: 70%;
+        width: fit-content;
     }
 
     .liver-img-anchor {
@@ -2025,7 +2044,7 @@ label {
     }
 
     #member-pic {
-        width: 70%;
+        width: fit-content;
     }
 
     #member-content-right-box2 {
