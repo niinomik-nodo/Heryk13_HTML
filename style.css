@@ -910,7 +910,7 @@ footer {
     overflow: visible;
     position: absolute;
     transform: translate(-29vw, 78vw) rotate(50deg); 
-    width: 157%;
+    width: 156.5%;
     z-index: 500;
     height: 3px;
     animation: line-rose 11s -100s infinite alternate;
