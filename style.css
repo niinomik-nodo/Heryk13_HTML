@@ -980,7 +980,7 @@ footer {
     overflow: visible;
     position: absolute;
     transform: translate(-9vw, 70vw) rotate(-30deg); 
-    width: 117%;
+    width: 116%;
     z-index: 500;
     animation: line-blue 11s -90s infinite alternate;
     height: 3px;
@@ -1049,7 +1049,7 @@ footer {
     overflow: visible;
     position: absolute;
     transform: translate(-7vw, -11vw) rotate(28deg); 
-    width: 114%;
+    width: 113%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
     height: 3px;
@@ -1059,7 +1059,7 @@ footer {
     overflow: visible;
     position: absolute;
     transform: translate(-7vw, -11vw) rotate(-28deg); 
-    width: 114%;
+    width: 113%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
     height: 3px;
