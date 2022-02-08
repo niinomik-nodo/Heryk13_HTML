@@ -641,6 +641,7 @@ footer {
 #talent-sub {
     background: linear-gradient(270deg, rgba(2,80,162,1) 10%, rgba(23,47,93,0.1) 100%);
     border-radius: 20px;
+    margin: 1rem auto 2rem auto;
 }
 
 .liver-img {
@@ -654,6 +655,7 @@ footer {
     transform: translate(-50%);
     height: auto;
     border: solid #d14ece 2px;
+    border-radius: 10px;
 
 }
 
