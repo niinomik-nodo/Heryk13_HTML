@@ -271,14 +271,6 @@ footer {
     z-index: 999;
 }
 
-main div:nth-child(7){
-    display: none;
-}
-
-main div:nth-child(10){
-    display: none;
-}
-
 .member-img {
     display: inline-block;
     padding: 0.2rem;
