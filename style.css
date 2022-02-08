@@ -164,6 +164,10 @@ footer {
     font-size: 2.8rem;
 }
 
+#liver-title {
+    animation: flicker-rose 2.5s infinite alternate;
+}
+
 #qa-title {
     animation: flicker-blue 2.5s infinite alternate;
     font-size: 3rem;
@@ -1184,13 +1188,13 @@ main div:nth-child(10){
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
       text-shadow:
         0 0 1px #fff,
+        0 0 2px #fff,
         0 0 3px #fff,
-        0 0 5px #fff,
+        0 0 15px #d64fd0,
         0 0 20px #d64fd0,
         0 0 25px #d64fd0,
         0 0 30px #d64fd0,
-        0 0 40px #d64fd0,
-        0 0 50px #d64fd0;
+        0 0 35px #d64fd0;
     }
     20%, 24%, 55% {       
       text-shadow: none;
@@ -1201,13 +1205,13 @@ main div:nth-child(10){
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
       text-shadow:
         0 0 1px #fff,
+        0 0 2px #fff,
         0 0 3px #fff,
-        0 0 5px #fff,
+        0 0 15px #51c8ff,
         0 0 20px #51c8ff,
         0 0 25px #51c8ff,
         0 0 30px #51c8ff,
-        0 0 40px #51c8ff,
-        0 0 50px #51c8ff;
+        0 0 35px #51c8ff;
     }
     20%, 24%, 55% {       
       text-shadow: none;
