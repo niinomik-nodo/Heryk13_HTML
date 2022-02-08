@@ -1244,14 +1244,14 @@ footer {
 @keyframes flicker-rose {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
       text-shadow:
+        0 0 0.8px #fff,
         0 0 1px #fff,
         0 0 2px #fff,
-        0 0 3px #fff,
-        0 0 15px #d64fd0,
+        0 0 10px #d64fd0,
         0 0 20px #d64fd0,
         0 0 25px #d64fd0,
-        0 0 30px #d64fd0,
-        0 0 35px #d64fd0;
+        0 0 28px #d64fd0,
+        0 0 30px #d64fd0;
     }
     20%, 24%, 55% {       
       text-shadow: none;
