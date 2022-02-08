@@ -993,7 +993,7 @@ footer {
     overflow: visible;
     position: absolute;
     transform: translate(-8vw, 59vw) rotate(-30deg); 
-    width: 116%;
+    width: 115.5%;
     z-index: 500;
     height: 3px;
     animation: line-blue 2.5s -10s infinite alternate;
