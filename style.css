@@ -244,7 +244,7 @@ footer {
     display: inline-flex;
     left: 50%;
     transform: translate(-50%);
-    padding: 0.3rem;
+    padding: 0.1rem;
     margin: 2rem auto;
     z-index: 999;
     box-shadow:
@@ -264,7 +264,7 @@ footer {
     display: none;
     left: 50%;
     transform: translate(-50%);
-    padding: 0.3rem;
+    padding: 0.1rem;
     z-index: 999;
     margin: 3.5rem auto;
     box-shadow:
@@ -284,7 +284,7 @@ footer {
     display: none;
     left: 50%;
     transform: translate(-50%);
-    padding: 0.3rem;
+    padding: 0.1rem;
     margin: 3.5rem auto;
     z-index: 999;
     box-shadow:
@@ -1109,7 +1109,7 @@ footer {
     overflow: visible;
     position: absolute;
     transform: translate(-5vw, 104vw) rotate(-24deg); 
-    width: 111%;
+    width: 110%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
     height: 3px;
