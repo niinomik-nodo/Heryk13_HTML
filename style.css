@@ -802,9 +802,14 @@ footer {
   }
 
 .news-wrapper {
-    position: relative;
+    transform: perspective(300px) rotateX(25deg);
+    transform-origin: 50% 100%;
+    position: absolute;
     width: 100%;
-    animation:  scroll 20s linear infinite;
+    overflow: clip;
+    height: 100%;
+    top: 30%;
+    animation:  scroll 100s linear 16s;
 }
 
 #news {
@@ -1150,11 +1155,6 @@ footer {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-}
-
-@keyframes scroll {
-    from { transform: translateY(-1850px) translateZ(-700px) rotateX(20deg) }
-    to { transform: translateY(0px) translateZ(0px) rotateX(25deg)}
 }
 
 .third-title-up {
@@ -2011,12 +2011,12 @@ label {
 
     #member-pic2 {
         display: inline-block;
-        width: 53%;
+        width: 70%;
     }
 
     #member-pic3 {
         display: inline-flex;
-        width: 53%;
+        width: 70%;
     }
 
     .liver-img-anchor {
@@ -2025,7 +2025,7 @@ label {
     }
 
     #member-pic {
-        width: 53%;
+        width: 70%;
     }
 
     #member-content-right-box2 {
