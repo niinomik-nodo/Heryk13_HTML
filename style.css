@@ -1486,13 +1486,13 @@ footer {
     z-index: 950;
     box-shadow:
         0 0 10px #fff,
-        0 0 20px #fff,
-        0 0 30px #fff,
+        0 0 15px #fff,
+        0 0 18px #fff,
+        0 0 20px #51c9fe,
+        0 0 35px #51c9fe,
         0 0 40px #51c9fe,
-        0 0 45px #51c9fe,
         0 0 50px #51c9fe,
-        0 0 60px #51c9fe,
-        0 0 70px #51c9fe;
+        0 0 60px #51c9fe;
     transform: translateY(-300%);
     animation: flicker-rose 4.5s infinite alternate;
 }
