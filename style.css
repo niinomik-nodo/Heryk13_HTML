@@ -361,6 +361,7 @@ footer {
     border: #51c8ff double 4px;
     width: 45%;
     margin: auto;
+    min-height: 310px;
 }
 
 #member-content-right-box2 {
@@ -1112,6 +1113,7 @@ footer {
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
     height: 3px;
+    display: none;
 }
 
 #line33 {
@@ -1122,6 +1124,7 @@ footer {
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
     height: 3px;
+    display: none;
 }
 
 #line34 {
@@ -1132,6 +1135,7 @@ footer {
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
     height: 3px;
+    display: none;
 }
 
 .news-column {
@@ -2054,6 +2058,18 @@ label {
     }
 
     #member-content-right-box2 {
+        display: block;
+    }
+
+    #line33 {
+        display: block;
+    }
+
+    #line32 {
+        display: block;
+    }
+
+    #line34 {
         display: block;
     }
 }
