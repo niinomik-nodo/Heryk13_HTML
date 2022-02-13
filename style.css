@@ -770,11 +770,12 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: auto;
     position: relative;
+    perspective: 400px;
     max-height: 330px;
     min-height: 150px;
-    perspective: 450px;
     z-index: 990;
     box-shadow:
         0 0 1px #fff,
@@ -804,15 +805,25 @@ footer {
     }
   }
 
+  @keyframes crawl {
+    0% {
+        top: 0px;
+        transform: rotateX(20deg) translateZ(0);
+    }
+    100% {
+        top: -6000px;
+        transform: rotateX(25deg) translateZ(-2500px);
+    }
+  }
+
 .news-wrapper {
-    transform: perspective(300px) rotateX(25deg);
-    transform-origin: 50% 100%;
-    position: absolute;
     width: 100%;
-    overflow: clip;
+    overflow: hidden;
     height: 100%;
-    top: 30%;
-    animation:  scroll 100s linear 16s;
+    position: relative;
+    top: -100px;
+    transform-origin: 50% 100%;
+    animation: crawl 60s linear;
 }
 
 #news {
