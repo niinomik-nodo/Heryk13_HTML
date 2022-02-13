@@ -244,6 +244,7 @@ footer {
     transition: max-height 0.8s ease-out;
     font-size: 2rem;
     padding: 10px;
+    margin: 6% auto;
 }
 
 .arrow-down {
