@@ -150,7 +150,7 @@ footer {
     color: #fff;
     font-size: 1.8rem;
     text-align: center;
-    width: 60%;
+    width: 50%;
     box-shadow: 0 0 0.1rem #fff, inset 0 0 0.3rem #fff, inset 0 0 0.5rem #fff, 
                 0 0 0.8rem #d14ece, 0 0 1rem #d14ece, 
                 inset 0 0 1.3rem #d14ece, inset 0 0 1.8rem #d14ece, inset 0 0 2rem #d14ece;
@@ -431,7 +431,7 @@ footer {
 
 #contact-sub-title {
     background: none;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .contact-content {
