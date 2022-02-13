@@ -159,6 +159,7 @@ footer {
     background: -webkit-linear-gradient(left, #141168, #022c7e);
     position: relative;
     z-index: 999;
+    padding: 10px;
 }
 
 #info-title {
