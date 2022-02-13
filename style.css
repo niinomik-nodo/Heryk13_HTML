@@ -2090,4 +2090,8 @@ label {
     #line34 {
         display: block;
     }
+
+    .page-sub-title {
+        width: 80%;
+    }
 }
