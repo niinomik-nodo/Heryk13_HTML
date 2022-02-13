@@ -150,8 +150,12 @@ footer {
     color: #fff;
     font-size: 2rem;
     text-align: center;
-    width: 75%;
-    margin: auto;
+    width: 50%;
+    box-shadow: 0 0 0.1rem #fff, inset 0 0 0.3rem #fff, inset 0 0 0.5rem #fff, 
+                0 0 0.8rem #d14ece, 0 0 1rem #d14ece, 
+                inset 0 0 1.3rem #d14ece, inset 0 0 1.8rem #d14ece, inset 0 0 2rem #d14ece;
+    border-radius: 10px;
+    margin: 4% auto;
     background: -webkit-linear-gradient(left, #141168, #022c7e);
     position: relative;
     z-index: 999;
@@ -207,6 +211,11 @@ footer {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 0 3px #fff, inset 0 0 5px #fff, inset 0 0 8px #fff, 
+                0 0 10px #0641cd, 0 0 20px #0641cd, 
+                inset 0 0 30px #0641cd, inset 0 0 40px #0641cd, inset 0 0 50px #0641cd;
+    padding: 10px;
 }
 
 .qa-answear {
@@ -221,13 +230,19 @@ footer {
     align-items: center;
     overflow: hidden;
     max-height: 0;
-    transition: max-height 0.4s ease;
+    transition: max-height 0.4s ease, padding 0.6s ease;
+    box-shadow: 0 0 3px #fff, inset 0 0 5px #fff, inset 0 0 8px #fff, 
+                0 0 10px #d14ece, 0 0 20px #d14ece, 
+                inset 0 0 30px #d14ece, inset 0 0 40px #d14ece, inset 0 0 50px #d14ece;
+    border-radius: 4px;
+    padding: 0;
 }
 
 .qa-answear.active {
     max-height: 300px;
     transition: max-height 0.8s ease-out;
     font-size: 2rem;
+    padding: 10px;
 }
 
 .arrow-down {
@@ -694,6 +709,7 @@ footer {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
     font-size: 1rem;
     transform: translateY(-50%);
 }
@@ -1218,7 +1234,7 @@ footer {
         0 0 1rem #51c9fe,
         0 0 1.3rem #51c9fe,
         0 0 1.8rem #51c9fe,
-        0 0 2rem #51c9fe;
+        inset 0 0 2rem #51c9fe;
 }
 
 @keyframes line-blue {
@@ -1366,7 +1382,7 @@ footer {
         0 0 1rem #51c9fe,
         0 0 1.3rem #51c9fe,
         0 0 1.8rem #51c9fe,
-        0 0 2rem #51c9fe;
+        inset 0 0 2rem #51c9fe;
 }
 
 #dare {
