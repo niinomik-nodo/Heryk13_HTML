@@ -499,6 +499,9 @@ footer {
 
 #contact-title {
     font-size: 3rem;
+    color: white;
+    background-color: #00001c;
+    width: 70%;
 }
 
 .contact-box {
