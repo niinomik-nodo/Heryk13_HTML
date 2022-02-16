@@ -2079,8 +2079,12 @@ label {
         display: block;
     }
 
-    #news, .third-title-up {
+    .third-title-up {
         font-size: 5vw;
+    }
+
+    #news {
+        font-size: 10vw;
     }
 
     .third-title-bottom {
@@ -2089,5 +2093,10 @@ label {
 
     #third-txt {
         font-size: 2.18vw;
+    }
+
+    #news-content {
+        width: 90%;
+        height: 40vw;
     }
 }
