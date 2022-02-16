@@ -1401,9 +1401,8 @@ footer {
 }
 
 .third-img {
-    width: 50%;
-    height: 100%;
-    max-height: 454px;
+    width: 48%;
+    height: auto;
     z-index: 510;
     position: relative;
     display: block;
@@ -1427,7 +1426,7 @@ footer {
 }
 
 #pic2 {
-    margin-left: 49vw;
+    margin-left: 52vw;
     transform: translateY(-13vw);
 }
 
