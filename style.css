@@ -778,7 +778,7 @@ footer {
     height: 29vw;
     background: rgba(34, 91, 141, 0.7);
     text-align: center;
-    width: 80%;
+    width: 75%;
     margin: auto;
     position: relative;
     z-index: 990;
@@ -1231,7 +1231,7 @@ footer {
         inset 0 0 2rem #51c9fe;
     margin: auto;
     position: relative;
-    transform: translateY(-25px);
+    transform: translateY(-7vw);
 }
 
 @keyframes line-blue {
@@ -1361,6 +1361,7 @@ footer {
     width: 100%;
     height: auto;
     padding: 10vw;
+    transform: translate(2%, 4%);
     border: #53c8fe solid 0.2vw;
     text-shadow:
         0 0 5px #fff,
@@ -1371,7 +1372,7 @@ footer {
         0 0 30px #51c8ff,
         0 0 40px #51c8ff,
         0 0 50px #51c8ff;
-        box-shadow:
+    box-shadow:
         0 0 0.1rem #fff,
         0 0 0.3rem #fff,
         0 0 0.5rem #fff,
@@ -1400,7 +1401,7 @@ footer {
 }
 
 .third-img {
-    width: 41%;
+    width: 50%;
     height: 100%;
     max-height: 454px;
     z-index: 510;
@@ -1426,9 +1427,8 @@ footer {
 }
 
 #pic2 {
-    position: relative;
-    margin-left: 58.5vw;
-    transform: translateY(-8vw);
+    margin-left: 49vw;
+    transform: translateY(-13vw);
 }
 
 .top-button {
@@ -1448,8 +1448,10 @@ footer {
 
 #top-button-a {
     position: absolute;
-    right: 29vw;
-    bottom: 11vw;
+    bottom: 23vw;
+    left: 50%;
+    z-index: 600;
+    transform: translateX(-50%);
 }
 
 @keyframes gradient {
@@ -2078,4 +2080,15 @@ label {
         display: block;
     }
 
+    #news, .third-title-up {
+        font-size: 5vw;
+    }
+
+    .third-title-bottom {
+        font-size: 4vw;
+    }
+
+    #third-txt {
+        font-size: 2.18vw;
+    }
 }
