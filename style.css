@@ -124,8 +124,12 @@ footer {
     display: inline-flex;
     list-style-type: none;
     flex-wrap: wrap;
-    width: 60%;
+    width: 70%;
     justify-content: space-around;
+}
+
+#footer-li {
+    margin: auto 5px;
 }
 
 #footer-logo {
@@ -1937,10 +1941,6 @@ label {
 
     #step-txt {
         font-size: 1rem;
-    }
-
-    .footer-ul {
-        width: 90%;
     }
 
     .qa-content, .member-name, .qa-answear.active, .qa-answear {
