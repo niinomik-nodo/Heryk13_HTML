@@ -12,6 +12,16 @@ menu.addEventListener('click', function() {
 const question = document.querySelectorAll('.qa-content');
 const answear = document.querySelectorAll('.qa-answear');
 
+    const scrollContainer = document.querySelector('#news-content');
+
+    scrollContainer.addEventListener('mouseenter', (evt) => {
+        document.querySelector('#test1234').classList.toggle('paused')
+    });
+
+    scrollContainer.addEventListener('mouseleave', (evt) => {
+        document.querySelector('#test1234').classList.toggle('paused')
+    });
+  
 
 if (document.body.className == 'qa-body') {
     question[1].style.background = '#0455e4'

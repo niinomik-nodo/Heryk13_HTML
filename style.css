@@ -776,6 +776,15 @@ footer {
     margin: 3%;
 }
 
+#news-content:after {
+    position: absolute;
+    content: '';
+    bottom: 60%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
 #news-content {
     overflow: hidden;
     border: #d64fd0 solid 1.5;
@@ -785,6 +794,8 @@ footer {
     width: 75%;
     margin: auto;
     position: relative;
+    font-weight: bold;
+    font-size: 350%;
     z-index: 990;
     box-shadow:
         0 0 1px #fff,
@@ -848,6 +859,18 @@ footer {
 
 
 */
+
+.news-wrapper {
+    animation: scroll 10s linear 1s infinite;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    perspective: 200px;
+}
+
+@keyframes scroll {
+}
+
 
 #news {
     position: relative;
@@ -1193,7 +1216,21 @@ footer {
     margin: auto;
     justify-content: space-evenly;
     align-items: center;
-    transform: translateZ(0);
+}
+
+#test1234 {
+    transform: rotateX(7deg) translateY(40vw) translateZ(100px);
+    width: auto;
+    animation: animateCrawl 20s ease-in infinite;
+    height: auto;
+}
+
+#test1234.paused {
+    animation-play-state: paused;
+}
+
+@keyframes animateCrawl {
+    to { transform: rotateX(7deg) translateY(-103vw) translateZ(100px); }
 }
 
 .third-title-up {
