@@ -2080,7 +2080,7 @@ label {
     }
 
     .third-title-up {
-        font-size: 5vw;
+        font-size: 7vw;
     }
 
     #news {
@@ -2088,15 +2088,20 @@ label {
     }
 
     .third-title-bottom {
-        font-size: 4vw;
+        font-size: 6vw;
     }
 
     #third-txt {
-        font-size: 2.18vw;
+        font-size: 2.8vw;
     }
 
     #news-content {
         width: 90%;
         height: 40vw;
     }
+
+    #first-line {
+        width: 90%;
+    }
+
 }
