@@ -11,16 +11,6 @@ menu.addEventListener('click', function() {
 /**q&a answear appear */
 const question = document.querySelectorAll('.qa-content');
 const answear = document.querySelectorAll('.qa-answear');
-
-    const scrollContainer = document.querySelector('#news-content');
-
-    scrollContainer.addEventListener('mouseenter', (evt) => {
-        document.querySelector('#test1234').classList.toggle('paused')
-    });
-
-    scrollContainer.addEventListener('mouseleave', (evt) => {
-        document.querySelector('#test1234').classList.toggle('paused')
-    });
   
 
 if (document.body.className == 'qa-body') {

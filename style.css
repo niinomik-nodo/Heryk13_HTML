@@ -527,7 +527,7 @@ footer {
 
 .normal {
     width: 50%;
-    background: url(images/step3.jpg) no-repeat;
+    background: url(images/laptop.jpg) no-repeat;
     background-size: cover;
     max-height: 500px;
     height: 50vw;
@@ -536,7 +536,7 @@ footer {
 }
 
 #normal-right {
-    background: url(images/laptop.jpg) no-repeat;
+    background: url(images/step3.jpg) no-repeat;
     background-size: cover;
 }
 
