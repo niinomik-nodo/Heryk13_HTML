@@ -659,7 +659,7 @@ footer {
     margin: 3% auto;
     color: #fff;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: center;
     position: relative;
