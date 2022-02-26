@@ -7,6 +7,7 @@
 
 body {
     overflow-x: hidden;
+    font-size: 62.5%;
 }
 
 main {
@@ -69,6 +70,7 @@ main {
 #navbar_title {
     color: #fff;
     margin-left: 10px;
+    font-size: 1em;
 }
 
 .navbar_menu {
@@ -143,7 +145,7 @@ footer {
     font-size: 2.8rem;
     text-align: center;
     width: 40%;
-    margin: 7% auto;
+    margin: 0.3em auto;
     text-decoration: underline;
     position: relative;
     z-index: 999;
@@ -226,9 +228,9 @@ footer {
 .qa-answear {
     color: #fff;
     margin: 6% auto;
-    width: 75%;
+    width: 70%;
     font-size: 2rem;
-    margin: 2% auto 0 auto;
+    margin: 3% auto;
     font-size: 2rem;
     background: #0641cd;
     display: flex;
@@ -246,10 +248,10 @@ footer {
 
 .qa-answear.active {
     max-height: 300px;
-    transition: max-height 0.8s ease-out;
+    transition: max-height 0.8s ease-out, padding 0.5s ease-out;
     font-size: 2rem;
-    padding: 10px;
-    margin: 6% auto;
+    padding: 20px;
+    margin: 3% auto;
 }
 
 .arrow-down {
@@ -435,7 +437,7 @@ footer {
 
 #contact-sub-title {
     background: none;
-    font-size: 1.5rem;
+    font-size: 3em;
 }
 
 .contact-content {
@@ -494,6 +496,7 @@ footer {
 }
 
 .contact {
+    margin-top: 15px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -502,9 +505,9 @@ footer {
 }
 
 #contact-title {
-    font-size: 3rem;
+    font-size: 2em;
     color: white;
-    background-color: #00001c;
+    background-color: #000000;
     width: 70%;
 }
 
@@ -1401,7 +1404,7 @@ footer {
 #second-line {
     width: 100%;
     height: auto;
-    padding: 10vw;
+    padding: 4.3em;
     transform: translate(2%, 4%);
     border: #53c8fe solid 0.2vw;
     text-shadow:
@@ -1472,7 +1475,7 @@ footer {
 }
 
 .top-button {
-    font-size: 2.5vw;
+    font-size: 3em;
     background: -webkit-linear-gradient(left, #d14ece, #51c8ff);
     color: white;
     width: auto;
@@ -1656,7 +1659,7 @@ footer {
 
 #liver-attention {
     color: #fff;
-    font-size: 0.7rem;
+    font-size: 1.3em;
     position: relative;
     display: block;
     left: 55%;
@@ -1977,11 +1980,21 @@ label {
     }
 
     #step-txt {
-        font-size: 1rem;
+        font-size: 0.9em;
     }
 
-    .qa-content, .member-name, .qa-answear.active, .qa-answear {
+    .member-name{
         font-size: 1.1rem;
+    }
+
+    .qa-answear, .qa-answear.active {
+        font-size: 0.9em;
+        width: 90%;
+    }
+
+    .qa-content {
+        font-size: 1.4em;
+        width: 93%;
     }
 
     .contact-img {
@@ -2039,7 +2052,7 @@ label {
     }
 
     #contact-box-title {
-        font-size: 1.8rem;
+        font-size: 0.6em;
     }
 
     #shozo {
@@ -2052,15 +2065,15 @@ label {
     }
 
     .liver-txt {
-        font-size: 0.65rem;
+        font-size: 0.78em;
     }
 
     .about-content {
-        font-size: 0.55rem;
+        font-size: 0.41em;
     }
 
     .liver-name {
-        font-size: 0.8rem;
+        font-size: 1em;
     }
 
     .footer_links {
@@ -2129,7 +2142,7 @@ label {
     }
 
     #third-txt {
-        font-size: 2.5vw;
+        font-size: 2.7vw;
     }
 
     #news-content {
@@ -2138,7 +2151,16 @@ label {
     }
 
     #first-line {
-        width: 90%;
+        width: 95%;
     }
 
+    #contact-sub-title {
+        background: none;
+        font-size: 1.6em;
+        width: 80%;
+    }
+
+    .top-button {
+        font-size: 1.6em;
+    }
 }
