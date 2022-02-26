@@ -191,14 +191,14 @@ footer {
 
 #info-contents {
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.6em;
     width: 90%;
 }
 
 #info-section {
     width: 70%;
     margin: 2% auto;
-    padding: 2rem 0;
+    padding: 2em 0;
     display: flex;
     justify-content: center;
     border: #d14ece double 3px;
@@ -420,7 +420,8 @@ footer {
 }
 
 .member-desc {
-    padding: 0.5rem 0.5rem;
+    padding: 1.3em;
+    text-align: center;
 }
 
 .member-history {
@@ -718,7 +719,7 @@ footer {
 .liver-name {
     background: black;
     width: 60%;
-    height: 2.8rem;
+    height: 13%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -895,16 +896,6 @@ footer {
     animation: line-rose 2.5s -10s infinite alternate;
     overflow: visible;
     height: 3px;
-}
-
-#line2 {
-    overflow: visible;
-    position: absolute;
-    transform: translate(-10vw, -10vw) rotate(-20deg); 
-    width: 113%;
-    z-index: 500;
-    height: 3px;
-    animation: line-blue 3s -100s infinite alternate;
 }
 
 #line3 {
@@ -1615,7 +1606,8 @@ footer {
 
 .about-title {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.8em;
+    padding: 0.3em;
 }
 
 .about-box {
@@ -1988,7 +1980,7 @@ label {
     }
 
     .qa-answear, .qa-answear.active {
-        font-size: 0.9em;
+        font-size: 0.88em;
         width: 90%;
     }
 
@@ -2036,7 +2028,7 @@ label {
     }
 
     .about-title {
-        font-size: 1rem;
+        font-size: 0.9em;
     }
 
     #history {
@@ -2061,7 +2053,7 @@ label {
     }
 
     .news-content-txt, .contact-colum, .member-content-box {
-        font-size: 1rem;
+        font-size: 1.2em;
     }
 
     .liver-txt {
@@ -2069,11 +2061,13 @@ label {
     }
 
     .about-content {
-        font-size: 0.41em;
+        font-size: 0.4em;
+        padding: 0.5em;
     }
 
     .liver-name {
         font-size: 1em;
+        width: 70%;
     }
 
     .footer_links {
