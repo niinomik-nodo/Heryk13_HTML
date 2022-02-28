@@ -17,6 +17,7 @@ main {
     overflow-x: hidden;
 }
 
+
 #talent {
     overflow: hidden;
     background: -webkit-linear-gradient(top, #00001c, #1b3766);
@@ -191,8 +192,8 @@ footer {
 
 #info-contents {
     color: #fff;
-    font-size: 1.6em;
-    width: 90%;
+    font-size: 1.2em;
+    width: 95%;
 }
 
 #info-section {
@@ -355,7 +356,7 @@ footer {
 
 #history {
     padding: 2% 1%;
-    margin: 3rem auto;
+    margin: 3% auto;
     width: 80%;
     border: #ffb7ff double 4px;
     box-shadow:
@@ -375,8 +376,8 @@ footer {
 }
 
 .history-left {
-    width: 40%;
-    margin-left: 10%;
+    width: 50%;
+    padding: 1em;
     margin-top: 2.5%;
 }
 
@@ -430,6 +431,7 @@ footer {
 
 .name-keireki {
     width: 40%;
+    font-size: 1.3rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -485,6 +487,7 @@ footer {
 
 #step {
     height: max-content;
+    font-size: 1.8em;
     padding-top: 10%;
     padding-left: 5%;
 }
@@ -506,7 +509,7 @@ footer {
 }
 
 #contact-title {
-    font-size: 2em;
+    font-size: 1.8rem;
     color: white;
     background-color: #000000;
     width: 70%;
@@ -639,7 +642,6 @@ footer {
     margin: 2% 2%;
     width: 44%;
     max-width: 300px;
-    min-height: 500px;
     height: auto;
     z-index: 999;
 }
@@ -648,7 +650,7 @@ footer {
     background: rgba(83, 83, 83, 0.5);
     width: 100%;
     max-width: 300px;
-    max-height: 500px;
+    max-height: 450px;
     height: 100%;
     min-height: 390px;
     transform: translate(-20px, -20px);
@@ -731,6 +733,7 @@ footer {
 
 #talent-no-face {
     background: rgba(40, 70, 140, 0.9);
+    font-size: 1em;
     margin: 5% auto;
     display: grid;
     width: 60%;
@@ -744,7 +747,7 @@ footer {
     margin: 1.5% 0;
     color: #fff;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.4em;
 }
 
 
@@ -1179,6 +1182,7 @@ footer {
     display: none;
 }
 
+
 #line33 {
     overflow: visible;
     position: absolute;
@@ -1550,14 +1554,14 @@ footer {
     padding: 1%;
     z-index: 950;
     box-shadow:
-        0 0 10px #fff,
-        0 0 15px #fff,
-        0 0 18px #fff,
-        0 0 20px #51c9fe,
-        0 0 35px #51c9fe,
+        0 0 1px #fff,
+        0 0 5px #fff,
+        0 0 8px #fff,
+        0 0 10px #51c9fe,
+        0 0 25px #51c9fe,
+        0 0 30px #51c9fe,
         0 0 40px #51c9fe,
-        0 0 50px #51c9fe,
-        0 0 60px #51c9fe;
+        0 0 50px #51c9fe;
     transform: translateY(-300%);
     animation: flicker-rose 4.5s infinite alternate;
 }
@@ -1591,13 +1595,14 @@ footer {
 }
 
 .about-left, .about-right {
-    width: 40%;
+    width: 60%;
     height: auto;
     margin: 2% 0;
     max-width: 600px;
     max-height: 500px;
     box-shadow: 10px 10px 0px #000062;
     z-index: 999;
+    transform: translateX(-50%);
 }
 
 #box-left {
@@ -1618,7 +1623,9 @@ footer {
     margin: 1rem 0.5rem;
     font-size: 1.4rem;
     display: inline;
+    text-align: center;
     padding: 1%;
+    transform: translateX(50%);
     z-index: 999;
 }
 
@@ -1663,7 +1670,7 @@ footer {
     background-image: linear-gradient(#010220, #1e3e6f, #00001c);
     width: 100%;
     display: inline-flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     margin: 3% 0px;
@@ -1879,7 +1886,7 @@ label {
 
 /*end test*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 880px) {
 
     .navbar_menu {
         display: grid;
@@ -1973,7 +1980,7 @@ label {
     }
 
     #step-txt {
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     .member-name{
@@ -1981,13 +1988,13 @@ label {
     }
 
     .qa-answear, .qa-answear.active {
-        font-size: 0.904em;
-        width: 90%;
+        font-size: 1.4em;
+        width: 93%;
     }
 
     .qa-content {
-        font-size: 1.4em;
-        width: 93%;
+        font-size: 1.3em;
+        width: 98%;
     }
 
     .contact-img {
@@ -1997,10 +2004,6 @@ label {
 
     #talent-sec {
         width: 96%;  
-    }
-
-    .liver-background {
-        min-height: 300px;
     }
 
     .normal-box {
@@ -2033,7 +2036,8 @@ label {
     }
 
     #history {
-        width: 85%;
+        width: 95%;
+        font-size: 1.1em;
     }
 
     #member-content-up {
@@ -2041,11 +2045,12 @@ label {
     }
 
     #info-section {
-        width: 90%;
+        width: 93%;
     }
 
     #contact-box-title {
-        font-size: 0.6em;
+        font-size: 0.5em;
+        transform: translateY(50%);
     }
 
     #shozo {
@@ -2058,17 +2063,17 @@ label {
     }
 
     .liver-txt {
-        font-size: 0.78em;
+        font-size: 1em;
     }
 
     .about-content {
-        font-size: 0.4em;
+        font-size: 0.5em;
         padding: 0.5em;
     }
 
     .liver-name {
         font-size: 1em;
-        width: 70%;
+        width: 78%;
     }
 
     .footer_links {
@@ -2157,5 +2162,13 @@ label {
 
     .top-button {
         font-size: 1.6em;
+    }
+
+    .about-left, .about-right {
+        transform: translateX(-30%);
+    }
+
+    .about-box {
+        transform: translateX(15%);
     }
 }
