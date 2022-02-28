@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'cinzel', sans-serif;
 }
 
 body {
@@ -190,7 +192,7 @@ footer {
 }
 
 
-#info-contents {
+.info-contents {
     color: #fff;
     font-size: 1.2em;
     width: 95%;
@@ -210,6 +212,7 @@ footer {
 }
 
 .qa-content {
+    font-family: 'Zen Antique', serif;
     color: #fff;
     width: 75%;
     margin: 2% auto 0 auto;
@@ -230,6 +233,7 @@ footer {
     color: #fff;
     margin: 6% auto;
     width: 70%;
+    font-family: 'Zen Antique', serif;
     font-size: 2rem;
     margin: 3% auto;
     font-size: 2rem;
@@ -303,6 +307,10 @@ footer {
         0 0 1.3rem #51c9fe,
         0 0 1.8rem #51c9fe,
         0 0 2rem #51c9fe;
+}
+
+.about-content {
+    font-family: 'Zen Antique', serif;
 }
 
 #member-pic3 {
@@ -381,8 +389,13 @@ footer {
     margin-top: 2.5%;
 }
 
+#japanese {
+    font-family: 'Zen Antique', serif;
+}
+
 #history-sub {
     margin-top: 2.5%;
+    font-family: 'Zen Antique', serif;
 }
 
 #member-content-right-box {
@@ -417,10 +430,12 @@ footer {
 .member-name {
     text-align: center;
     margin-top: 1rem;
+    font-family: 'Zen Antique', serif;
     font-size: 2rem;
 }
 
 .member-desc {
+    font-family: 'Zen Antique', serif;
     padding: 1em;
     text-align: center;
 }
@@ -439,6 +454,7 @@ footer {
 }
 
 #contact-sub-title {
+    font-family: 'Zen Antique', serif;
     background: none;
     font-size: 3em;
 }
@@ -493,6 +509,7 @@ footer {
 }
 
 #step-txt {
+    font-family: 'Zen Antique', serif;
     height: max-content;
     font-size: 1.5rem;
     padding-left: 5%;
@@ -511,6 +528,7 @@ footer {
 #contact-title {
     font-size: 1.8rem;
     color: white;
+    font-family: 'Zen Antique', serif;
     background-color: #000000;
     width: 70%;
 }
@@ -560,11 +578,13 @@ footer {
 }
 
 #contact-box-title {
+    font-family: 'Zen Antique', serif;
     color: #fff;
     font-size: 2.4rem;
 }
 
 .contact-box-btn {
+    font-family: 'Zen Antique', serif;
     color: black;
     border-radius: 50px;
     width: 8rem;
@@ -642,7 +662,7 @@ footer {
     margin: 2% 2%;
     width: 44%;
     max-width: 300px;
-    height: auto;
+    height: 100%;
     z-index: 999;
 }
 
@@ -650,15 +670,16 @@ footer {
     background: rgba(83, 83, 83, 0.5);
     width: 100%;
     max-width: 300px;
-    max-height: 450px;
+    max-height: 700px;
     height: 100%;
     min-height: 390px;
     transform: translate(-20px, -20px);
 }
 
 .liver-txt {
-    font-size: 1rem;
+    font-size: 1.3em;
     text-align: center;
+    font-family: 'Zen Antique', serif;
 }
 
 #talent-sec {
@@ -666,7 +687,7 @@ footer {
     margin: auto;
     color: #fff;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: center;
     position: relative;
@@ -1246,6 +1267,7 @@ footer {
 
 .third-title-bottom {
     position: relative;
+    font-family: 'Zen Antique', serif;
     top: 0;
     font-size: 2vw;
     color: #fff;
@@ -1463,6 +1485,7 @@ footer {
     font-size: 1.8vw;
     position: relative;
     text-align: center;
+    font-family: 'Zen Antique', serif;
 }
 
 #pic2 {
@@ -1472,6 +1495,7 @@ footer {
 
 .top-button {
     font-size: 3em;
+    font-family: 'Zen Antique', serif;
     background: -webkit-linear-gradient(left, #d14ece, #51c8ff);
     color: white;
     width: auto;
@@ -1545,6 +1569,7 @@ footer {
 }
 
 #shozo {
+    font-family: 'Zen Antique', serif;
     border-radius: 1rem;
     width: fit-content;
     color: #fff;
@@ -1988,6 +2013,7 @@ label {
     }
 
     .qa-answear, .qa-answear.active {
+        font-family: 'Zen Antique', serif;
         font-size: 1.4em;
         width: 93%;
     }
@@ -2068,6 +2094,7 @@ label {
 
     .about-content {
         font-size: 0.5em;
+        font-family: 'Zen Antique', serif;
         padding: 0.5em;
     }
 
@@ -2079,8 +2106,9 @@ label {
     .footer_links {
         text-decoration: none;
         color: #fff;
-        font-size: 1rem;
+        font-size: 1.6em;
     }
+    
 
     .member-img {
         width: 100%;
