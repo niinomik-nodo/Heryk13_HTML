@@ -234,7 +234,7 @@ footer {
     margin: 6% auto;
     width: 70%;
     font-family: 'Zen Antique', serif;
-    font-size: 2rem;
+    font-size: 2em;
     margin: 3% auto;
     font-size: 2rem;
     background: #0641cd;
@@ -254,7 +254,7 @@ footer {
 .qa-answear.active {
     max-height: 300px;
     transition: max-height 0.8s ease-out, padding 0.5s ease-out;
-    font-size: 2rem;
+    font-size: 2em;
     padding: 12px;
     margin: 3% auto;
 }
