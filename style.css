@@ -87,7 +87,7 @@ main {
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
@@ -145,8 +145,7 @@ footer {
 
 .page-title {
     color: #fff;
-    font-size: 2.8rem;
-    text-align: center;
+    font-size: 2.6em;
     width: 40%;
     margin: 0.3em auto;
     text-decoration: underline;
@@ -678,8 +677,8 @@ footer {
 
 .liver-txt {
     font-size: 1.3em;
-    text-align: center;
     font-family: 'Zen Antique', serif;
+    padding: 30px;
 }
 
 #talent-sec {
