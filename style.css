@@ -145,8 +145,8 @@ footer {
 
 .page-title {
     color: #fff;
-    font-size: 2.6em;
-    width: 40%;
+    font-size: 3em;
+    width: fit-content;
     margin: 0.3em auto;
     text-decoration: underline;
     position: relative;
@@ -741,7 +741,7 @@ footer {
 
 .liver-name {
     background: black;
-    width: 60%;
+    width: fit-content;
     height: 13%;
     display: inline-flex;
     align-items: center;
@@ -2099,7 +2099,6 @@ label {
 
     .liver-name {
         font-size: 1em;
-        width: 78%;
     }
 
     .footer_links {
