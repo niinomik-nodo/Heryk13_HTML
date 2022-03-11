@@ -1627,7 +1627,6 @@ footer {
     max-height: 500px;
     box-shadow: 10px 10px 0px #000062;
     z-index: 999;
-    transform: translateX(-50%);
 }
 
 #box-left {
@@ -1650,7 +1649,6 @@ footer {
     display: inline;
     text-align: center;
     padding: 1%;
-    transform: translateX(50%);
     z-index: 999;
 }
 
@@ -1695,10 +1693,13 @@ footer {
     background-image: linear-gradient(#010220, #1e3e6f, #00001c);
     width: 100%;
     display: inline-flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     margin: 3% 0px;
+}
+
+#content-background-reverse {
+    flex-direction: row-reverse;
 }
 
 #gender-radio {
