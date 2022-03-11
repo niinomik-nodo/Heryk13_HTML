@@ -1951,12 +1951,12 @@ label {
     }
 
     .navbar_links {
-        text-align: right;
-        padding: 0.8rem;
+        text-align: center;
+        padding: 1em;
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         background: rgba(83, 83, 83, 0.5);
         width: 90%;
         margin: auto;
