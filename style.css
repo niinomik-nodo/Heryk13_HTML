@@ -671,7 +671,7 @@ footer {
     background: rgba(83, 83, 83, 0.5);
     width: 100%;
     max-width: 300px;
-    max-height: 700px;
+    max-height: 730px;
     height: 100%;
     min-height: 390px;
     transform: translate(-20px, -20px);
@@ -680,7 +680,11 @@ footer {
 .liver-txt {
     font-size: 1.3em;
     font-family: 'Zen Antique', serif;
-    padding: 30px;
+    padding: 15px;
+}
+
+#tiktok {
+    padding: 8px;
 }
 
 #talent-sec {
