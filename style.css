@@ -1710,6 +1710,10 @@ footer {
     margin: 3% 0px;
 }
 
+.fa-link {
+    color: #38d9a9;
+}
+
 #content-background-reverse {
     flex-direction: row-reverse;
 }
