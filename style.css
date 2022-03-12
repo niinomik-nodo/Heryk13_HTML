@@ -129,7 +129,7 @@ footer {
     display: inline-flex;
     list-style-type: none;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
     justify-content: space-around;
 }
 
@@ -456,6 +456,7 @@ footer {
     font-family: 'Zen Antique', serif;
     background: none;
     font-size: 3em;
+    font-family: sans-serif;
 }
 
 .contact-content {
@@ -572,7 +573,7 @@ footer {
     height: 40%;
     display: inline-flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -586,12 +587,13 @@ footer {
     font-family: 'Zen Antique', serif;
     color: black;
     border-radius: 50px;
-    width: 8rem;
-    height: 3.3rem;
+    width: 20vw;
+    height: 2em;
     background: #bdfffe;
     border: none;
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     cursor: pointer;
+    margin-bottom: 10%;
 }
 
 #btn-right {
@@ -1953,7 +1955,7 @@ label {
 
     .navbar_links {
         text-align: center;
-        padding: 1em;
+        padding: 0.8em 0.8em 0.8em 0.5em;
         width: 100%;
         display: flex;
         align-items: center;
@@ -2008,7 +2010,7 @@ label {
     }
 
     #step-txt {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     .member-name{
@@ -2017,12 +2019,12 @@ label {
 
     .qa-answear, .qa-answear.active {
         font-family: 'Zen Antique', serif;
-        font-size: 1.4em;
+        font-size: 1.2em;
         width: 93%;
     }
 
     .qa-content {
-        font-size: 1.3em;
+        font-size: 1.2em;
         width: 98%;
     }
 
@@ -2078,8 +2080,8 @@ label {
     }
 
     #contact-box-title {
-        font-size: 0.5em;
-        transform: translateY(50%);
+        font-size: 0.6em;
+        margin-top: 10%;
     }
 
     #shozo {
@@ -2172,7 +2174,7 @@ label {
     }
 
     #third-txt {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     #news-content {
@@ -2204,5 +2206,11 @@ label {
 
     .content-background, #content-background-reverse {
         flex-direction: column;
+    }
+
+    .contact-box-btn {
+        width: 35vw;
+        height: 2em;
+        font-size: 0.7em;
     }
 }
