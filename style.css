@@ -1422,7 +1422,7 @@ footer {
 #second-line {
     width: 100%;
     height: auto;
-    padding: 4.3em;
+    padding: 1em;
     transform: translate(2%, 4%);
     border: #53c8fe solid 0.2vw;
     text-shadow:
@@ -1482,10 +1482,11 @@ footer {
 
 #third-txt {
     color: #fff;
-    font-size: 1.8vw;
+    font-size: 2.6em;
     position: relative;
     text-align: center;
     font-family: 'Zen Antique', serif;
+    margin: 2em;
 }
 
 #pic2 {
@@ -1918,7 +1919,7 @@ label {
         display: grid;
         grid-template-columns: auto;
         margin: 0;
-        width: 48%;
+        width: 50%;
         position: absolute;
         right: 0;
         transform: translateX(100%);
@@ -1960,6 +1961,7 @@ label {
         background: rgba(83, 83, 83, 0.5);
         width: 90%;
         margin: auto;
+        font-size: 0.9em;
     }
 
     .navbar_links_icon {
@@ -2170,7 +2172,7 @@ label {
     }
 
     #third-txt {
-        font-size: 2.7vw;
+        font-size: 1.1em;
     }
 
     #news-content {
@@ -2198,5 +2200,9 @@ label {
 
     .about-box {
         transform: translateX(15%);
+    }
+
+    .content-background, #content-background-reverse {
+        flex-direction: column;
     }
 }
