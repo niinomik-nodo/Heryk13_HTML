@@ -344,7 +344,7 @@ footer {
 .member-content-box {
     color: #fff;
     background: rgba(83, 83, 83, 0.5);
-    width: fit-content;
+    width: 95%;
     margin: 3.5rem 0.3rem;
     border: #51c8ff double 4px;
     font-size: 1.2rem;
