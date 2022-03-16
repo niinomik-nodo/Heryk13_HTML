@@ -145,7 +145,7 @@ footer {
 
 .page-title {
     color: #fff;
-    font-size: 3em;
+    font-size: 5.5em;
     width: fit-content;
     margin: 0.3em auto;
     text-decoration: underline;
@@ -2225,5 +2225,9 @@ label {
         width: 35vw;
         height: 2em;
         font-size: 0.7em;
+    }
+
+    .page-title {
+        font-size: 3.5em;
     }
 }
