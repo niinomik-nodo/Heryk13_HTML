@@ -336,7 +336,7 @@ footer {
 .member-img {
     display: inline-block;
     padding: 0.2rem;
-    width: 33.5%;
+    width: 100%;
     height: auto;
     max-width: 400px;
 }
@@ -344,7 +344,7 @@ footer {
 .member-content-box {
     color: #fff;
     background: rgba(83, 83, 83, 0.5);
-    width: 95%;
+    width: 50%;
     margin: 3.5rem 0.3rem;
     border: #51c8ff double 4px;
     font-size: 1.2rem;
@@ -650,7 +650,14 @@ footer {
     font-size: 30px;
     }
 
-.fa.fa-instagram {
+.fa-solid {
+    display: inherit;
+}
+
+.fa.fa-instagram, .fa-solid {
+    display: inherit;
+    position: absolute;
+    bottom: 0;
     color: transparent;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background-clip: text;
@@ -2125,11 +2132,6 @@ label {
         color: #fff;
         font-size: 1.6em;
     }
-    
-
-    .member-img {
-        width: 100%;
-    }
 
     #member-pic .member-img:nth-child(1), .member-img:nth-child(3){
         display: none;
@@ -2229,5 +2231,9 @@ label {
 
     .page-title {
         font-size: 3.5em;
+    }
+
+    .member-content-box {
+        width: 95%;
     }
 }
