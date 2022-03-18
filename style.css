@@ -861,6 +861,11 @@ footer {
     top: 0;
 }
 
+#talent-icon {
+    display: inline-block;
+    position: relative;
+}
+
 #news-content {
     overflow: hidden;
     border: #d64fd0 solid 1.5;
