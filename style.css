@@ -581,8 +581,6 @@ footer {
 
 .normal {
     width: 50%;
-    background: url(images/laptop.jpg) no-repeat;
-    background-size: cover;
     max-height: 500px;
     height: 50vw;
     display: flex;
@@ -591,6 +589,11 @@ footer {
 
 #normal-right {
     background: url(images/step3.jpg) no-repeat;
+    background-size: cover;
+}
+
+#normal-left {
+    background: url(images/laptop.jpg) no-repeat;
     background-size: cover;
 }
 
