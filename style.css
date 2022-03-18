@@ -401,7 +401,7 @@ footer {
     border: #51c8ff double 4px;
     width: 45%;
     margin: auto;
-    min-height: 310px;
+    min-height: 340px;
 }
 
 #member-content-right-box2 {
@@ -2163,7 +2163,7 @@ label {
         font-size: 1.6em;
     }
 
-    #member-pic .member-img:nth-child(1), .member-img:nth-child(3){
+    #member-pic a:nth-child(1), a:nth-child(3){
         display: none;
     }
 
