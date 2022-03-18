@@ -516,6 +516,28 @@ footer {
     margin-top: -10%;
 }
 
+#member-img-test {
+    display: inline-block;
+    width: auto;
+    height:auto;
+}
+
+#member-name-test {
+    font-size: 3em;
+    color: white;
+    background: linear-gradient(180deg, rgba(2, 0, 102, 1) 0%, rgba(255,255,255,0) 100%);
+    width: max-content;
+    bottom: 0;
+    transform: translateX(-100%);
+    display: inherit;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#member-div-testing {
+
+}
+
 .contact {
     margin-top: 15px;
     height: 100%;
@@ -651,7 +673,7 @@ footer {
     }
 
 .fa-solid {
-    display: inherit;
+    display: inherit !important;
 }
 
 .fa.fa-instagram, .fa-solid {
