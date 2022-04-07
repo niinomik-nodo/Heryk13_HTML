@@ -469,36 +469,26 @@ footer {
 }
 
 .contact-colum {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     grid-column-gap: 2%;
     font-size: 2rem;
     margin-top: 1%;
     z-index: 999;
     position: relative;
+    justify-content: center;
 }
 
 .contact-content-box {
     background: rgba(0, 0, 0, 0.7);
     display: inline-grid;
-    max-width: 400px;
+    max-width: 450px;
     justify-self: left;
-    width: 90%;
+    width: 45%;
 }
 
 .contact-img {
     display: -ms-inline-grid;
     justify-self: right;
-}
-
-#left {
-    justify-self: left;
-    transform: translateX(-1.9%);
-}
-
-#right {
-    justify-self: right;
-    transform: translateX(1.9%);
 }
 
 #step {
@@ -2088,7 +2078,7 @@ label {
 
     .contact-img {
     height: auto;
-    width: 100%;
+    width: 45%;
     }
 
     #talent-sec {
