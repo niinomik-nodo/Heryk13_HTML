@@ -2192,7 +2192,7 @@ label {
         font-size: 1.6em;
     }
 
-    #member-pic a:nth-child(1), a:nth-child(3){
+    #kawakami-hide, #ozaki-hide{
         display: none;
     }
 
