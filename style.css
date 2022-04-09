@@ -514,6 +514,7 @@ footer {
 }
 
 #member-name-test {
+    right: 0;
     font-size: 3em;
     color: white;
     background: linear-gradient(180deg, rgba(2, 0, 102, 1) 0%, rgba(255,255,255,0) 100%);
@@ -522,18 +523,6 @@ footer {
     display: inherit;
     position: absolute;
     border-radius: 10px;
-}
-
-.kawakami {
-    transform: translateX(-103%);
-}
-
-.aoyama {
-    transform: translateX(100%);
-}
-
-.ozaki {
-    transform: translateX(100%);
 }
 
 #top-nav {
@@ -888,6 +877,12 @@ footer {
 #talent-icon {
     display: inline-block;
     position: relative;
+}
+
+#test33 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 #news-content {
@@ -1784,6 +1779,18 @@ footer {
 
 #content-background-reverse {
     flex-direction: row-reverse;
+}
+
+#kawakami-hide {
+    position: relative;
+}
+
+#aoyama-hide {
+    position: relative;
+}
+
+#kawakami-insta {
+    left: 0;
 }
 
 #gender-radio {
