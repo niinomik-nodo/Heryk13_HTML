@@ -2049,7 +2049,8 @@ label {
     .navbar_links_icon {
         display: inline-flex;
         height: auto;
-        width: 40px;
+        width: 36px;
+        max-height: 53px;
     }
 
     #mobile-menu {
