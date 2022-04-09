@@ -514,6 +514,7 @@ footer {
 }
 
 #member-name-test {
+    transform: translateX(-4px);
     right: 0;
     font-size: 3em;
     color: white;
