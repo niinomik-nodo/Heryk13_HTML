@@ -894,7 +894,7 @@ footer {
     overflow: hidden;
     border: #d64fd0 solid 1.5;
     height: 29vw;
-    background: rgba(34, 91, 141, 0.7);
+    background: rgba(34, 91, 141);
     text-align: center;
     width: 75%;
     margin: auto;
@@ -910,7 +910,9 @@ footer {
         0 0 10px  #d64fd0,
         0 0 15px #d64fd0,
         0 0 20px #d64fd0,
-        0 0 30px #d64fd0;
+        0 0 30px #d64fd0,
+        inset 29px 29px 58px #1d4d78,
+        inset -29px -29px 58px #2769a2;
 }
 
 @keyframes flicker {
