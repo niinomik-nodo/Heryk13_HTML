@@ -514,7 +514,7 @@ footer {
 }
 
 #member-name-test {
-    transform: translateX(-4px);
+    transform: translateX(-6px);
     right: 0;
     font-size: 3em;
     color: white;
@@ -1782,11 +1782,7 @@ footer {
     flex-direction: row-reverse;
 }
 
-#kawakami-hide {
-    position: relative;
-}
-
-#aoyama-hide {
+#kawakami-hide, #aoyama-hide, #ozaki-hide {
     position: relative;
 }
 
