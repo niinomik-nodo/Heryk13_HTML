@@ -961,6 +961,7 @@ footer {
     position: relative;
     display: inline-flex;
     flex-direction: column;
+    width: 100%;
 }
 
 @keyframes scroll {
@@ -1298,10 +1299,10 @@ footer {
 .news-column {
     border-bottom: #51c9fe solid 2px;
     color: #fff;
-    font-size: 2rem;
+    font-size: 11px;
     font-weight: bold;
     display: flex;
-    width: 70%;
+    width: 90%;
     margin: auto;
     justify-content: space-evenly;
     align-items: center;
