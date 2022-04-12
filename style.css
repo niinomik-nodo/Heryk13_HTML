@@ -2155,6 +2155,14 @@ label {
         font-size: 0.9em;
     }
 
+    .about-left, .about-right {
+        width: 70%;
+    }
+
+    .about-box {
+        width: 95%
+    }
+
     #history {
         width: 95%;
         font-size: 1.1em;
@@ -2187,7 +2195,7 @@ label {
     }
 
     .about-content {
-        font-size: 0.5em;
+        font-size: 0.62em;
         font-family: 'Zen Antique', serif;
         padding: 0.5em;
     }
@@ -2278,14 +2286,6 @@ label {
 
     .top-button {
         font-size: 1.6em;
-    }
-
-    .about-left, .about-right {
-        transform: translateX(-30%);
-    }
-
-    .about-box {
-        transform: translateX(15%);
     }
 
     .content-background, #content-background-reverse {
