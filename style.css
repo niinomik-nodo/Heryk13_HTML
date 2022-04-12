@@ -535,36 +535,6 @@ footer {
     border-radius: 10px;
 }
 
-#top-nav {
-    font-size: 25px;
-    letter-spacing: 6px;
-}
-
-#about-nav {
-    font-size: 20px;
-}
-
-#talent-nav {
-    font-size: 19px;
-}
-
-#contact-nav {
-    font-size: 15px;
-}
-
-#member-nav {
-    font-size: 17px;
-}
-
-#qa-nav {
-    font-size: 23px;
-    letter-spacing: 5px;
-}
-
-#info-nav {
-    letter-spacing: 3px;
-}
-
 .contact {
     margin-top: 15px;
     height: 100%;
@@ -752,6 +722,7 @@ footer {
   }
 
 #talent-sec {
+    transform: translateX(20px);
     width: 70%;
     margin: auto;
     color: #fff;
@@ -761,12 +732,6 @@ footer {
     align-content: center;
     position: relative;
     z-index: 999;
-}
-
-#talent-sub {
-    background: linear-gradient(270deg, rgba(2,80,162,1) 10%, rgba(23,47,93,0.1) 100%);
-    border-radius: 20px;
-    margin: 1rem auto 2rem auto;
 }
 
 .liver-img {
@@ -887,12 +852,6 @@ footer {
 #talent-icon {
     display: inline-block;
     position: relative;
-}
-
-#test33 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
 }
 
 #news-content {
@@ -1191,41 +1150,11 @@ footer {
     animation: line-rose 2.5s -10s infinite alternate;
 }
 
-#line24 {
-    overflow: visible;
-    position: absolute;
-    transform: translate(-4vw, -23vw) rotate(-20deg); 
-    width: 107%;
-    z-index: 500;
-    animation: line-rose 11s -100s infinite alternate;
-    height: 3px;
-}
-
 #line25 {
     overflow: visible;
     position: absolute;
     transform: translate(-7vw, -11vw) rotate(28deg); 
     width: 113%;
-    z-index: 500;
-    animation: line-rose 11s -100s infinite alternate;
-    height: 3px;
-}
-
-#line26 {
-    overflow: visible;
-    position: absolute;
-    transform: translate(-7vw, -11vw) rotate(-28deg); 
-    width: 113%;
-    z-index: 500;
-    animation: line-rose 11s -100s infinite alternate;
-    height: 3px;
-}
-
-#line27 {
-    overflow: visible;
-    position: absolute;
-    transform: translate(-7vw, 25vw) rotate(10deg); 
-    width: 107.5%;
     z-index: 500;
     animation: line-rose 11s -100s infinite alternate;
     height: 3px;
@@ -1310,10 +1239,6 @@ footer {
 #test1234 {
     width: auto;
     height: auto;
-}
-
-#test1234.paused {
-    animation-play-state: paused;
 }
 
 @keyframes animateCrawl {
@@ -1535,16 +1460,6 @@ footer {
     z-index: 510;
     position: relative;
     display: block;
-}
-
-#third-pic {
-    width: 100%;
-    margin: auto;
-    height: 100%;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 3%;
 }
 
 #third-txt {
@@ -1783,52 +1698,8 @@ footer {
     left: 0;
 }
 
-#gender-radio {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .gender-span {
     width: 25%;
-}
-
-.corporation-form {
-    display: inline-grid;
-    background: #dbeeff;
-    grid-template-columns: 30% 30%;
-    align-items: center;
-    justify-content: space-evenly;
-    transition: bottom 2s ease;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    bottom: -100%;
-}
-
-.corporation-form.active {
-    bottom: 0;
-    transition: bottom 2s ease;
-}
-
-.liver-form{
-    display: inline-grid;
-    background: #dbeeff;
-    grid-template-columns: 35% 30%;
-    align-items: center;
-    justify-content: space-evenly;
-    transition: bottom 2s ease;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    bottom: -220%;
-    justify-items: start;
-    align-content: center;
-}
-
-.liver-form.active {
-    bottom: 0;
-    transition: bottom 2s ease;
 }
 
 .contact-box-wrap {
@@ -1836,57 +1707,7 @@ footer {
     height: 100%;
     position: relative;
 }
-
-input {
-    border-radius: 0;
-    border: 1px solid rgba(83, 83, 83, 0.5);
-    height: 2rem;
-}
-
-.form-span {
-    font-size: 0.7rem;
-}
-
-label {
-    font-size: 0.9rem;
-    text-align: center;
-}
-
 /*test*/
-
-#cross {
-    width: 38px;
-    height: 38px;
-    position: absolute;
-    display: inline-block;
-   transform:rotate(45deg);
-    -ms-transform:rotate(45deg); /* IE 9 */
-    -webkit-transform:rotate(45deg); /* Safari and Chrome */
-    right: 2%;
-    top: 2%;
-    cursor: pointer;
- }
- 
- #cross:before, #cross:after {
-   content: "";
-   position: absolute;
-   z-index: -1;
-   background: black;
- }
- 
- #cross:before {
-   left: 50%;
-   width: 15%;
-   margin-left: -15%;
-   height: 90%;
- }
- 
- #cross:after {
-   top: 50%;
-   height: 15%;
-   margin-top: -15%;
-   width: 90%;
- }
 
 .animation {
     width: 100%;
