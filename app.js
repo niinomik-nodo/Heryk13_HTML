@@ -100,4 +100,25 @@ if (document.body.className == 'top-html') {
         liver_slide2.style.animationPlayState = 'running';
     });
 
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+        liver_slide1.addEventListener('ontouchstart', function() {
+            liver_slide1.style.animationPlayState = 'paused';
+            liver_slide2.style.animationPlayState = 'paused';
+        });
+    
+        liver_slide1.addEventListener('ontouchend', function() {
+            liver_slide1.style.animationPlayState = 'running';
+            liver_slide2.style.animationPlayState = 'running';
+        });
+    
+        liver_slide2.addEventListener('ontouchstart', function() {
+            liver_slide1.style.animationPlayState = 'paused';
+            liver_slide2.style.animationPlayState = 'paused';
+        });
+    
+        liver_slide2.addEventListener('ontouchend', function() {
+            liver_slide1.style.animationPlayState = 'running';
+            liver_slide2.style.animationPlayState = 'running';
+    };
+
 };
