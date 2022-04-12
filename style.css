@@ -1586,7 +1586,7 @@ footer {
 
 #top-button-a {
     position: absolute;
-    bottom: 23vw;
+    bottom: 18vw;
     left: 50%;
     z-index: 600;
     transform: translateX(-50%);
@@ -2256,7 +2256,7 @@ label {
     }
 
     #third-txt {
-        font-size: 1em;
+        font-size: 1.6em;
     }
 
     #news-content {
