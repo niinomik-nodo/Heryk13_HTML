@@ -897,8 +897,10 @@ footer {
 }
 
 #news-content {
-    overflow: hidden;
-    border: #d64fd0 solid 1.5;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-color: #d64fd0 rgba(34, 91, 141, 0);
+    border: #d64fd0 solid 1.5px;
     height: 29vw;
     background: rgba(34, 91, 141);
     text-align: center;
@@ -954,37 +956,16 @@ footer {
         opacity: 0;
     }
   }
-/*
-.news-wrapper {
-    width: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 100%;
-    position: absolute;
-    transform: rotateX(38deg);
-    top: 0;
-    perspective: 100px;---------------------------------------------------------------------------------------------------------------------------------------------
-}
-
-.news-wrapper::-webkit-scrollbar {
-    display: none;
-}
-
-
-
-*/
 
 .news-wrapper {
-    animation: scroll 10s linear infinite;
     position: relative;
     display: inline-flex;
     flex-direction: column;
-    transform: rotateX(30deg) translateZ(1700px) translateY(11%);
 }
 
 @keyframes scroll {
     100% {
-        transform: translateY(-100%) translateZ(0px);
+        transform: translateY(-100%) translateZ(0vw);
     };
 }
 
