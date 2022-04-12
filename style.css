@@ -513,7 +513,7 @@ footer {
     font-family: 'Zen Antique', serif;
     height: max-content;
     font-size: 1.5rem;
-    padding-left: 5%;
+    padding-left: 3%;
     margin-top: -10%;
 }
 
@@ -907,6 +907,7 @@ footer {
     position: relative;
     font-weight: bold;
     font-size: 350%;
+    perspective: 200px;
     z-index: 990;
     box-shadow:
         0 0 1px #fff,
@@ -974,14 +975,17 @@ footer {
 */
 
 .news-wrapper {
-    animation: scroll 10s linear 1s infinite;
+    animation: scroll 10s linear infinite;
     position: relative;
     display: inline-flex;
     flex-direction: column;
-    perspective: 200px;
+    transform: rotateX(30deg) translateZ(1700px) translateY(11%);
 }
 
 @keyframes scroll {
+    100% {
+        transform: translateY(-100%) translateZ(0px);
+    };
 }
 
 
@@ -1323,9 +1327,7 @@ footer {
 }
 
 #test1234 {
-    transform: rotateX(7deg) translateY(40vw) translateZ(100px);
     width: auto;
-    animation: animateCrawl 20s ease-in infinite;
     height: auto;
 }
 
