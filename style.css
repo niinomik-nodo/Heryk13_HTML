@@ -365,7 +365,7 @@ footer {
 #history {
     padding: 2% 1%;
     margin: 3% auto;
-    width: 80%;
+    width: 98%;
     border: #ffb7ff double 4px;
     box-shadow:
         0 0 0.1rem #fff,
@@ -379,18 +379,27 @@ footer {
 }
 
 .history-right {
-    width: 40%;
-    margin-left: 10%;
+    width: 35%;
+    margin-left: 3%;
 }
 
 .history-left {
-    width: 50%;
-    padding: 1em;
+    width: fit-content;
+    padding: 1em 0 1em 1em;
     margin-top: 2.5%;
 }
 
 #japanese {
     font-family: 'Zen Antique', serif;
+}
+
+#japanese-show {
+    font-family: 'Zen Antique', serif;
+}
+
+#japanese-hide {
+    font-family: 'Zen Antique', serif;
+    display: none;
 }
 
 #history-sub {
@@ -442,6 +451,7 @@ footer {
 
 .member-history {
     display: flex;
+    justify-content: space-around;
 }
 
 .name-keireki {
@@ -495,8 +505,7 @@ footer {
 #step {
     height: max-content;
     font-size: 1.8em;
-    padding-top: 10%;
-    padding-left: 5%;
+    padding: 10% 0 5% 5%;
 }
 
 #step-txt {
@@ -2099,7 +2108,7 @@ label {
     }
 
     #step-txt {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     .member-name{
@@ -2143,6 +2152,10 @@ label {
         margin-right: 3%;
     }
 
+    .member-desc {
+        font-size: 1.6em;
+    }
+
     #fourth-img {
         height: 13rem;
     }
@@ -2164,7 +2177,6 @@ label {
     }
 
     #history {
-        width: 95%;
         font-size: 1.1em;
     }
 
@@ -2192,6 +2204,16 @@ label {
 
     .liver-txt {
         font-size: 1em;
+    }
+
+    #japanese-show {
+        font-family: 'Zen Antique', serif;
+        display: none;
+    }
+    
+    #japanese-hide {
+        font-family: 'Zen Antique', serif;
+        display: block;
     }
 
     .about-content {
