@@ -385,7 +385,7 @@ footer {
 
 .history-left {
     width: fit-content;
-    padding: 1em 0 1em 1em;
+    padding: 1em 0 1em 0.3em;
     margin-top: 2.5%;
 }
 
