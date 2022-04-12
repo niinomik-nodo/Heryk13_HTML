@@ -75,3 +75,29 @@ if (document.body.className == 'qa-body') {
         answear[8].classList.toggle('active');
     });
 };
+
+if (document.body.className == 'top-html') {
+    const liver_slide1 = document.querySelector('.animation');
+    const liver_slide2 = document.querySelector('.animation-2');
+
+    liver_slide1.addEventListener('mouseover', function() {
+        liver_slide1.style.animationPlayState = 'paused';
+        liver_slide2.style.animationPlayState = 'paused';
+    });
+
+    liver_slide1.addEventListener('mouseout', function() {
+        liver_slide1.style.animationPlayState = 'running';
+        liver_slide2.style.animationPlayState = 'running';
+    });
+
+    liver_slide2.addEventListener('mouseover', function() {
+        liver_slide1.style.animationPlayState = 'paused';
+        liver_slide2.style.animationPlayState = 'paused';
+    });
+
+    liver_slide2.addEventListener('mouseout', function() {
+        liver_slide1.style.animationPlayState = 'running';
+        liver_slide2.style.animationPlayState = 'running';
+    });
+
+};
