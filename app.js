@@ -114,4 +114,3 @@ if (document.body.className == 'top-html') {
         liver_slide2.style.animationPlayState = 'running';
     })
 };
-};
