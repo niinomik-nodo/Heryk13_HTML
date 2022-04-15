@@ -99,4 +99,19 @@ if (document.body.className == 'top-html') {
         liver_slide1.style.animationPlayState = 'running';
         liver_slide2.style.animationPlayState = 'running';
     });
+
+    const liver_slide_mobile = document.querySelector('#fourth-img');
+
+    liver_slide_mobile.addEventListener('touchstart', function() {
+        liver_slide_mobile.style.overflow = 'scrollbar'
+        liver_slide1.style.animationPlayState = 'paused';
+        liver_slide2.style.animationPlayState = 'paused';
+    })
+
+    liver_slide_mobile.addEventListener('touchend', function() {
+        liver_slide_mobile.style.overflow = 'hidden'
+        liver_slide1.style.animationPlayState = 'running';
+        liver_slide2.style.animationPlayState = 'running';
+    })
+};
 };
