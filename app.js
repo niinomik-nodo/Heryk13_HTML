@@ -112,5 +112,5 @@ if (document.body.className == 'top-html') {
         liver_slide_mobile.style.overflow = 'hidden'
         liver_slide1.style.animationPlayState = 'running';
         liver_slide2.style.animationPlayState = 'running';
-    })
+    });
 };
