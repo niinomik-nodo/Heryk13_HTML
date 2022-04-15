@@ -1571,6 +1571,11 @@ footer {
         0 0 40px #51c9fe,
         0 0 50px #51c9fe;
     animation: flicker-rose 4.5s infinite alternate;
+    height: fit-content;
+    left: 50%;
+    position: absolute;
+    top: 13%;
+    transform: translateX(-50%);
 }
 
 .fourth-livers-img {
@@ -1994,12 +1999,7 @@ footer {
     }
 
     #shozo {
-        font-size: 1.5rem;
-        height: fit-content;
-        left: 50%;
-        position: absolute;
-        top: 15%;
-        transform: translateX(-50%);
+    font-size: 1.5rem;
     }
 
     .news-content-txt, .contact-colum, .member-content-box {
