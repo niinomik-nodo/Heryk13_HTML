@@ -105,7 +105,7 @@ if (document.body.className == 'top-html') {
     liver_slide_mobile.addEventListener('touchstart', function() {
         liver_slide1.style.animationPlayState = 'paused';
         liver_slide2.style.animationPlayState = 'paused';
-    })
+    });
 
     liver_slide_mobile.addEventListener('touchend', function() {
         liver_slide1.style.animationPlayState = 'running';
