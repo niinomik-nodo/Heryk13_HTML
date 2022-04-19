@@ -77,8 +77,8 @@ if (document.body.className == 'qa-body') {
 };
 
 if (document.body.className == 'top-html') {
-    const liver_slide1 = document.querySelector('.animation');
-    const liver_slide2 = document.querySelector('.animation-2');
+    const liver_slide1  = document.querySelector('.animation');
+    const liver_slide2  = document.querySelector('#animation-2');
 
     liver_slide1.addEventListener('mouseover', function() {
         liver_slide1.style.animationPlayState = 'paused';
