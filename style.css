@@ -1477,7 +1477,7 @@ footer {
 }
 
 .top-button {
-    font-size: 3em;
+    font-size: 4em;
     font-family: 'Zen Antique', serif;
     background: -webkit-linear-gradient(left, #d14ece, #51c8ff);
     color: white;
@@ -1543,7 +1543,7 @@ footer {
 #fourth-img {
     scrollbar-width: none;
     -ms-overflow-style: none;
-    overflow-x: scroll;
+    overflow: hidden;
     z-index: 900;
     width: 100%;
     height: 35rem;
@@ -1553,9 +1553,10 @@ footer {
     top: 50%;
     transform: translateY(-50%);
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     background: linear-gradient(#133A93, #236ADE, #01013C);
+    will-change: transform;
 }
 
 #shozo {
@@ -1581,16 +1582,17 @@ footer {
     height: fit-content;
     left: 50%;
     position: absolute;
-    top: 13%;
+    top: 5%;
     transform: translateX(-50%);
 }
 
 .fourth-livers-img {
-    width: 100%;
+    width: 28vw;
     border-radius: 1rem;
     height: auto;
     position: relative;
     z-index: 10;
+    max-width: 300px;
 }
 
 .liver-img-anchor {
@@ -1598,8 +1600,9 @@ footer {
     border-radius: 1rem;
     text-decoration: none;
     display: flex;
-    width: 100%;
-    max-width: 330px;
+    flex: 1;
+    width: 300px;
+    max-width: 500px;
     height: auto;
     flex-direction: column;
     align-items: center;
@@ -1794,6 +1797,43 @@ footer {
       0 0 2rem #d64fd0;
 }
 
+
+
+
+
+
+div#fourth-img a {
+
+}
+
+
+
+div#fourth-img a:nth-child(odd) {
+    transform: translateY(30%);
+}
+
+div#fourth-img a:nth-child(even) {
+    transform: translateY(-30%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 #fourth-img div:first-child {
     animation: right-left-animation 40s -20s linear infinite;
 }
@@ -1802,7 +1842,7 @@ footer {
     animation: right-left-animation-2 40s linear infinite ;
     left: 100%;
 }
-
+*/
   @keyframes right-left-animation {
     to {
         transform: translateX(-100%);
@@ -2112,7 +2152,7 @@ footer {
     }
 
     .top-button {
-        font-size: 1.6em;
+        font-size: 2em;
     }
 
     .content-background, #content-background-reverse {
@@ -2131,5 +2171,9 @@ footer {
 
     .member-content-box {
         width: 95%;
+    }
+
+    .fourth-livers-img {
+        max-width: 120px;
     }
 }

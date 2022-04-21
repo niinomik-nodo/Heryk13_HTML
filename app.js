@@ -1,5 +1,7 @@
 /**hamburguer menu appear */
 
+
+
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar_menu');
 
@@ -77,6 +79,7 @@ if (document.body.className == 'qa-body') {
 };
 
 if (document.body.className == 'top-html') {
+    /**
     const liver_slide1  = document.querySelector('.animation');
     const liver_slide2  = document.querySelector('#animation-2');
 
@@ -111,4 +114,77 @@ if (document.body.className == 'top-html') {
         liver_slide1.style.animationPlayState = 'running';
         liver_slide2.style.animationPlayState = 'running';
     });
+ */
+
+
+
+
+
+
+
 };
+
+
+let slider = document.querySelector('#fourth-img');
+let clonesWidth;
+let sliderWidth;
+let clones = [];
+let scrollPos;
+let disableScroll = false;
+
+let items = [...document.querySelectorAll('.liver-img-anchor')];
+
+items.forEach(item => {
+    let clone = item.cloneNode(true);
+    clone.classList.add('clone');
+    slider.appendChild(clone);
+    clones.push(clone);
+})
+
+function getClonesWidth() {
+    let width = 0;
+    clones.forEach(clone => {
+        width += clone.offsetWidth;
+    })
+
+    return width;
+    
+}
+
+
+function getScrollPos() {
+    return slider.ScrollX;
+}
+
+function scrollUpdate() {
+    scrollPos = getScrollPos();
+    if(clonesWidth + scrollPos >= sliderWidth) {
+        slider.scrollTo({left: 1});
+    } else if(scrollPos <= 0) {
+        slider.scrollTo({left: sliderWidth - clonesWidth - 1})
+    }
+
+    slider.style.transform = `translateX(${-slider.scrollX}px)`
+
+
+    requestAnimationFrame(scrollUpdate);
+
+}
+
+let fourth_content = document.getElementById('fourth-content')
+
+function onLoad() {
+    calculateDimensions()
+    window.scrollTo({left: 1});
+    fourth_content.style.width = `${sliderWidth}px`
+    scrollUpdate();
+}
+
+function calculateDimensions() {
+    sliderWidth = slider.getBoundingClientRect().width;
+    clonesWidth = getClonesWidth();
+}
+
+
+var c = window.scrollY
+onLoad()
