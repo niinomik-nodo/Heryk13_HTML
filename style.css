@@ -1543,7 +1543,7 @@ footer {
 #fourth-img {
     scrollbar-width: none;
     -ms-overflow-style: none;
-    overflow: hidden;
+    overflow: scroll;
     z-index: 900;
     width: 100%;
     height: 35rem;

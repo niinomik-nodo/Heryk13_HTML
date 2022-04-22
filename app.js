@@ -151,20 +151,17 @@ function getClonesWidth() {
     
 }
 
-
 function getScrollPos() {
-    return slider.ScrollX;
+    return slider.scrollLeft;
 }
 
 function scrollUpdate() {
     scrollPos = getScrollPos();
-    if(clonesWidth + scrollPos >= sliderWidth) {
+    if(scrollPos >= sliderWidth) {
         slider.scrollTo({left: 1});
     } else if(scrollPos <= 0) {
-        slider.scrollTo({left: sliderWidth - clonesWidth - 1})
+        slider.scrollTo({left: sliderWidth - 1})
     }
-
-    slider.style.transform = `translateX(${-slider.scrollX}px)`
 
 
     requestAnimationFrame(scrollUpdate);
@@ -175,7 +172,7 @@ let fourth_content = document.getElementById('fourth-content')
 
 function onLoad() {
     calculateDimensions()
-    window.scrollTo({left: 1});
+    slider.scrollTo({left: 1});
     fourth_content.style.width = `${sliderWidth}px`
     scrollUpdate();
 }
@@ -186,5 +183,4 @@ function calculateDimensions() {
 }
 
 
-var c = window.scrollY
 onLoad()
