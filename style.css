@@ -233,7 +233,7 @@ footer {
     margin: 6% auto;
     width: 70%;
     font-family: 'Zen Antique', serif;
-    font-size: 2em;
+    font-size: 1.8em;
     margin: 3% auto;
     font-size: 2em;
     background: #0641cd;
@@ -253,7 +253,7 @@ footer {
 .qa-answear.active {
     max-height: 300px;
     transition: max-height 0.8s ease-out, padding 0.5s ease-out;
-    font-size: 2em;
+    font-size: 1.8em;
     padding: 12px;
     margin: 3% auto;
 }
@@ -409,7 +409,7 @@ footer {
 
 #member-content-right-box {
     border: #51c8ff double 4px;
-    width: 45%;
+    width: 48%;
     margin: auto;
     min-height: 340px;
 }
@@ -423,7 +423,7 @@ footer {
 #member-content-up {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 93%;
     margin: 2rem auto;
 }
 
@@ -1963,7 +1963,7 @@ div#fourth-img a:nth-child(even) {
 
     .qa-answear, .qa-answear.active {
         font-family: 'Zen Antique', serif;
-        font-size: 1.25em;
+        font-size: 1.1em;
         width: 93%;
     }
 
@@ -1999,7 +1999,7 @@ div#fourth-img a:nth-child(even) {
     }
 
     .member-desc {
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
 
     #fourth-img {
