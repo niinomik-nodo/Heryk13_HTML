@@ -213,9 +213,9 @@ footer {
 .qa-content {
     font-family: 'Zen Antique', serif;
     color: #fff;
-    width: 75%;
+    width: 83%;
     margin: 2% auto 0 auto;
-    font-size: 3em;
+    font-size: 2em;
     background: #0641cd;
     display: flex;
     justify-content: space-between;
@@ -231,14 +231,14 @@ footer {
 .qa-answear {
     color: #fff;
     margin: 6% auto;
-    width: 70%;
+    width: 78%;
     font-family: 'Zen Antique', serif;
     font-size: 1.8em;
     margin: 3% auto;
     font-size: 2em;
     background: #0641cd;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     overflow: hidden;
     max-height: 0;
