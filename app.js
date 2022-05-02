@@ -124,63 +124,71 @@ if (document.body.className == 'top-html') {
 
 };
 
-
-let slider = document.querySelector('#fourth-img');
+let sliderWrap = document.querySelector('.slider-wrap');
+let slider = document.querySelector('.slider');
 let clonesWidth;
 let sliderWidth;
 let clones = [];
-let scrollPos;
 let disableScroll = false;
+let scrollPos;
+let testing = document.querySelector('.slider-wrap')
+let items = [...document.querySelectorAll('.slider-item')];
+let images = [...document.querySelectorAll('.img-div')];
 
-let items = [...document.querySelectorAll('.liver-img-anchor')];
-
-items.forEach(item => {
-    let clone = item.cloneNode(true);
-    clone.classList.add('clone');
-    slider.appendChild(clone);
-    clones.push(clone);
+images.forEach((image, idx) => {
+  image.style.backgroundImage = `url(./images/mobile-${idx+1}.jpg)`
 })
 
-function getClonesWidth() {
-    let width = 0;
-    clones.forEach(clone => {
-        width += clone.offsetWidth;
-    })
+items.forEach(item => {
+  let clone = item.cloneNode(true);
+  clone.classList.add('clone');
+  slider.appendChild(clone);
+  clones.push(clone);
 
-    return width;
-    
+})
+
+
+function getClonesWidth() {
+  let width = 0;
+  clones.forEach(clone => {
+    width += clone.offsetWidth;
+  })
+  return width;
 }
 
 function getScrollPos() {
-    return slider.scrollLeft;
+
+
+  return testing.scrollLeft
 }
 
-function scrollUpdate() {
-    scrollPos = getScrollPos();
-    if(scrollPos >= sliderWidth) {
-        slider.scrollTo({left: 1});
-    } else if(scrollPos <= 0) {
-        slider.scrollTo({left: sliderWidth - 1})
-    }
+function scrollUpdate(){
+  scrollPos = getScrollPos();
+  if(clonesWidth + scrollPos >= sliderWidth) {
+    document.querySelector('.slider-wrap').scrollTo({left: 1});
+
+  }else if(scrollPos <= 0) {
+    document.querySelector('.slider-wrap').scrollTo({left: sliderWidth - clonesWidth - 1})
+  }
 
 
-    requestAnimationFrame(scrollUpdate);
+  slider.style.transform = `translateX(${-document.querySelector('.slider-wrap').scrollX}px)`
 
+  requestAnimationFrame(scrollUpdate)
 }
 
-let fourth_content = document.getElementById('fourth-content')
 
-function onLoad() {
-    calculateDimensions()
-    slider.scrollTo({left: 1});
-    fourth_content.style.width = `${sliderWidth}px`
-    scrollUpdate();
+function onLoad(){
+  calculateDimensions()
+  document.querySelector('.slider-wrap').scrollTo({left: 1});
+  scrollUpdate();
 }
 
 function calculateDimensions() {
-    sliderWidth = slider.getBoundingClientRect().width;
-    clonesWidth = getClonesWidth();
+  sliderWidth = slider.getBoundingClientRect().width;
+  clonesWidth = getClonesWidth();
 }
 
-
 onLoad()
+
+document.querySelector('.slider-item').style.width = '100px'

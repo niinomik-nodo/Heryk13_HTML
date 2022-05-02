@@ -1543,7 +1543,8 @@ footer {
 #fourth-img {
     scrollbar-width: none;
     -ms-overflow-style: none;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
     z-index: 900;
     width: 100%;
     height: 35rem;
@@ -1802,9 +1803,50 @@ footer {
 
 
 
-div#fourth-img a {
-
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .slider-wrap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 6000px;
+    display: flex;
+    will-change: transform;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .slider-item {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    height: 55%;
+    width: 30% !important;
+  }
+  
+  .img-div {
+    position: relative;
+    left: 1%;
+    top: 2.5%;
+    width: 86%;
+    height: 95%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
 
 
 
