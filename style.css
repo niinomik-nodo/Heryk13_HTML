@@ -448,6 +448,7 @@ footer {
     font-family: 'Zen Antique', serif;
     padding: 0.8em;
     text-align: center;
+    white-space: nowrap;
 }
 
 .member-history {
