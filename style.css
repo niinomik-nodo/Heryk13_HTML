@@ -2005,8 +2005,8 @@ div#fourth-img a:nth-child(even) {
 
     .qa-answear, .qa-answear.active {
         font-family: 'Zen Antique', serif;
-        font-size: 1.1em;
-        width: 93%;
+        font-size: 1em;
+        width: 95%;
     }
 
     .qa-content {
