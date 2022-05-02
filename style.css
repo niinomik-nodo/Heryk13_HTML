@@ -211,6 +211,7 @@ footer {
 }
 
 .qa-content {
+	white-space: nowrap;
     font-family: 'Zen Antique', serif;
     color: #fff;
     width: 83%;
@@ -234,7 +235,7 @@ footer {
     margin: 6% auto;
     width: 78%;
     font-family: 'Zen Antique', serif;
-    font-size: 1.7em;
+    font-size: 1.9em;
     margin: 3% auto;
     background: #0641cd;
     display: flex;
@@ -253,7 +254,7 @@ footer {
 .qa-answear.active {
     max-height: 300px;
     transition: max-height 0.8s ease-out, padding 0.5s ease-out;
-    font-size: 1.7em;
+    font-size: 1.9em;
     padding: 10px;
     margin: 3% auto;
     white-space: nowrap;
@@ -312,6 +313,8 @@ footer {
 .about-content {
     font-family: 'Zen Antique', serif;
     font-size: 1em;
+	white-space: nowrap;
+
 }
 
 #member-pic3 {
