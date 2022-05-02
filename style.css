@@ -229,6 +229,7 @@ footer {
 }
 
 .qa-answear {
+    white-space: nowrap;
     color: #fff;
     margin: 6% auto;
     width: 78%;
@@ -255,6 +256,7 @@ footer {
     font-size: 1.7em;
     padding: 10px;
     margin: 3% auto;
+    white-space: nowrap;
 }
 
 .arrow-down {
@@ -309,7 +311,7 @@ footer {
 
 .about-content {
     font-family: 'Zen Antique', serif;
-    font-size: 1.9vw;
+    font-size: 1em;
 }
 
 #member-pic3 {
@@ -444,7 +446,7 @@ footer {
 
 .member-desc {
     font-family: 'Zen Antique', serif;
-    padding: 1em;
+    padding: 0.8em;
     text-align: center;
 }
 
@@ -1617,7 +1619,7 @@ footer {
 }
 
 .about-left, .about-right {
-    width: 50%;
+    width: 48%;
     height: auto;
     margin: 2% 0;
     max-width: 600px;
@@ -1640,7 +1642,7 @@ footer {
 .about-box {
     color: #fff;
     background: rgba(83, 83, 83, 0.5);
-    width: fit-content;
+    width: 48%;
     margin: 1rem 0.5rem;
     font-size: 1.4rem;
     display: inline;
@@ -1990,6 +1992,7 @@ footer {
     .qa-answear, .qa-answear.active {
         font-family: 'Zen Antique', serif;
         font-size: 1em;
+        white-space: nowrap;
         width: 95%;
     }
 
