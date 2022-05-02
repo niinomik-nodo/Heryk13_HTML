@@ -121,7 +121,6 @@ let slider = document.querySelector('.slider');
 let clonesWidth;
 let sliderWidth;
 let clones = [];
-let disableScroll = false;
 let scrollPos;
 let testing = document.querySelector('.slider-wrap')
 let items = [...document.querySelectorAll('.slider-item')];
@@ -157,10 +156,10 @@ function getScrollPos() {
 function scrollUpdate(){
   scrollPos = getScrollPos();
   if(clonesWidth + scrollPos >= sliderWidth) {
-    document.querySelector('.slider-wrap').scrollTo({left: 1});
+    sliderWrap.scrollTo({left: 1});
 
   }else if(scrollPos <= 0) {
-    document.querySelector('.slider-wrap').scrollTo({left: sliderWidth - clonesWidth - 1})
+    sliderWrap.scrollTo({left: sliderWidth - clonesWidth - 1})
   }
 
 
@@ -172,7 +171,7 @@ function scrollUpdate(){
 
 function onLoad(){
   calculateDimensions()
-  document.querySelector('.slider-wrap').scrollTo({left: 1});
+  sliderWrap.scrollTo({left: 1});
   scrollUpdate();
 }
 
@@ -183,5 +182,9 @@ function calculateDimensions() {
 
 onLoad()
 
+sliderWrap.addEventListener("wheel", (evt) => {
+  evt.preventDefault();
+  sliderWrap.scrollLeft += evt.deltaY;
+});
 
 };
