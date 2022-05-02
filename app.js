@@ -122,7 +122,7 @@ if (document.body.className == 'top-html') {
 
 
 
-};
+
 
 let sliderWrap = document.querySelector('.slider-wrap');
 let slider = document.querySelector('.slider');
@@ -191,4 +191,5 @@ function calculateDimensions() {
 
 onLoad()
 
-document.querySelector('.slider-item').style.width = '100px'
+
+};
