@@ -1798,15 +1798,6 @@ footer {
 }
 
 
-
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
   
   .slider-wrap {
     position: fixed;
@@ -1815,6 +1806,10 @@ footer {
     overflow-x: scroll;
     overflow-y: hidden;
   }
+
+.slider-wrap::-webkit-scrollbar {
+    display: none;
+}
   
   .slider {
     position: absolute;
@@ -1846,16 +1841,6 @@ footer {
     background-position: center;
     border-radius: 15px;
   }
-
-
-
-div#fourth-img a:nth-child(odd) {
-    transform: translateY(30%);
-}
-
-div#fourth-img a:nth-child(even) {
-    transform: translateY(-30%);
-}
 
 
 
