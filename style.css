@@ -1806,7 +1806,7 @@ footer {
 
   
   .slider-wrap {
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 100%;
     overflow-x: scroll;
@@ -1843,9 +1843,11 @@ footer {
     top: 2.5%;
     width: 86%;
     height: 95%;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
+    background-repeat: no-repeat;
     border-radius: 15px;
+    display: inline-block;
   }
 
 

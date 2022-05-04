@@ -122,7 +122,6 @@ let clonesWidth;
 let sliderWidth;
 let clones = [];
 let scrollPos;
-let testing = document.querySelector('.slider-wrap')
 let items = [...document.querySelectorAll('.slider-item')];
 let images = [...document.querySelectorAll('.img-div')];
 
@@ -150,7 +149,7 @@ function getClonesWidth() {
 function getScrollPos() {
 
 
-  return testing.scrollLeft
+  return sliderWrap.scrollLeft
 }
 
 function scrollUpdate(){
