@@ -1808,9 +1808,14 @@ footer {
   .slider-wrap {
     position: relative;
     width: 100%;
-    height: 100%;
     overflow-x: scroll;
     overflow-y: hidden;
+
+    z-index: 900;
+    height: 50vw;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(#133A93, #236ADE, #01013C);
   }
 
 .slider-wrap::-webkit-scrollbar {
@@ -1833,36 +1838,22 @@ footer {
     position: relative;
     flex: 1;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
     height: 55%;
     width: 30% !important;
   }
   
   .img-div {
     position: relative;
-    left: 1%;
-    top: 2.5%;
-    width: 86%;
-    height: 95%;
+    height: 100%;
+    width: 85%;
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 15px;
     display: inline-block;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2211,4 +2202,8 @@ footer {
     .fourth-livers-img {
         max-width: 120px;
     }
+
+    .img-div {
+        width: 40%;
+      }
 }
