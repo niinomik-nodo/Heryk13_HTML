@@ -1819,6 +1819,7 @@ footer {
     top: 50%;
     transform: translateY(-50%);
     background: linear-gradient(#133A93, #236ADE, #01013C);
+    scrollbar-width: none;
   }
 
 .slider-wrap::-webkit-scrollbar {
