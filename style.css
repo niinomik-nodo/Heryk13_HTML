@@ -715,6 +715,7 @@ footer {
     font-size: 1.3em;
     font-family: 'Zen Antique', serif;
     padding: 15px;
+    white-space: nowrap;
 }
 
 #tiktok {
@@ -796,6 +797,7 @@ footer {
     background: rgba(40, 70, 140, 0.9);
     font-size: 1em;
     margin: 5% auto;
+    white-space: nowrap;
     display: grid;
     width: 60%;
     grid-template-columns: repeat(2, 1fr);
@@ -1471,6 +1473,7 @@ footer {
     color: #fff;
     font-size: 2.4em;
     position: relative;
+    white-space: nowrap;
     text-align: center;
     font-family: 'Zen Antique', serif;
     margin: 2em;
@@ -1492,6 +1495,7 @@ footer {
     cursor: pointer;
     padding: 10px;
     position: relative;
+    white-space: nowrap;
     background-size: 400% 400%;
 	animation: gradient 7s ease infinite;
     z-index: 999;
@@ -2204,5 +2208,9 @@ footer {
 
     .img-div {
         width: 40%;
+      }
+
+      .slider-wrap {
+        height: 50vw;
       }
 }
