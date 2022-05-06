@@ -1755,13 +1755,13 @@ footer {
 
 
 
-.slider a:nth-child(odd) {
+.slider-item .img-div:nth-child(even) {
     transform: translateY(20%);
     box-shadow:
         0 0 0.1rem #fff,
         0 0 0.3rem #fff,
         0 0 0.5rem #fff,
-        0 0 0.8rem #51c9fe,
+        0 0 0.8rem #51c9fe
         0 0 1rem #51c9fe,
         0 0 1.3rem #51c9fe,
         0 0 1.8rem #51c9fe,
@@ -1780,34 +1780,6 @@ footer {
       0 0 1.8rem #d64fd0,
       0 0 2rem #d64fd0;
 }
-
-#animation-2 a:nth-child(odd) {
-    transform: translateY(20%);
-    box-shadow:
-        0 0 0.1rem #fff,
-        0 0 0.3rem #fff,
-        0 0 0.5rem #fff,
-        0 0 0.8rem #51c9fe,
-        0 0 1rem #51c9fe,
-        0 0 1.3rem #51c9fe,
-        0 0 1.8rem #51c9fe,
-        0 0 2rem #51c9fe;
-}
-
-#animation-2 a:nth-child(even) {
-    transform: translateY(-20%);
-    box-shadow:
-      0 0 0.1rem #fff,
-      0 0 0.3rem #fff,
-      0 0 0.5rem #fff,
-      0 0 0.8rem #d64fd0,
-      0 0 1rem #d64fd0,
-      0 0 1.3rem #d64fd0,
-      0 0 1.8rem #d64fd0,
-      0 0 2rem #d64fd0;
-}
-
-
   
   .slider-wrap {
     position: relative;
@@ -1836,7 +1808,7 @@ footer {
     will-change: transform;
     overflow: hidden;
     align-items: center;
-    animation: right-left-animation 30s infinite ;
+    animation: right-left-animation 30s infinite linear;
   }
   
   .slider-item {
