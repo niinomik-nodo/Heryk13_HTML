@@ -89,7 +89,6 @@ if (document.body.className == 'top-html') {
     });
 
     slider.addEventListener('mouseout', function() {
-      await delay(3);
         slider.style.animationPlayState = 'running';
     });
 
@@ -98,7 +97,6 @@ if (document.body.className == 'top-html') {
     });
 
     slider.addEventListener('mouseout', function() {
-      await delay(3);
         slider.style.animationPlayState = 'running';
     });
 
@@ -108,7 +106,6 @@ if (document.body.className == 'top-html') {
     });
 
     slider.addEventListener('touchend', function() {
-      await delay(3);
         slider.style.animationPlayState = 'running';
     });
 
