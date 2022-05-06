@@ -82,36 +82,33 @@ if (document.body.className == 'top-html') {
 
 
   let slider = document.querySelector('.slider');
-    
+
 
     slider.addEventListener('mouseover', function() {
-        slider.style.animationPlayState = 'paused';
         slider.style.animationPlayState = 'paused';
     });
 
     slider.addEventListener('mouseout', function() {
-        slider.style.animationPlayState = 'running';
+      await delay(3);
         slider.style.animationPlayState = 'running';
     });
 
     slider.addEventListener('mouseover', function() {
         slider.style.animationPlayState = 'paused';
-        slider.style.animationPlayState = 'paused';
     });
 
     slider.addEventListener('mouseout', function() {
-        slider.style.animationPlayState = 'running';
+      await delay(3);
         slider.style.animationPlayState = 'running';
     });
 
 
     slider.addEventListener('touchstart', function() {
         slider.style.animationPlayState = 'paused';
-        slider.style.animationPlayState = 'paused';
     });
 
     slider.addEventListener('touchend', function() {
-        slider.style.animationPlayState = 'running';
+      await delay(3);
         slider.style.animationPlayState = 'running';
     });
 
