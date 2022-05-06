@@ -79,45 +79,44 @@ if (document.body.className == 'qa-body') {
 };
 
 if (document.body.className == 'top-html') {
-    /**
-    const liver_slide1  = document.querySelector('.animation');
-    const liver_slide2  = document.querySelector('#animation-2');
 
-    liver_slide1.addEventListener('mouseover', function() {
-        liver_slide1.style.animationPlayState = 'paused';
-        liver_slide2.style.animationPlayState = 'paused';
+
+  let slider = document.querySelector('.slider');
+    
+
+    slider.addEventListener('mouseover', function() {
+        slider.style.animationPlayState = 'paused';
+        slider.style.animationPlayState = 'paused';
     });
 
-    liver_slide1.addEventListener('mouseout', function() {
-        liver_slide1.style.animationPlayState = 'running';
-        liver_slide2.style.animationPlayState = 'running';
+    slider.addEventListener('mouseout', function() {
+        slider.style.animationPlayState = 'running';
+        slider.style.animationPlayState = 'running';
     });
 
-    liver_slide2.addEventListener('mouseover', function() {
-        liver_slide1.style.animationPlayState = 'paused';
-        liver_slide2.style.animationPlayState = 'paused';
+    slider.addEventListener('mouseover', function() {
+        slider.style.animationPlayState = 'paused';
+        slider.style.animationPlayState = 'paused';
     });
 
-    liver_slide2.addEventListener('mouseout', function() {
-        liver_slide1.style.animationPlayState = 'running';
-        liver_slide2.style.animationPlayState = 'running';
+    slider.addEventListener('mouseout', function() {
+        slider.style.animationPlayState = 'running';
+        slider.style.animationPlayState = 'running';
     });
 
-    const liver_slide_mobile = document.querySelector('#fourth-img');
 
-    liver_slide_mobile.addEventListener('touchstart', function() {
-        liver_slide1.style.animationPlayState = 'paused';
-        liver_slide2.style.animationPlayState = 'paused';
+    slider.addEventListener('touchstart', function() {
+        slider.style.animationPlayState = 'paused';
+        slider.style.animationPlayState = 'paused';
     });
 
-    liver_slide_mobile.addEventListener('touchend', function() {
-        liver_slide1.style.animationPlayState = 'running';
-        liver_slide2.style.animationPlayState = 'running';
+    slider.addEventListener('touchend', function() {
+        slider.style.animationPlayState = 'running';
+        slider.style.animationPlayState = 'running';
     });
- */
 
 let sliderWrap = document.querySelector('.slider-wrap');
-let slider = document.querySelector('.slider');
+
 let clonesWidth;
 let sliderWidth;
 let clones = [];
@@ -155,7 +154,7 @@ function getScrollPos() {
 function scrollUpdate(){
   scrollPos = getScrollPos();
   if(clonesWidth + scrollPos >= sliderWidth) {
-    sliderWrap.scrollTo({left: 1});
+    sliderWrap.scrollTo({left: 3});
 
   }else if(scrollPos <= 0) {
     sliderWrap.scrollTo({left: sliderWidth - clonesWidth - 1})
@@ -170,7 +169,7 @@ function scrollUpdate(){
 
 function onLoad(){
   calculateDimensions()
-  sliderWrap.scrollTo({left: 1});
+  sliderWrap.scrollTo({left: 3});
   scrollUpdate();
 }
 
