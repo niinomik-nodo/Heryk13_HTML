@@ -91,7 +91,7 @@ if (document.body.className == 'top-html') {
     slider.addEventListener('mouseout', function() {
       setTimeout(function(){
         slider.style.animationPlayState = 'running';
-      }, 1000);
+      }, 900);
       
     });
 
@@ -102,7 +102,7 @@ if (document.body.className == 'top-html') {
     slider.addEventListener('touchend', function() {
       setTimeout(function(){
           slider.style.animationPlayState = 'running';
-      }, 1000);
+      }, 900);
     });
 
 let sliderWrap = document.querySelector('.slider-wrap');
