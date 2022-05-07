@@ -89,24 +89,20 @@ if (document.body.className == 'top-html') {
     });
 
     slider.addEventListener('mouseout', function() {
+      setTimeout(function(){
         slider.style.animationPlayState = 'running';
+      }, 1000);
+      
     });
-
-    slider.addEventListener('mouseover', function() {
-        slider.style.animationPlayState = 'paused';
-    });
-
-    slider.addEventListener('mouseout', function() {
-        slider.style.animationPlayState = 'running';
-    });
-
 
     slider.addEventListener('touchstart', function() {
         slider.style.animationPlayState = 'paused';
     });
 
     slider.addEventListener('touchend', function() {
-        slider.style.animationPlayState = 'running';
+      setTimeout(function(){
+          slider.style.animationPlayState = 'running';
+      }, 1000);
     });
 
 let sliderWrap = document.querySelector('.slider-wrap');
